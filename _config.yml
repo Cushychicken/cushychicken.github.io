@@ -1,0 +1,10 @@
+name: "Wherein The Chicken"
+markdown: redcarpet
+pygments: true
+permalink: :title
+exclude: [README.md, LICENSE, Makefile]
+
+# Information for the Atom feed
+whereinthechicken:
+   author: "Nash Reilly"
+   email: "nrc.reilly@gmail.com"
