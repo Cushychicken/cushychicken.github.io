@@ -27,7 +27,7 @@ for img in BeautifulSoup(r.content).find_all('img'):   # Find new screencap
         f.write(target).close()    # Grab, save, beer
 {% endhighlight %}
 
-Time == money. Money == beer. Stay thirsty, my friends.
+`Time == money`. `Money == beer`. Stay thirsty, my friends.
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
