@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Things Done + Evernote" 
-date: 2014-05-11 
+date: 2014-05-06 
 ---
 
 I love Evernote enough to pay fifty bucks to keep it year after year, but 
