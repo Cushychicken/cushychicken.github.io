@@ -54,7 +54,7 @@ to set it in motion.
 
 ## Improvements
 
-I'd love to do a little scripting out  a little program that would set 
+I'd love to write out a little script that would set 
 an appointment in my Outlook calendar whenever I set an Evernote reminder. 
 That's probably the weakest link I see in the system - that I'll get sick 
 of dual-ledger timetabling and stop Outlook calendaring.
