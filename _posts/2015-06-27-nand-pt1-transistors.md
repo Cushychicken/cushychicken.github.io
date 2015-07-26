@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Introduction to NAND Flash"
+title: "NAND Flash: An Introduction"
 date: 2015-06-27
 ---
 
