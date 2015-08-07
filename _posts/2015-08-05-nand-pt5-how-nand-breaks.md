@@ -45,7 +45,7 @@ Take a look at the first diagram again - in particular, the graphs on the right 
 Notice the field diagram in the image. Most of the field is contained between the capacitor's two plates, but some of it is spilling out to the sides. In a NAND array, that's a big deal; due to the dense packing of floating gates, the spillover from this field can cause tunnelling to occur in cells near the intended programming page. 
 
 <div align="center">
-<img src="http://s15.sinaimg.cn/large/001MaBVDty6MW7XoeVEbe&690"/>
+<img src="/assets/program_disturb.png"/>
 <p align="center"><em>Program Disturb (Courtesy of Micron)</em></p>
 </div>
 
