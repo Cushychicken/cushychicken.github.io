@@ -4,6 +4,10 @@ title: "Circuit Notes: A Simple Pulse Generator"
 date: 2015-10-10
 ---
 
+<meta name="description" content="learn electronics"/>
+<meta name="description" content="art of electronics"/>
+<meta name="description" content="ltspice"/>
+
 I've been slowly working my way through Horowitz and Hall's _Art of Electronics, 3rd Edition_ as a way to refresh and sharpen my analog electronics knowledge. Most of my professional life is about stringing together complex ICs, and not enough about the building blocks of electronic circuits. I figured that I'd take the more instructive examples from _AoE_ and publish my workthrough of them here. Expect some dry prose, some scrawled notes on engineering paper, and maybe a simulation or two as I see fit. (I'm currently using LTSpice for Mac, but I'm not wholly enamored of it. Any suggestions?!)
 
 ## A Simple Pulse Generator

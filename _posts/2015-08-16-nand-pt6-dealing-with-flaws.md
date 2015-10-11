@@ -4,6 +4,8 @@ title: "NAND Flash: Dealing With a Flawed Medium"
 date: 2015-08-23
 ---
 
+<meta name="description" content="nand flash wear leveling ecc correction bad block management"/>
+
 ## Introduction
 
 _Note: This is part 6 of a series I'm writing on NAND Flash. Want to start from the beginning? [The first article is available here!](http://cushychicken.github.io/nand-pt1-transistors/)_

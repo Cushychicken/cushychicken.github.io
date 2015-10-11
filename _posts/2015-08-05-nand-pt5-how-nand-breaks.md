@@ -4,6 +4,9 @@ title: "NAND Flash: How It Breaks"
 date: 2015-08-06
 ---
 
+<meta name="description" content="nand flash read disturb program disturb retention error"/>
+<meta name="description" content="jim cooke micron nand flash"/>
+
 ## Introduction
 
 After an epic, four-post streak of device physics, silicon architecture, and standards bodies, we can finally get into failure modes. 
@@ -65,5 +68,5 @@ Though not directly related to the topic at hand, I highly recommend checking ou
 
 For a more complete overview of how NAND breaks, I would recommend the following presentation, ["The Inconvenient Truths of NAND Flash"](/assets/cooke_inconvenient_truths.pdf), written by Jim Cooke from Micron Technology. It's an excellent summary of NAND failure modes, as well as a small preview into our next post. 
 
-(**_Edit:_** A few people on HN were kind enough to point out that the "Inconvenient Truths" link was broken; I dug up a local copy and uploaded it to this site since I couldn't find one floating around on the web! Let me know if the link is broken.)
+
 
