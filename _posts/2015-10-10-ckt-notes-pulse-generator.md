@@ -8,6 +8,8 @@ date: 2015-10-10
 <meta name="description" content="art of electronics"/>
 <meta name="description" content="ltspice"/>
 
+**Update (Oct 11, 2015):** I added my [schematic file](../assets/simple_pulse_generator.asc) and [netlist](../assets/simple_pulse_generator.net) in case you want to play around with this circuit on your own local LTSpice install. It's free, so you might as well!
+
 I've been slowly working my way through Horowitz and Hall's _Art of Electronics, 3rd Edition_ as a way to refresh and sharpen my analog electronics knowledge. Most of my professional life is about stringing together complex ICs, and not enough about the building blocks of electronic circuits. I figured that I'd take the more instructive examples from _AoE_ and publish my workthrough of them here. Expect some dry prose, some scrawled notes on engineering paper, and maybe a simulation or two as I see fit. (I'm currently using LTSpice for Mac, but I'm not wholly enamored of it. Any suggestions?!)
 
 ## A Simple Pulse Generator
@@ -83,3 +85,5 @@ This is all well and good, but you'd never use this circuit in a real applicatio
 
 ## Acknowledgements
 I pulled this circuit and its improvements out of Horowitz and Hill's excellent _Art of Electronics, 3rd Edition_. You can check it out on page 77. 
+
+

@@ -1,0 +1,24 @@
+*
+Q1 N003 N006 0 0 NPN
+Q2 Vpulse N004 0 0 NPN
+Q4 N002 N005 N008 0 NPN
+Q3 N003 N007 0 0 NPN
+Q5 Vout N002 N008 0 NPN
+R2 N001 N003 1k
+R3 N001 N004 10k
+R4 N001 Vpulse 1k
+R1 N006 Vin 10k
+C1 N004 N003 0.1µ
+V1 Vin 0 PULSE(0 5 1m 0.1m 0.1m 0.1m 5 3m)
+V2 N001 0 5
+R5 Vpulse N007 20k
+R6 N005 Vpulse 25k
+R7 N002 N001 1k
+R8 Vout N001 1k
+R9 0 N008 20
+.model NPN NPN
+.model PNP PNP
+.lib /Users/nreilly/Library/Application Support/LTspice/lib/cmp/standard.bjt
+.tran 3ms startup
+.backanno
+.end
