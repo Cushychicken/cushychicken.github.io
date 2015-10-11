@@ -66,7 +66,7 @@ Is the almighty dollar not telling you a compelling enough story about NAND? Don
 ## Further Reading
 Though not directly related to the topic at hand, I highly recommend checking out [DRAMExchange](http://www.dramexchange.com), a stock exchange type site that tracks the market prices sfor semiconductor memory. It really serves to highlight how standardization has commoditized semiconductor memory. 
 
-For a more complete overview of how NAND breaks, I would recommend the following presentation, ["The Inconvenient Truths of NAND Flash"](/assets/cooke_inconvenient_truths.pdf), written by Jim Cooke from Micron Technology. It's an excellent summary of NAND failure modes, as well as a small preview into our next post. 
+For a more complete overview of how NAND breaks, I would recommend the following presentation, ["The Inconvenient Truths of NAND Flash"](http://cushychicken.github.io/inconvenient-truths), written by Jim Cooke from Micron Technology. It's an excellent summary of NAND failure modes, as well as a small preview into our next post. 
 
 
 
