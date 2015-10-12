@@ -10,7 +10,7 @@ date: 2015-10-10
 
 **Update (Oct 11, 2015):** I added my [schematic file](../assets/simple_pulse_generator.asc) and [netlist](../assets/simple_pulse_generator.net) in case you want to play around with this circuit on your own local LTSpice install. It's free, so you might as well!
 
-I've been slowly working my way through Horowitz and Hall's _Art of Electronics, 3rd Edition_ as a way to refresh and sharpen my analog electronics knowledge. Most of my professional life is about stringing together complex ICs, and not enough about the building blocks of electronic circuits. I figured that I'd take the more instructive examples from _AoE_ and publish my workthrough of them here. Expect some dry prose, some scrawled notes on engineering paper, and maybe a simulation or two as I see fit. (I'm currently using LTSpice for Mac, but I'm not wholly enamored of it. Any suggestions?!)
+I've been slowly working my way through Horowitz and Hill's _Art of Electronics, 3rd Edition_ as a way to refresh and sharpen my analog electronics knowledge. Most of my professional life is about stringing together complex ICs, and not enough about the building blocks of electronic circuits. I figured that I'd take the more instructive examples from _AoE_ and publish my workthrough of them here. Expect some dry prose, some scrawled notes on engineering paper, and maybe a simulation or two as I see fit. (I'm currently using LTSpice for Mac, but I'm not wholly enamored of it. Any suggestions?!)
 
 ## A Simple Pulse Generator
 
@@ -22,8 +22,8 @@ I've been slowly working my way through Horowitz and Hall's _Art of Electronics,
 The purpose of this circuit is to provide a quick pulse at output Vout when stimulated by a rising edge at Vin. 
 
 ###Notes on DC Conditions
-* Q1 is off, meaning V<sub>Q1-E</sub> is effectively 5V. 
-* Q2, however, is on. That places V<sub>Q2-B</sub> at approximately 0.7 V, and V<sub>Q2-E</sub>/V<sub>Out</sub> at ground.
+* Q1 is off, meaning V<sub>Q1-C</sub> is effectively 5V. 
+* Q2, however, is on. That places V<sub>Q2-B</sub> at approximately 0.7 V, and V<sub>Q2-C</sub>/V<sub>Out</sub> at ground.
 * Note that the on/off states of Q1 and Q2 combine to produce a voltage of about 4.3 V across C1. 
 
 
@@ -31,7 +31,7 @@ The purpose of this circuit is to provide a quick pulse at output Vout when stim
 Suppose we stimulate V<sub>in</sub> with a rising edge of 5V. This will turn on Q1, the speed of which is limited only by that transistor's turn-on time. It's important to pick R1 such that you can guarantee Q1 entering a saturation condition; we want this transistor on when V<sub>in</sub> drives high! 
 
 
-This quick turnon of Q1 will drive the collector voltage, V<sub>Q1-C</sub>, to ground. Note the DC state of C1 - it's still retaining the ~4.3 V charge it acquired while the circuit was at steady state. As a result, V<sub>Q2-B</sub> is now -4.3 V, shutting off Q2 and driving V<sub>Out</sub> to +5 V. You'll note that, with V<sub>Q1-E</sub>, the combination of R3 and C1 are effectively forming an RC circuit, with the initial condition of V<sub>C1</sub> = -4.3 V. 
+This quick turnon of Q1 will drive the collector voltage, V<sub>Q1-C</sub>, to ground. Note the DC state of C1 - it's still retaining the ~4.3 V charge it acquired while the circuit was at steady state. As a result, V<sub>Q2-B</sub> is now -4.3 V, shutting off Q2 and driving V<sub>Out</sub> to +5 V. You'll note that, with V<sub>Q1-E</sub> being at ground, the combination of R3 and C1 are effectively forming an RC circuit, with the initial condition of V<sub>C1</sub> = -4.3 V. 
 
 $$V_{out}(t) = 5 - 9.3 * e^{\frac{-t}{\tau}} [V]$$
 
@@ -60,7 +60,7 @@ The simulation above shows an LTSpice representation of what happens to this cir
 <p align="center"><em>Figure 3: A Pulse Generator w/ Guaranteed Pulse Width</em></p>
 </div>
 
-Q3 serves the purpose of holding V<sub>Q1-E</sub> to ground once a rising edge is detected at the base of Q1. As long as the input pulse is as least as long as Q1's turn-on time, the circuit will work properly. This is due to the fact that, once Q1 has successfully driven  V<sub>Q1-E</sub> to ground, Q3 will also be turned on, providing another path for the R3/C1 circuit to be held at ground. Figure four shows this improvement in the output pulse width. 
+Q3 serves the purpose of holding V<sub>Q1-C</sub> to ground once a rising edge is detected at the base of Q1. As long as the input pulse is as least as long as Q1's turn-on time, the circuit will work properly. This is due to the fact that, once Q1 has successfully driven  V<sub>Q1-C</sub> to ground, Q3 will also be turned on, providing another path for the R3/C1 circuit to be held at ground. Figure four shows this improvement in the output pulse width. 
 
 <div align="center">
 <img src="/assets/short_input_q3_added.png"/>
