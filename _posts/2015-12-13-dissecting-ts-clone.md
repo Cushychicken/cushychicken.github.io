@@ -83,7 +83,11 @@ Donner really made this circuit their own is in the clipping stage. Note SW1 in 
 This allows the player to select the type of diode clipping they want. “Warm” selects the nominal Tube Screamer clipping stage of two back-to-back silicon signal diodes. I’m guessing these are 1N4148s, but since all I have to go by are appearance and turn-on voltage, I have no way of knowing for sure. The “Hot” setting switches out these diodes for a back-to-back pair of LEDs. The purpose of these clipping diodes is to limit the overall gain of the clipping stage. No matter the gain settings of the opamp feedback loop, the diodes ensure that the output of the clipping stage will never exceed the turn-on voltage of the diodes. Since LEDs conduct at a higher voltage than signal diodes, this has the downstream effect of higher overall gain across the frequency spectrum of your signal. Hence, flipping the switch to "hot" will give you a more aggressive, distorted guitar sound. 
 
 ### Power Distribution
-Just for completeness's sake, I included a quick ohm out of the 
+Just for completeness's sake, I included a quick ohm out of the power distribution section. You could likely introduce some interesting effects by tweaking these voltages, and by extension, the input/output buffer bias. 
+<div align="center">
+<img src="/assets/blues_drive_pwr_stage.png"/>
+<p align="center"><em>Power Staging</em></p>
+</div>
 
 ##A Few Mod Ideas
 
