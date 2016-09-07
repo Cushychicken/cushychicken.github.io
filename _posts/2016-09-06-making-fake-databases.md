@@ -20,9 +20,10 @@ require 'json'
 def makeBoardInfo()
         boardInfo = []
         (0..rand(25)).each do |counter|
+        		now = DateTime.now
                 data = {
                         "info" => Faker::Lorem.sentence,
-                        "time" => Faker::Time.between(DateTime.now - 7, DateTime.now)
+                        "time" => Faker::Time.between(now - 7, now)
                 }
                 boardInfo << data
         end
