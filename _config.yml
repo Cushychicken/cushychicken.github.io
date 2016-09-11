@@ -1,6 +1,6 @@
 name: "Wherein The Chicken"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: :title
 exclude: [README.md, LICENSE, Makefile]
 
