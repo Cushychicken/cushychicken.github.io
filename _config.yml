@@ -1,5 +1,5 @@
 name: "Wherein The Chicken"
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: :title
 exclude: [README.md, LICENSE, Makefile]
