@@ -2,13 +2,11 @@
 layout: post
 title: "Simulating the TS808 Tube Screamer in LTSpice"
 date: 2015-11-18
+crawlertitle: "LTSpice simulations of guitar pedals"
+summary: "Simulating the greatest overdrive pedal ever"
+categories: posts
+tags: 'electronics'
 ---
-
-<meta name="description" content="guitar effects"/>
-<meta name="description" content="ts808 tube screamer"/>
-<meta name="description" content="ltspice simulations"/>
-<meta name="description" content="tube screamer ltspice model"/>
-
 I recently discovered LTSpice as a simulation tool for electric circuits. Despite some mild bitching about its hotkeys and UI, I've grown fond of it a lot more quickly than I expected to. It's a powerful tool for gaining some quick insight into a circuit's operation. I tend to be a hands-on learner, so the best way to get around the clunky UI was to get a little practice using it. (A little re-jiggering of hotkeys on my Mac may have also occurred, but I credit the practice being the bulk of the solution to my inexperience problem.) With that in mind, I figured I'd pick something relatively interesting to simulate: a guitar effect pedal.
 
 My goal with this project was to produce a useful LTSpice model of the TS808 overdrive pedal. If you'd like to follow along with this writeup (or skip all the lame EE stuff), you can get the schematic [at this link.](/assets/tube_screamer.asc) 

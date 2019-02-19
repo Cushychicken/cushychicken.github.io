@@ -2,6 +2,10 @@
 layout: post
 title: "NAND Flash: Dealing With a Flawed Medium"
 date: 2015-08-23
+crawlertitle: "Flash filesystems and other NAND workarounds"
+summary: "Or: using software to fix faulty hardware"
+categories: posts
+tags: 'electronics'
 ---
 
 <meta name="description" content="nand flash wear leveling ecc correction bad block management"/>

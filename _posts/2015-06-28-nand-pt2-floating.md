@@ -2,6 +2,10 @@
 layout: post
 title: "NAND Flash: Floating Gates"
 date: 2015-07-06
+crawlertitle: "NAND Flash: semiconductor device mechanisms"
+summary: "Pt 2 of 6 articles on NAND Flash; focuses on Floating gates"
+categories: posts
+tags: "electronics"
 ---
 
 ## Introduction

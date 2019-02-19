@@ -2,6 +2,10 @@
 layout: post
 title: "Getting Things Done + Evernote" 
 date: 2014-05-06 
+crawlertitle: "Getting Things Done workflow with Evernote"
+summary: "Getting Things Done workflow with Evernote"
+categories: posts
+tags: 'productivity'
 ---
 
 I love Evernote enough to pay fifty bucks to keep it year after year, but 

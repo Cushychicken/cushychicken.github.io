@@ -2,11 +2,11 @@
 layout: post
 title: "Circuit Notes: A Simple Pulse Generator"
 date: 2015-10-10
+crawlertitle: "a neat little pulse generator circuit I like"
+summary: "Toggling a bit: no microcontroller required"
+categories: posts
+tags: 'electronics'
 ---
-
-<meta name="description" content="learn electronics"/>
-<meta name="description" content="art of electronics"/>
-<meta name="description" content="ltspice"/>
 
 **Update (Oct 11, 2015):** I added my [schematic file](../assets/simple_pulse_generator.asc) and [netlist](../assets/simple_pulse_generator.net) in case you want to play around with this circuit on your own local LTSpice install. It's free, so you might as well!
 

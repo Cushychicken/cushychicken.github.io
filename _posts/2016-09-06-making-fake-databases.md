@@ -1,14 +1,10 @@
 ---
+bg: "../charlatan.jpg"
 layout: post
 title: "Generating Demo Databases Quickly With Faker and Dataset"
+tags: ['programming']
 date: 2016-09-06
 ---
-
-<meta name="description" content="ruby faker"/>
-<meta name="description" content="fake datasets"/>
-<meta name="description" content="mockup data"/>
-<meta name="description" content="python dataset"/>
-
 I've been throwing the odd spare hour at a side project that needs a backend database to test against. (Interested in using or writing an asset tracking app for circuit boards? Check out [trackrack](https://github.com/Cushychicken/trackrack) on Github.) Before this, I had just been using some junk data, but decided it'd be a better/more realistic test of the app to use some randomly generated data. It also gave me the chance to try out two software modules I've been wanting to mess around with for a while.
 
 I had seen Ruby's `faker` module held up as a nice tool for generating structured random data at a coding meetup, but had never had reason to use it until now. It's a great one-stop-shop for generating email addresses, names, timestamps, and MAC addresses, which was just what I needed. Plus, if I ever want to go back and replace all the names generated with ones from _Game of Thrones_, it's already got that capability built in.

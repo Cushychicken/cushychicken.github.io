@@ -2,16 +2,11 @@
 layout: post
 title: "Dissecting A Budget Tube Screamer Clone"
 date: 2015-12-13
+crawlertitle: "Tube Screamer, electronics, teardown"
+summary: "Tearing down a Chinese guitar pedal for fun and profit"
+categories: posts
+tags: 'electronics'
 ---
-
-<meta name="description" content="guitar effects"/>
-<meta name="description" content="ts808 tube screamer"/>
-<meta name="description" content="cheap tube screamer"/>
-<meta name="description" content="tube screamer clone"/>
-<meta name="description" content="tube screamer mods"/>
-<meta name="description" content="tube screamer circuit"/>
-<meta name="description" content="chinese tube screamer"/>
-
 My recent interest in [the circuitry of the TS808 Tube Screamer](http://cushychicken.github.io/ltspice-tube-screamer/) finally blossomed into an urge to get my hands on some hardware to mess around with. I got a nasty shock when I realized that a new TS808 runs about $200. Even the more recent models, the TS9 and TS Mini, start at around $80. That’s way more than I want to sink into some electronics that I’m just going to turn around and tear apart. Thinking that there’s got to be something a little more affordable out there, I did some quick searches on Google, and ended up buying one of the cheapest pedals I could find. This ended up being a very, very good decision.
 
 I managed to find a company out of wonderful Guangzhou, China, making guitar effects at really competitive prices. They’re called Donner Electronics, and make a nice little blue pedal called the Blues Drive that caught my eye. Their product page left a few clues that this is a modern Tube Screamer clone. Quoting Donner's product page here: "tune screamer is always the over load and the incentive effect of standard”. For $30, I figured it was a good gamble to see how the effect performed. In fact, I decided to just go one better and get two: one to use for my existing signal chain, and one to dissect and modify - for science!

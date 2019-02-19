@@ -2,8 +2,11 @@
 layout: post
 title: "Grabbing Agilent Scope Screenshots in 10 Lines of Python"
 date: 2014-03-28 14:28:56
+crawlertitle: "Easy oscilloscope screen captures"
+summary: "oscilloscope screencaps"
+categories: posts
+tags: 'electronics'
 ---
-
 I had the great good fortune to get a sweet new oscilloscope for work. An Agilent MSO-X 4104, if I may namedrop and brag a little bit. Four analog channels,
 sixteen digital channels, 4Gs/sec @ 2GHz. Yeah. Pretty bitchin'. So why is it still a huge pain to get a screen capture for a report? 
 
