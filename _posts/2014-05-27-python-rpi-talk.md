@@ -1,4 +1,12 @@
-
+---
+layout: post
+title: "Boston Python Meetup - RPi Talk"
+date: 2014-05-27
+crawlertitle: "Boston Python Meetup talk on Raspberry Pi"
+summary: "Boston Python Meetup talk on Raspberry Pi"
+categories: posts
+tags: 'programming'
+---
 
 I gave a talk at the Boston Python Meetup Group on May 27th, 2014. And it 
 rocked. You can check out the slides from that talk [here]({{ site.url }}/assets/light-and-api.pdf). 

@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "Scraping Practice Material in Python"
+title: "Scraping Pedal Steel tablature in Python"
 date: 2014-06-02    
+crawlertitle: "Webscraping pedal steel tablature with Python"
+summary: "Webscraping pedal steel tablature with Python"
+categories: posts
+tags: 'programming'
 ---
 
 I have a love bordering on obsession with steel guitars; my latest musical

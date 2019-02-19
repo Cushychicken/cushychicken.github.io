@@ -2,6 +2,10 @@
 layout: post
 title: "NAND Flash: Device Architecture, Pt. 2"
 date: 2015-07-30
+crawlertitle: "NAND Flash: page architecture"
+summary: "page architecture of nand flash"
+categories: posts
+tags: 'electronics'
 ---
 
 ## Introduction

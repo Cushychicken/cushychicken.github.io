@@ -2,6 +2,10 @@
 layout: post
 title: "A Teaching Moment"
 date: 2014-04-26 
+crawlertitle: "Opinionated ranting"
+summary: "corporate lessons learned"
+categories: posts
+tags: 'misc'
 ---
 
 Nathan Borror recently put [this great post](https://medium.com/p/48edd2b40cc) on Medium detailing his reverse-engineering of the Sonos app. 

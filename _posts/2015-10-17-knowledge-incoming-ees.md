@@ -2,14 +2,11 @@
 layout: post
 title: "What Incoming ECE Students Need To Know"
 date: 2015-10-17
+crawlertitle: "knowledge for incoming electrical engineering students"
+summary: "A little preview of an electrical engineering course"
+categories: posts
+tags: 'misc'
 ---
-
-<meta name="description" content="studying computer engineering"/>
-<meta name="description" content="studying electrical engineering"/>
-<meta name="description" content="what do I need to know going into an electrical engineering program"/>
-<meta name="description" content="do I need to know calculus to study engineering"/>
-<meta name="description" content="worried about engineering school"/>
-<meta name="description" content="do I have what it takes to study engineering"/>
 
 I spend more time than I would like to admit on [/r/ECE](www.reddit.com/r/ECE), the subreddit dedicated to electrical and computer engineering. One of the threads that I see a lot is a high school junior or senior asking some variant of this question: 
 

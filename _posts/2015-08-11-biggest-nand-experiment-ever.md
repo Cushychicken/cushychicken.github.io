@@ -2,6 +2,10 @@
 layout: post
 title: "Quite Possibly The Biggest NAND Flash Experiment Ever"
 date: 2015-08-11
+crawlertitle: "NAND Flash experimental results on Facebook's SSD drivers"
+summary: "So much NAND retention data. So little time."
+categories: posts
+tags: 'electronics'
 ---
 
 At about four o'clock today, I got one of the coolest surprises a guy obsessed with NAND Flash could ask for. A team of four guys - two from Facebook, two from Carnegie Mellon University - released what might be the biggest experiment ever conducted on NAND Flash reliability. In a four year experiment, the team gathered and analyzed all of the failure data from SSDs running on production Facebook data servers. 

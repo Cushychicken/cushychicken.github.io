@@ -1,10 +1,44 @@
-name: "Wherein The Chicken"
-markdown: kramdown
-highlighter: rouge
-permalink: :title
-exclude: [README.md, LICENSE, Makefile]
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Information for the Atom feed
-whereinthechicken:
-   author: "Nash Reilly"
-   email: "nrc.reilly@gmail.com"
+# Site settings
+title: Wherein The Chicken
+email: nrc.reilly@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Nash Reilly is an electrical engineer in Boston, MA. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: "en"
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: cushychicken
+github_username:  cushychicken
+disqus_username:
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Posts settings
+future: true
+safe: false
+lsi: false
+excerpt_separator: "\n\n"
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
+
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+
+images: '/assets/images'

@@ -2,13 +2,11 @@
 layout: post
 title: "Why You Should Complete Your Engineering Degree In Five Years"
 date: 2015-11-08
+crawlertitle: "Taking the long way in finishing your degree"
+summary: "Stay as long as you can. Cherish it."
+categories: posts
+tags: 'misc'
 ---
-
-<meta name="description" content="engineering school"/>
-<meta name="description" content="how many years engineering school takes"/>
-<meta name="description" content="five year engineering degree"/>
-<meta name="description" content="complete engineering degree in five years"/>
-
 I was moved by a recent reddit thread by an anonymous engineering student. The student posted that they were in the beginning of their final year of a chemical engineering program, were struggling with their job search, and felt like they had spent the better part of their school career doing homework instead of socializing. The circumstances the author mentioned sounded really familiar - a demanding course load designed to get through the program in four years. Plenty of people are capable of doing an engineering degree in four years, and every year, thousands of people do. Having said that, I don't know that I subscribe to the notion that four years is the right way to do an engineering degree. Five years, to me, seems like a much more reasonable amount of time to attain an engineering degree, for a few reasons.
 
 ##Engineering is difficult, and hard things take time to learn well.

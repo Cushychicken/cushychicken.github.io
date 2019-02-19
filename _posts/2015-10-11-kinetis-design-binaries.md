@@ -2,12 +2,11 @@
 layout: post
 title: "Flashing Freescale MCUs Without Kinetis Design Suite"
 date: 2015-10-12
+crawlertitle: "using a segger J-Link without Kinetis Design Suite"
+summary: "Bag that heavy IDE and live free."
+categories: posts
+tags: 'electronics'
 ---
-
-<meta name="description" content="freescale arm cortex microcontrollers"/>
-<meta name="description" content="kinetis design suite"/>
-<meta name="description" content="segger j-link debugger"/>
-<meta name="description" content="flashing without kinetis design suite"/>
 
 I've been doing a bunch of tinkering with Freescale's Kinetis Design Studio platform recently, and one of the issues I've had is trying to figure out how to easily distribute a binary to other folks who need to run it. Most of the Kinetis materials I've found only focus on using KDS as an integrated design studio. It tries hard to be your one stop shop for writing, debugging, downloading, and running code. As a total package, it's great! Decoupling the indivudual functions - the toolchain, the debugger, the programmer - turns out to be a little tricky. This can be frustrating when you want to just email someone a binary with a quick bug fix or update. Wouldn't it be a lot easier for all involved if they don't have to get Kinetis Design Suite up and running just to flash their microcontroller? 
 
