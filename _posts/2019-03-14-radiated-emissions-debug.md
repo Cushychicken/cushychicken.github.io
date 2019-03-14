@@ -9,7 +9,7 @@ date: 2019-03-14
 
 Radiated emissions are a measure of how much electronic noise an electronic product emits into its surroundings. The government sets limits on this noise with the goal of regulating the limited electronmagnetic spectrum available to legitimate transmitters - i.e., wireless communications.
 
-That's a delightful description, but not a particularly useful. I'm willing to bet that, if you're reading this page, "radiated emissions" likely means "a test your design is failing". 
+That's a delightful description, but not a particularly useful one. I'm willing to bet that, if you're reading this page, "radiated emissions" likely means "a test your design is failing". 
 
 # Why do you care?
 Three reasons:
@@ -20,7 +20,7 @@ Three reasons:
 
 3) You don't want your cell phone call to 911 to be interrupted by some [SDR jockey overclocking his UART.](https://hackaday.com/2018/12/06/your-usb-serial-adapter-just-became-a-sdr/) (You're a clever guy, Ted, but when I want an ambulance, _I want an ambulance._)
 
-So, let's focus how you can find and fix what's causing your circuit to fail. This article is a quick description of how to find noisy, radiating circuits, and how to squash them once you find them them. We’re just gonna focus on Class B radiated emissions - 30MHz to 1000MHz - because that’s where most consumer products have problems. We're also going to treat this mostly in terms of narrowband radiated emissions - things that look like this on a radiated scan:
+So, let's focus how you can find and fix what's causing your circuit to fail. This article is a quick description of how to find noisy, radiating circuits, and how to squash them once you find them. We’re just gonna focus on Class B radiated emissions - 30MHz to 1000MHz - because that’s where most consumer products have problems. We're also going to treat this mostly in terms of narrowband radiated emissions - things that look like this on a radiated scan:
 
 ![Playing spectral whack-a-mole.](/assets/images/emi_spectrum_fail.png)
 
@@ -36,7 +36,7 @@ This is about as easy as it sounds: take your peak table, dump it into an Excel 
 Narrowband radiators tend to be things like clocks or digital signals. Show up on frequency scans as comb frequencies. Remember Fourier: it’s not a square wave, it’s a bunch of sine waves lumped together.
 
 ## Confirm the Aggressor
-Figure out a way to confirm that your suspect signal is the aggressor. Here are a few ways I've used to some success:
+Figure out a way to confirm that your suspect signal is the aggressor. This generally means making the signal better or worse on your scan: if your scan results are changing, you know you've found your aggressor! Here are a few ways I've used to some success:
 
 * Lift or disconnect a pin on the chip that receives that signal. 
 * Turn off the transmitter for that signal - Hi-Z’ing the signal in SW is great for this. (If you're running a Linux system, a copy of the `devmem` binary and a GPIO reference manual are your best friends here. You can build `devmem` as part of [BusyBox](https://github.com/brgl/busybox/blob/master/miscutils/devmem.c).)
