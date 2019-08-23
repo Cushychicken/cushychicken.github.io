@@ -57,7 +57,7 @@ df[['sin_mixed_101','mean_mixed_101']].plot()
 ![png](/assets/images/output_5_1.png)
 
 
-This is really useful in situations where you have a signal of a known frequency. With the proper equipment, you can "lock in" to your known-frequency signal, and track changes to the amplitude and phase of that signal - *even in the presence of overwhelming noise.* 
+This is really useful in situations where you have a signal of a known frequency. With the proper equipment, you can "lock in" to your known-frequency signal, and track changes to the amplitude and phase of that signal - *even in the presence of overwhelming noise.* This is a really powerful observation: if you send a known modulated signal into a system, you can "lock-in" to that same modulated signal at the system output, even if there's *tons* of noise obscuring it! (Tons of modern uses apply: magnetic resonance imaging, radio astronomy, atomic-force microscopes... etc.!)
 
 You can show this pretty easily by just scaling down one of the waves in our prior example, and burying it in noise. (This signal is about 20dB below the noise floor in this case.)
 
