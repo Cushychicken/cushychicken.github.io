@@ -1,5 +1,5 @@
 ---
-bg: "../beer_candid.png"
+bg: "/lion.jpg"
 layout: page
 title: "About"
 crawlertitle: "About the Author"
