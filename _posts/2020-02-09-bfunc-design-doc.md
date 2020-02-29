@@ -15,6 +15,8 @@ Let's put the "funk" back in "function generation".
 
 ![What's the fourier transform of George Clinton?](../assets/images/pfunk.jpg)
 
+**Update (2/29/2020):** You can see the final product of this work on GitHub [here](https://github.com/Cushychicken/bfunc).
+
 # Project Requirements
 
 I've lumped together the high-level project requirements here. They're roughly in order of importance, from highest-priority first, to lowest priority later. 
