@@ -161,6 +161,6 @@ continue
 This takes care of a few things for you:
 
 * `file "./build/bfunc_rev1.elf"` loads up your symbol table, and helps you use friendly, human-readable function names when you're debugging.
-* `target extended-remote :3333` tells `gdb-multiarch` that it's connecting to a different CPU to debug. `extended-remote` is a particular operating mode that allows GDB some flexibility in connecting to, and disconnecting from, the remote machine. The `:3333` just specifies
+* `target extended-remote :3333` tells `gdb-multiarch` that it's connecting to a different CPU to debug. `extended-remote` is a particular operating mode that allows GDB some flexibility in connecting to, and disconnecting from, the remote machine. The `:3333` just specifies the port through which GDB talks to OpenOCD. 
 * `load` takes care of loading the various memory sections of the target into GDB's memory. 
 * `break main` sets a breakpoint at the `main` entry point of your C program. This can cause you some grief if you are trying to look at the early boot process that happens before `main` is entered. I'll need to figure out a clever way around this if I ever need to do bootloader stuff again.
