@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="post">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <p class="post-meta">
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d-%m-%Y" }}</time>
+
+    {% if page.author %}
+      &nbsp;/&nbsp;
+      <span>{{ page.author }}</span>
+    {% endif %}
+  </p>
+
+  <div class="post-content">
+
+    <div>
+	    Here’s this week’s development updates for bFunc, the open source function generator I’m developing to sell. Each day’s entry represents an hour’s work - the hour before I start work on my real job every weekday morning.<p>If you’d like to buy a board to try, <a href="https://gum.co/bnzr">you can purchase one over on Gumroad</a>!<p>If you're new here, and want to understand what this whole "bFunc" thing is and what it's about, you can take a look at <a href="http://cushychicken.github.io/bfunc-design-doc/">the design doc for this project</a>.<p>If you're not that into philosophy, or just impatient to check out source files, all of my hardware and software source files are on GitHub. <a href="https://github.com/Cushychicken/bfunc">Check ‘em out!</a>
+    </div>
+
+    {{ content }}
+
+    <div class="post-links">
+      {% if page.next.url %}
+        <a class="link-to-post" href="{{ page.next.url | relative_url}}">
+          <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
+          <span class="link-to-post__title">{{ page.next.title }}</span>
+        </a>
+      {% endif %}
+
+      {% if page.previous.url %}
+        <a class="link-to-post" href="{{ page.previous.url | relative_url}}">
+          <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
+          <span class="link-to-post__title">{{ page.previous.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+
+  </div>
+
+</article>
