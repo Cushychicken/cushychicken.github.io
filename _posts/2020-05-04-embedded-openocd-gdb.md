@@ -24,7 +24,7 @@ And then you'll want to start an `openocd.cfg` file in your project directory.
 
 You'll want to leverage some of the built-in config files that are bundled with OpenOCD. As per the [project setup guide](http://openocd.org/doc/html/OpenOCD-Project-Setup.html#OpenOCD-Project-Setup), these files are located at `/usr/share/openocd/scripts` on most Linux systems, and that's where I was able to find them: 
 
-```bash
+```powershell
 nreilly@banoodler:~/projects/bfunc/sw_embedded/bfunc_rev1$ ll /usr/share/openocd/scripts/
 total 88
 drwxr-xr-x 11 root root  4096 May  4 06:33 ./
@@ -46,7 +46,7 @@ drwxr-xr-x  2 root root  4096 May  4 06:33 tools/
 
 Since we're trying to establish a physical connection first thing, we want to first define an _interface_ to the debugger and the microcontroller, so naturally, the `interfaces` directory should be our first stop:
 
-```bash
+```powershell
 nreilly@banoodler:~$ ll /usr/share/openocd/scripts/interface/
 total 136
 drwxr-xr-x  3 root root 4096 May  4 06:33 ./
@@ -93,7 +93,7 @@ source [find interface/stlink-v2.cfg]
 
 Then I call `openocd` from the directory in which the file is locate. `openocd` pulls in its configs from `openocd.cfg`, and then promptly complains that additional settings are needed:
 
-```bash
+```powershell
 nreilly@banoodler:~/projects/bfunc/sw_embedded/bfunc_rev1$ openocd 
 Open On-Chip Debugger 0.10.0
 Licensed under GNU GPL v2
@@ -113,7 +113,7 @@ source [find target/stm32f0x.cfg]
 
 Firing this up yields us the result we're looking for - some debugger info, API versions, breakpoint info from the target chip, and even the voltage detected by the debugger. We're in business!
 
-```bash
+```powershell
 nreilly@banoodler:~/projects/bfunc/sw_embedded/bfunc_rev1$ openocd
 Open On-Chip Debugger 0.10.0
 Licensed under GNU GPL v2
