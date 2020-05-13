@@ -16,8 +16,8 @@ If you're interested, please shoot me an email at my blog address saying so. The
 
 I've sunk about $2,000 into this project so far, so if you'd like a board, I'd like a little help from you offsetting that cost. Here's what I have in mind:
 
-* If you'd like a board, I'd ask that you pay $40 USD to help me offset the cost of the eval hardware. I'll cover the cost of flat-rate shipping anywhere in the US as part of that $40. If you're international, we can work that out on a case-by-case basis. 
-* If you'd like to work on the software for bFunc, I'd be happy to refund your $40 USD if you can make three pull requests against some features I've been planning. (I'll be sure to deploy the feature list in the next few days here.)
+* **Edit (5/13/2020):** Turns out - flat rate shipping in the US is moderately expensive! And in COVID-19 times, a trip to the Post Office is risky. I prepaid for postage for the last remaining chunk of boards to avoid further trips to the post office. To help cover that, I'm asking for $10 for shipping in addition to the $40 per board. Happily, multiple boards will fit into one envelope, so feel free to stock up! ~~If you'd like a board, I'd ask that you pay $40 USD to help me offset the cost of the eval hardware. I'll cover the cost of flat-rate shipping anywhere in the US as part of that $40.~~ If you're international, we can work that out on a case-by-case basis. 
+* If you'd like to work on the software for bFunc, I'd be happy to refund your $50 USD if you can make three pull requests against some features I've been planning. (I'll be sure to deploy the feature list in the next few days here.)
 
 Lest this dissuade you: ***I'm more interested in people using bFunc at this point than I am in making money off of it.*** If you think you can convince me to give you one for free, or a reduced price, you probably can. I won't discourage you from trying! 
 
