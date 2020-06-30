@@ -4,7 +4,7 @@ layout: post
 title: "Writing Simple Python GUIs for your Command-Line-Phobe Coworkers"
 summary: "distributing scripts to unix eunuchs"
 tags: ['programming']
-date: 2020-05-31
+date: 2020-06-30
 
 ---
 
