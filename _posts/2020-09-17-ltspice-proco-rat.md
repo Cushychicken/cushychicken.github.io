@@ -8,7 +8,7 @@ date: 2020-09-17
 
 ---
 
-It's been a long time since I've done a pedal simulation, and, well, quarantine times are as good a 
+It's been a long time since I've done [a pedal simulation](http://cushychicken.github.io/posts/ltspice-tube-screamer/), and, well, quarantine times are as good a 
 time as any to fill time with LTSpice simulation. Since Radiohead is a too-appropirate soundtrack for 
 the time in which we live, and Thom Yorke is a famous user, why not simulate the ProCO RAT distortion 
 pedal? 
