@@ -15,6 +15,8 @@ They go in reverse order, and trail what I'm working on now by about a year, out
 I'd be happy to chat about any of these topics in greater depth via Zoom, email, or in person!
 
 # 2019
+
+## Sonos
 * Launched Neptune publicly as the Sonos Port
     * Worked with external power supply vendor on compliance and voltage sag issues 
     * Finalized design docs and test plans for manufacturing ramp
@@ -34,6 +36,11 @@ I'd be happy to chat about any of these topics in greater depth via Zoom, email,
     * Redesigned amp circuitry to improve click/pop
     * Debugged power routing to eliminate wifi noise coupling into amps
     * Completed bringup and system integration of the MT7613 wifi radio into the Titan board
+
+## Consulting
+* Served as scribe for Innovation Discovery Event tech transfer sessions at:
+    * Princeton Plasma Physics Laboratory; Princeton, NJ
+    * US Department of Agriculture; Beltsville, MD
 
 # 2018
 * Digital Lead for Sonos Amp (Codename: Hideout)
