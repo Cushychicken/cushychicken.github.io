@@ -56,11 +56,36 @@ Rtone is really controlling two things:
 * how much current is fed back into the LC tank in the active filter stage, and 
 * which frequencies are fed back into the LC stage. 
 
-Rtone and C8 form a very simple RC filter which determines which range of frequencies get fed back. When the potentiometer shorts Vfb_in to Vout , you're feeding the unattenuated signal back into the LC tank:
+Rtone and C8 form a very simple RC filter which determines which range of frequencies get fed back. When the potentiometer is at 100k, Vfb_in shorts to Vout, and you're feeding the unattenuated signal back into the LC tank, with no meaningful guitar frequencies suppressed:
 $$
-R12||C8 = (100 ohm) || (0.22uF) = 7200[Hz]
+R12||C8 = (100k\Omega) || (0.22uF) = 7.2[Hz]
 $$
 
+Conversely, when the potentiometer starts to short Vfb_in to GND, you're not feeding anything back into the tank. The RC passband moves down, with most current getting shunted to ground instead of thru C8:
+$$
+R12||C8 = (100 \Omega) || (0.22uF) = 7200[Hz]
+$$
+You can see this as you plot Vfb_in against Vout for a sweep of Rtone values across frequencies:
 
-Conversely, when the potentiometer starts to short Vfb_in to GND, you're not feeding anything back into the tank. the RC passband is $R12||C8 = 100 ohm || 0.22uF = 7200Hz$.
+![Vbn_in magnitude decreases as Rtone shorts to GND](../assets/images/image-20200925141159987.png)
+
+Without the feedback component, Q2 is basically just an active highpass filter. The feedback element formed by Rtone, C8, and Q3 is a variable lowpass filter. Mixing this lowpass element with a highpass zero forms a nice _active bandpass filter_. The net effect of this a nice moving central peak in the magnitude response of the Wah pedal, allowing you to accentuate any signals within the 500Hz to 2kHz band:
+
+![Tone Setting vs Frequency](../assets/images/Image-1601057975751.png)
+
+Plotting phase with this many sweep components is a bit of an eye exam, but it reveals a pretty useful corollary to understanding the Wah at a conceptual level:
+
+![Tone Setting vs Frequency, with Phase](../assets/images/Image-1601058017485.png)
+
+Note that the peak of each output magnitude in the plot aligns nicely with the 180deg phase delta of the input. That's not an accident - in fact, that's the crux of what this pedal is doing. The feedback stage is a simple emitter follower. An emitter follower inverts whatever signal it is fed, leaving you with a signal shifted 180 degrees at the output. That shifted signal, in this case, is fed back into the input, through the resonant tank. If you've done any oscillator design, this 180 degree criterion will sound familiar: 
+
+* take a high gain amplifier, 
+* offset its output 180 degrees from the input, 
+* and feed the output back into the input, 
+
+...and you have an oscillator! That's the same idea behind the CryBaby. It's basically a crude voltage tuned oscillator, but without the near-infinite gain. You're effectively selecting the oscillator tuning frequency by controlling how much current is fed back into the LC tank. 
+
+# Acknowledgements
+ElectroSmash, of course, is an excellent reference on all things guitar pedal, and [their wah analysis is no exception](https://www.electrosmash.com/crybaby-gcb-95). 
+The timeless R.G. Keen also has [a wondrous overview of wah pedals](http://www.geofex.com/article_folders/wahpedl/wahped.htm#whatwah), consisting of both circuit and qualitative analysis. 
 
