@@ -16,7 +16,6 @@ lang: "en"
 url: "http://cushychicken.github.io" # the base hostname & protocol for your site
 twitter_username: cushychicken
 github_username:  cushychicken
-disqus_username:
 
 # Build settings
 markdown: kramdown
@@ -41,3 +40,7 @@ sass:
 
 
 images: '/assets/images'
+
+# Plugins
+plugins: 
+  - jekyll-seo-tag
