@@ -15,7 +15,7 @@ The canonical electronics tome. Almost certainly the best single book on electro
  
 # _High Speed Digital Design: A Handbook of Black Magic_ - Howard Johnson
 
-I liked this book so much that I cold called the author and showed up at his house to fanboy. All the stuff you need to know when designing point-to-point digital systems. It even starts to get into the details around interconnects and the compliance headaches they can cause, but those are treated more formally in the followup text: _High Speed Wave Propagation: Advanced Black Magic_.  
+I liked this book so much that I [cold called the author and showed up at his house to fanboy](http://cushychicken.github.io/call-your-heroes/). All the stuff you need to know when designing point-to-point digital systems. It even starts to get into the details around interconnects and the compliance headaches they can cause, but those are treated more formally in the followup text: _High Speed Wave Propagation: Advanced Black Magic_.  
  
 # _High Output Management_ - Andy Grove 
  
