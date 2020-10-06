@@ -1,8 +1,8 @@
 ---
-bg: "pyinstaller-icon.jpg"
+bg: "bookshelf.jpg"
 layout: post
 title: "Books I've Learned a Ton From"
-summary: "haha version controlling snek program go brrr"
+summary: "it's a steady job but i wanna be a"
 tags: ['personal']
 date: 2020-10-06
 ---
