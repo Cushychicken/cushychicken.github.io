@@ -43,4 +43,3 @@ images: '/assets/images'
 
 # Plugins
 plugins: 
-  - jekyll-seo-tag
