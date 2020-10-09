@@ -8,13 +8,30 @@ summary: "Hey! It's me!"
 active: about
 ---
 
-Hi. I'm Nash Reilly. I've spent my career building consumer electronics. Most of my focus has been on designing high speed embedded systems, but I've got a reasonable amount of experience in electromagnetic compliance, embedded programming, and audio electronics. This blog is an attempt to turn some of that experience into serviceable information for people who are not my coworkers. I also run, play music, and occasionally whip up a website.  
+Hi. I'm Nash Reilly. I'm an electrical engineer in Boston, MA. 
 
-I'd love to hear from you in any capacity - technology wise, career wise, or just to shoot the breeze. I'd recommend one of the two methods below:
+I've spent most of my career building consumer electronics. My focus has largely been on designing high speed embedded systems, but I've got a reasonable amount of experience in:
 
-* **Email:** cushychicken (at) Google's mail dot com. 
-* **Reddit:** [/u/LightWolfCavalry](https://www.reddit.com/user/LightWolfCavalry). 
+* [electromagnetic compliance](http://cushychicken.github.io/radiated-emissions-debug/), 
+* [embedded programming](http://cushychicken.github.io/bfunc-retro-one/), 
+* and [audio electronics](http://cushychicken.github.io/posts/#simulating%20guitar%20effects). 
 
-I will take a look at any single page electronic schematic that you'd like reviewed. I won't help you with your homework, or to make a deadline, but I'd like to see what you're building, and offer constructive feedback if I can. Reddit is also the best way to make contact with me for that purpose.
+I'm also really interested in a few engineering-adjacent-but-less-tech-centric topics, like:
+
+* product management and customer development, 
+* [professional development for hardware engineers](http://cushychicken.github.io/software-agile-hardware-waterfall/), and 
+* how people organize and work. 
+
+This blog is an attempt to turn some of that experience and interest into serviceable information for people who are not my coworkers. 
+
+I love to run, read books, drink beer, and play bluegrass music.  
+
+# Standing Invitation
+
+I'd love to hear from you in any capacity - technology wise, career wise, or just to shoot the breeze. You can use the "Contact" link on this page, or you can shoot me an email directly at [cushychicken@gmail.com](mailto:cushychicken@gmail.com).  
+
+I love seeing what kind of electronics people are building. As such, I'd be happy to review any electronic schematic that you're willing and able to send me. I won't help you with your homework, or to make a deadline, but I'd like to see what you're building, and offer constructive feedback if I can. 
+
+PDFs are *most* appreciated, so I don't need to futz with the particulars of a CAD package. 
 
 I'm hosting this [Jekyll](https://jekyllrb.com/) blog on Github Pages, and using the [Voyager](https://github.com/redVi/voyager) theme.
