@@ -3,7 +3,7 @@ bg: "dunlop-crybaby-wah.jpg"
 layout: post
 title: "Simulating the Dunlop Crybaby Wah Pedal in LTSpice"
 summary: "cry, cry, darling"
-tags: ['electronics']
+tags: ['electronics', 'Simulating Guitar Effects']
 date: 2020-09-25
 
 ---
