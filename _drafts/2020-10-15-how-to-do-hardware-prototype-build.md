@@ -8,7 +8,7 @@ date: 2020-10-15
 
 ---
 
-Building your first set of product prototypes is a really exciting milestone in a hardware development process. It’s the first opportunity to see the hard work of a lot of crossfunctional contributors bear fruit, in the form of a real, tangible item. It’s also a great opportunity to learn about the “meta-product” - the process of building your product at scale. This is what I know about how to run a good cross-functional hardware prototype build, from spending the better part of a decade in the consumer electronics industry. 
+Building your first set of product prototypes is a really exciting milestone in a hardware development process. It’s the first opportunity to see the hard work of a lot of crossfunctional contributors bear fruit, in the form of a real, tangible, functioning item. It’s also a great opportunity to learn about the “meta-product” - the process of building your product at scale. This is what I know about how to run a good cross-functional hardware prototype build, from spending the better part of a decade in the consumer electronics industry. 
 
 **Note:** I started this post before COVID was a thing, and it became inadvisable to get a large group of people in a room together. It’s one of my dearest hopes that COVID is gotten under control, largely so that this kind of work can happen again. In the meantime, I’d love to hear about people’s experiences building hardware prototypes in spite of the coronavirus pandemic. 
 
