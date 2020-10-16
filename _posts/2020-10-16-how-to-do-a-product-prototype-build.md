@@ -1,14 +1,24 @@
 ---
 bg: "electronics-manufacturing-line.png"
 layout: post
-title: "How to do a Hardware Prototype Build"
+title: "How to do a Prototype Build for a Hardware Product"
 summary: "professional prototypes, promptly processed"
 tags: ['working on hardware']
-date: 2020-10-15
+date: 2020-10-16
 
 ---
 
-Building your first set of product prototypes is a really exciting milestone in a hardware development process. It’s the first chance to see the hard work of a lot of crossfunctional contributors bear fruit, in the form of a real, tangible, functioning item. It’s also a great opportunity to learn about the “meta-product” - the process of building your product at scale. This is what I know about how to run a good cross-functional hardware prototype build, from spending the better part of a decade in the consumer electronics industry. 
+Building your first set of product prototypes is a really exciting milestone for a hardware company. It’s the first chance to see the hard work of a lot of crossfunctional contributors bear fruit, in the form of a real, tangible, functioning item. It’s also a great opportunity to learn about the “meta-product” - the process of building your product at scale. 
+
+This post captures a lot of what I know about how to run a good cross-functional hardware prototype build, from spending the better part of a decade in the consumer electronics industry. 
+
+It's based around the assumption that you are:
+
+* part of a cross-functional team,
+* designing a hardware product in subcomponents, by specialists, 
+* who are looking to ramp up production of that product at a factory once the development process is complete. 
+
+Most of this generalizes pretty well for small-ish teams (5 to 25 people) building small-ish runs of product prototypes (50 or less). It's deeply informed by my experience in consumer technology, but I think it's a reasonably good guide for any hardware company whose goal is to get a product built through a contract manufacturer at any reasonable scale. I don't know that it generalizes well to a massive hardware manufacturer like Apple or Amazon or Samsung. Then again, they make hardware prototypes too, and it's typically not a good ROI to make thousands of units straight out of the gate. 
 
 **Note:** I started this post before COVID was a thing, and it became inadvisable to get a large group of people in a room together. It’s one of my dearest hopes that COVID is gotten under control, largely so that this kind of work can happen again. In the meantime, I’d love to hear about people’s experiences building hardware prototypes in spite of the coronavirus pandemic. 
 
