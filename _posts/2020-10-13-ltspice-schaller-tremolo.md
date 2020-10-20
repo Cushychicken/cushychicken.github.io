@@ -3,7 +3,7 @@ bg: "schaller-tremolo.jpg"
 layout: post
 title: "Simulating the Schaller Tremolo Pedal in LTSpice"
 summary: "amplitude modulation - not just for radio anymore"
-tags: ['electronics', 'Simulating Guitar Effects']
+tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-10-13
 
 

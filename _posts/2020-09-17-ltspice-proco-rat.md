@@ -3,7 +3,7 @@ bg: "proco_rat.jpg"
 layout: post
 title: "Simulating the ProCo RAT Distortion Pedal in LTSpice"
 summary: "g'day, disgusting rat"
-tags: ['electronics', 'Simulating Guitar Effects']
+tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-09-17
 
 ---
