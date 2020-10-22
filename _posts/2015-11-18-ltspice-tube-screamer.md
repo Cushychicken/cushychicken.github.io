@@ -11,6 +11,18 @@ I recently discovered LTSpice as a simulation tool for electric circuits. Despit
 
 My goal with this project was to produce a useful LTSpice model of the TS808 overdrive pedal. If you'd like to follow along with this writeup (or skip all the lame EE stuff), you can get the schematic [at this link.](/assets/tube_screamer.asc) 
 
+_**Note (10/22/2020):**_ If you haven't had a chance to look at the writeups for other pedals I've analyzed, those are available here:
+
+<ul>
+    {% for post in site.tags.ltspice-guitar-effects %}
+    <li>
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+I've also posted all the LTSpice schematics I've made on GitHub - [check them out](https://github.com/cushychicken/ltspice-guitar-pedals)!
+
 ## The Target
 I've recently become re-interested in analog electronic design. Since I'm a musician in addition to being an engineer, audio electronics have sort of naturally been the focus of a lot of my interest. Thus, I decided to focus on simulating one of the most popular guitar effects of all time: the Ibanez TS808 Tube Screamer. 
 

@@ -12,6 +12,18 @@ The Dunlop CryBaby is a timeless effect pedal. Jimi Hendrix, Eric Clapton, David
 
 If you'd like to follow along at home, [I've put the LTSpice file up on GitHub for your persual](https://github.com/Cushychicken/ltspice-guitar-pedals/tree/master/dunlop-crybaby-wah). Find mistakes? Want to submit mods? Feel free to submit a pull request. 
 
+_**Note (10/22/2020):**_ If you haven't had a chance to look at the writeups for other pedals I've analyzed, those are available here:
+
+<ul>
+    {% for post in site.tags.ltspice-guitar-effects %}
+    <li>
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+
 # The Whole Schematic
 
 This is the first design I've analyzed with no opamps. Cool! Light on active components, but heavy on fun circuit tricks. 

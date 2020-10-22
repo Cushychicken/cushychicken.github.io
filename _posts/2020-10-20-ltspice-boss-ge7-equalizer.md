@@ -22,7 +22,6 @@ If you haven't had a chance to look at the writeups for other pedals I've analyz
     </li>
     {% endfor %}
 </ul>
-
 ***Also!*** I'd love to help analyze a particular pedal you're interested in learning about. Got a particular effect you know and love? Send me a schematic and I'll see what I can do. 
 
 ​    

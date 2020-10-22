@@ -18,6 +18,18 @@ If you'd like to follow along at home, I've put [the LTSpice file on GitHub](htt
 You may need to rustle up a diode model for the 1N914 to run - it is not one of the models included 
 in the LTSpice install. 
 
+_**Note (10/22/2020):**_ If you haven't had a chance to look at the writeups for other pedals I've analyzed, those are available here:
+
+<ul>
+    {% for post in site.tags.ltspice-guitar-effects %}
+    <li>
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+
 # The Whole Enchilada
 
 Here's the whole schematic, labeled for clarity:

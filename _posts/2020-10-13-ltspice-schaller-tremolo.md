@@ -19,6 +19,18 @@ Why the Schaller? Apart from the fact that it was convenient to find the schemat
 
 If you'd like to follow along at home, the LTSpice schematic, as per usual, is [up on GitHub](https://github.com/Cushychicken/ltspice-guitar-pedals). 
 
+_**Note (10/22/2020):**_ If you haven't had a chance to look at the writeups for other pedals I've analyzed, those are available here:
+
+<ul>
+    {% for post in site.tags.ltspice-guitar-effects %}
+    <li>
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+
 # A Quick Note about Transistors
 
 A quick aside, before we start analyzing why you're paying about $60 per vintage transistor when you buy a Schaller Tremolo Pedal. 
