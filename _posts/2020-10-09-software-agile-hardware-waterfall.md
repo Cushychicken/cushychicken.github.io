@@ -3,7 +3,7 @@ bg: "velociraptor_solo.jpg"
 layout: post
 title: "Software = Agile! Hardware = Waterfall!"
 summary: "clever girl"
-tags: ['working on hardware']
+tags: ['working-on-hardware']
 date: 2020-10-09
 ---
 

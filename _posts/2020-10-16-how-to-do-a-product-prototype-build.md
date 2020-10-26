@@ -3,7 +3,7 @@ bg: "electronics-manufacturing-line.png"
 layout: post
 title: "How to do a Prototype Build for a Hardware Product"
 summary: "professional prototypes, promptly processed"
-tags: ['working on hardware']
+tags: ['working-on-hardware']
 date: 2020-10-16
 
 ---
