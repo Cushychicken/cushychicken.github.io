@@ -53,13 +53,21 @@ You can generally use $$h_{fe}$$ at a given collector current to estimate your t
 ![2N3904 DC Current Gain Table](../assets/images/image-20201029134122295.png)
 
 With this table, plus a quick deployment of the `.op` SPICE command, we can see that the voltage across the emitter resistor is right at about 1.79[V]. This makes for a collector current of 0.18[mA], meaning our DC current gain is guaranteed to be at least 40[A/A] for the 2N3904. That's good, but as transistors go, it's not *great* - generally, the higher the gain, the better the transistor. This low gain manifests itself most clearly in the input resistance of the emitter follower:
+
+
 $$
 r_{in} = R_{E}*\beta = 10[k\Omega] * 40 = 400[k\Omega]
 $$
+
+
 ...and gets worse still when you start to consider the added effect of the bias resistor R5, which, considering the Thevenin equivalent of the input, is in parallel with $$r_{in}$$:
+
+
 $$
 Z_{in} = r_{in}||R_{5} = 285[k\Omega]
 $$
+
+
 This is *really low* for an audio input impedance. Typically, the higher the input impedance, the better. A good rule of thumb is that you want a minimum input impedance of 500 kOhms, just in case you're dealing with an unusually high output impedance driver. 
 
 Funnily enough, the Dyna Comp *also* happens to qualify as one of those high output impedance drivers. We'll dive more into that in a bit.
@@ -67,13 +75,21 @@ Funnily enough, the Dyna Comp *also* happens to qualify as one of those high out
 # Transconductance Amplifier
 
 The original transconductance amp in the Dyna Comp is a Harris/Intersil CA3080. It's called a *transconductance* amp because it relies on voltage inputs, but outputs current. Thus, instead of a typical voltage gain differential amplifier:
+
+
 $$
 V_{out} = A(V_{pos} - V_{neg})
 $$
+
+
 ...you instead deal with an output current, and a *transimpedance gain* that governs the ratio of differential voltage to output current:
+
+
 $$
 I_{out} = g_{m}(V_{pos} - V_{neg})
 $$
+
+
 ![image-20201101114648362](../assets/images/image-20201101114648362.png)
 
 I've substituted the TI LM13700 transconductance amplifier here in lieu of the original CA3080. This is an excellent substitution - in fact, a perfect substitution! [Don Sauer, the lead designer on the LM13700, writes on his website](http://idea2ic.com/LM13600/LM13700.html):
@@ -99,17 +115,29 @@ The net called Amp Bias Input inside the LM13700 is known to us as `V_OTA_GainSe
 ![image-20201101082006634](../assets/images/image-20201101082006634.png)
 
 ...and it's critical to the operation of the Dyna Comp. We'll go into more detail about why in just a moment. For now, it's enough to say that the R23 is there to set the maximum possible bias current for the LM13700:
+
+
 $$
 I_{bias}= \frac{9.0[V]-1.3[V]}{27[k\Omega]} = 0.28[mA]
 $$
+
+
 Which, in turn, yields a gain of:
+
+
 $$
-g_m = \frac{I_{out}}{V_{in}} = \frac{I_{bias}}{2*(26[mV])} = ~5.4 [mA/mV] 
+g_m = \frac{I_{out}}{V_{in}} = \frac{I_{bias}}{2*(26[mV])} = ~5.4 [mA/mV]
 $$
+
+
 Where:
+
+
 $$
 V_{in} = (V_{pos} - V_{neg})
 $$
+
+
 Remember: as the bias current *decreases*, so does the LM13700's gain. 
 
 # Envelope Detector
@@ -147,9 +175,13 @@ You can see this more clearly for the Dyna Comp if you run a longer simulation, 
 You can see pretty clearly how the Dyna Comp *reduces* the gain around the 100ms mark. This is called the "attack" time. It's how fast the compressor pulls back the circuit gain. The simulation shows that, at max sensitivity, the Dyna Comp almost has the output back to the same level as with a 10mV signal. The back end, or "release", of that gain adjustment, is much slower. Vout's amplitude is noticeably lower after the gain adjustment, though the trend of the OTA bias current is trending towards the same setting as before the gain adjustment. Why is that? 
 
 Transistor Q5 controls the bias current feedback path to the OTA. The aggressiveness at which it conducts, however, is set by the voltage across capacitor C9. When Q3/Q4 are off, C9 (along with pullup R18) can be treated as a simple RC circuit with a very slow charge constant:
+
+
 $$
 \tau_{envLevel} = 150 [k\Omega] *10[\mu F] = 1.5 [sec]
 $$
+
+
 As this RC circuit charges, the feedback amplifier transistor will begin to conduct more and more. This gradually increases the gain of the LM13700 over the course of a few hundred milliseconds. You can see this on a longer timescale plot of the compressor's output:
 
 ![image-20201101183832265](../assets/images/image-20201101183832265.png)
