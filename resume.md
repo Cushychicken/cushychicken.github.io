@@ -14,6 +14,42 @@ They go in reverse order, and trail what I'm working on now by about a year, out
 
 I'd be happy to chat about any of these topics in greater depth via Zoom, email, or in person!
 
+# 2021
+
+## Root.ai -> AppHarvest
+* Provided technical diligence on Root.ai's electrical systems to the AppHarvest acquisition team
+* Redesigned Virgo main system controller board after identifying numerous issues with its predecessor
+* Continued to lead the Electrical and Embedded Systems team  
+	* Grew the team from myself as solo contributor to four people
+	* Hired, managed, and developed individual contributors with a range of skillsets: firmware development, circuit design, cable design, and system integration
+
+
+# 2020
+
+## Sonos 
+* Finalized development of Titan, the Sonos / IKEA collaboration that launched as the SYMFONISK Picture Frame.
+* Worked as Rotational Product Manager with the Architectural Sound team. 
+	* Conducted research on solutions for the architectural product space
+	* Held user interviews with custom integrators/installers on new product concepts
+
+## ReportCardWriter.com
+* Started a small, independent software company that helps teachers write report card comments more quickly. [Check us out!](https://reportcardwriter.com)
+* Prototyped a first-run Python application/GUI for initial testing.
+* Conducted dozens of user interviews to gather feedback on first prototype.
+* Created landing page and marketing material to test broader response.
+* Rewrote application with clearer user interface based on user feedback.
+* Acquired a small, steadily growing user base through word of mouth. 
+
+
+## Root.ai
+* Joined [Root.ai](https://root-ai.com/) as a Principal Electrical Engineer.
+	* Architected the electrical system of the Virgo Mk.V and Mk.VI robots
+	* Identified and resolved issues around vibration-based sensing; redesigned to use more reliable optical beam-break sensors instead
+	* Managed the company's transition from EAGLE to KiCAD 
+
+* Founded and led the Electrical and Embedded Systems (ESYS) team. 
+	* Managed and planned team workload across releases. 
+
 # 2019
 
 ## Sonos
