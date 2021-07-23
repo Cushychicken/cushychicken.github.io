@@ -42,4 +42,7 @@ sass:
 images: '/assets/images'
 
 # Plugins
-plugins: []
+plugins: 
+    - jekyll-seo-tag
+    - jekyll-feed
+    - jekyll-sitemap
