@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   more or less chosen not to edit this line in _config.yml. 
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://cushychicken.github.io" # the base hostname & protocol for your site
+url: "https://cushychicken.github.io" # the base hostname & protocol for your site
 twitter_username: cushychicken
 github_username:  cushychicken
 
