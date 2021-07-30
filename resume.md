@@ -16,9 +16,19 @@ I'd be happy to chat about any of these topics in greater depth via Zoom, email,
 
 # 2021
 
+## ReportCardWriter.com
+* Conducted user interviews on report card comment software
+* Built additional software features 
+	* Pronoun scrubbing algorithms
+	* Comment template database at ReportCardComments.com
+* Built email list and content marketing pipeline for teachers to improve ReportCardWriter's search rankings
+
 ## Root.ai -> AppHarvest
 * Provided technical diligence on Root.ai's electrical systems to the AppHarvest acquisition team
 * Redesigned Virgo main system controller board after identifying numerous issues with its predecessor
+	* Responsible for all SCH design; supervised PCB layout with contractor
+	* Wrote all test firmware for board bringup
+	* Deployed board upgrade on in-house and field robots with field service team
 * Continued to lead the Electrical and Embedded Systems team  
 	* Grew the team from myself as solo contributor to four people
 	* Hired, managed, and developed individual contributors with a range of skillsets: firmware development, circuit design, cable design, and system integration
