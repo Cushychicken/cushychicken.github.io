@@ -18,6 +18,8 @@ layout: default
 
     {{ content }}
 
+	{% include mailchimp.html %}
+
     <div class="post-links">
       {% if page.next.url %}
         <a class="link-to-post" href="{{ page.next.url | relative_url}}">
@@ -25,6 +27,7 @@ layout: default
           <span class="link-to-post__title">{{ page.next.title }}</span>
         </a>
       {% endif %}
+
 
       {% if page.previous.url %}
         <a class="link-to-post" href="{{ page.previous.url | relative_url}}">
