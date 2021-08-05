@@ -105,6 +105,7 @@ I want to find more people to showcase my work to. More perspectives and feedbac
 
 # A Request
 
-If you have read this far, I would absolutely love your help meeting more people to demonstrate Report Card Writer to. Do you know a teacher in a public, private, charter, religious, or other school? I would love it if you pointed them to [ReportCardWriter.com](http://ReportCardWriter.com), and mentioned that I’m looking for people to interview about the software. Don’t hesitate to reach out to me via this email address, or through [[report.card.writer@gmail.com](mailto:report.card.writer@gmail.com)](mailto:[report.card.writer@gmail.com](mailto:report.card.writer@gmail.com)). 
+If you have read this far, I would absolutely love your help meeting more people to demonstrate Report Card Writer to. Do you know a teacher in a public, private, charter, religious, or other school? I would love it if you pointed them to [ReportCardWriter.com](http://ReportCardWriter.com), and mentioned that I’m looking for people to interview about the software. Don’t hesitate to reach out to me via this email address, or through [report.card.writer@gmail.com](mailto:report.card.writer@gmail.com). 
 
 Thanks a bajillion!
+
