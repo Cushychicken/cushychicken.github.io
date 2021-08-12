@@ -8,7 +8,7 @@ date: 2021-08-11
 
 ---
 
-I spent a few weeks last year working on bFunc, a design I made for an open source function generator. I’ve considered making a second version that fixes some of the original issues, adds features, and generally makes it a more complete product, but I don’t think I will. Having done this once already and fallen on my face a bit, I’ve come to realize that the business incentives in the Engineering Test Equipment space are kind of stacked against me. 
+I spent a few weeks last year working on [bFunc](https://cushychicken.github.io/bfunc-design-doc/), a design I made for an open source function generator. I actually got to the point where I built, brought up, debugged, and sold copies of this first board version. I’ve considered making a second version that fixes some of the original issues, adds features, and generally makes it a more complete product, but I don’t think I will. Having done this once already and fallen on my face a bit, I’ve come to realize that the business incentives in the Engineering Test Equipment space are kind of stacked against me. 
 
 This is my postmortem on the business of running bFunc v1, and, I suppose, the “pre-mortem” on bFunc v2, which I’ve sort of decided to let die on the vine. 
 
