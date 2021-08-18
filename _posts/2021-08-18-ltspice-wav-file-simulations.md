@@ -1,6 +1,6 @@
 ---
 layout: post
-bg: "bfunc_proto.jpg"
+bg: "ltspice-wav-stimulus.png"
 title: "How to Drive LTSpice Simulations with Wav Files"
 summary: "more signal processing sorcery"
 tags: ['electronics']
