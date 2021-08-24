@@ -126,4 +126,4 @@ So glad you asked.
 ## Early Career Engineers
 
 * Understand what the market salary and local cost of living is when you are considering applying for your first job. 
-* Learn a bit about compound interest. It's super helpful to understanding why investing in the stock market and saving for retirement are so powerful during your early working years. Bernstein's PDF that I linked earlier is a great intro resource for that. I also recommend looking into the FIRE community 
+* Learn a bit about compound interest. It's super helpful to understanding why investing in the stock market and saving for retirement are so powerful during your early working years. Bernstein's PDF that I linked earlier is a great intro resource for that. I also recommend looking into the FIRE community if you'd like a more radical idea of what saving and compound interest can do for you. 
