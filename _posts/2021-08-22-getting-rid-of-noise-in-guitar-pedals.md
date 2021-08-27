@@ -19,3 +19,14 @@ Note that I use the terms “wall wart” and “switcher” interchangeably her
 - Try a higher voltage wall wart (say 10V-12V), but add an LDO to step down the voltage to 9V. This is the "big hammer" approach. The LDO acts like a really hardcore active filter for switching noise.
 
 I also have to give a shoutout to [Mr Carlson’s Super Probe](https://www.youtube.com/watch?v=uVkJqqZroN0), which I would have *killed* for when I was still actively developing audio equipment for a living. 
+
+**Edit - 2021-08-27:** If guitar pedal electronics are your jam, I've done a few circuit analyses of some beloved pedal designs. if you haven't had a chance to look at the writeups for other pedals I've analyzed, those are available here:
+
+<ul>
+    {% for post in site.tags.ltspice-guitar-effects %}
+    <li>
+    	<a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
