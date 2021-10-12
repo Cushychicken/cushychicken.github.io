@@ -16,6 +16,13 @@ I'd be happy to chat about any of these topics in greater depth via Zoom, email,
 
 # 2021
 
+## RTLjobs.com
+* Created a job website exclusively for users of hardware description languages like VHDL, Verilog, and SystemVerilog
+* Wrote custom scraper/indexer in Python to crawl job postings from employers who need RTL skillset
+* Wrote custom ETL pipeline to collect analytics on hiring trends among employers, hot geographies for RTL jobs, skillsets of interest 
+* Developed and deployed website using Flask and a minor amount of HTML/CSS
+* Built mailing list of FPGA/RTL engineers 
+
 ## ReportCardWriter.com
 * Conducted user interviews on report card comment software
 * Built additional software features 
