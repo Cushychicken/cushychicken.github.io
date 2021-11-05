@@ -16,6 +16,9 @@ I'd be happy to chat about any of these topics in greater depth via Zoom, email,
 
 # 2021
 
+## Independent Consultant
+* Started working as an independent consultant on electronics, embedded systems, and firmware development
+
 ## RTLjobs.com
 * Created a job website exclusively for users of hardware description languages like VHDL, Verilog, and SystemVerilog - view live at [www.RTLjobs.com](https://www.rtljobs.com)!
 * Wrote custom scraper/indexer in Python to crawl job postings from employers who need RTL skillset
