@@ -26,6 +26,10 @@ This blog is an attempt to turn some of that experience and interest into servic
 
 I love to run, read books, drink beer, and play bluegrass music.  
 
+**As of September 2021, I'm now working as an independent consultant.** If you need help on an electronics project, I am available for hire. I specialize in high speed digital and embedded systems, mixed signal design, and bare metal firmware development. I particularly enjoy projects with a real time signal processing component. 
+
+Need help with an electronics project? [Hire me!](mailto:cushychicken@gmail.com)
+
 # Standing Invitation
 
 I'd love to hear from you in any capacity - technology wise, career wise, or just to shoot the breeze. You can use the "Contact" link on this page, or you can shoot me an email directly at [cushychicken@gmail.com](mailto:cushychicken@gmail.com).  
