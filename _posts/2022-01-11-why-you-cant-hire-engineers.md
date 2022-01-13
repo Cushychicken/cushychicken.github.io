@@ -43,6 +43,8 @@ I hate to say it, but if anyone understands people's innate drive to work on coo
 
 ![Relevant to engineers](https://www.smbc-comics.com/comics/20100219.gif)
 
+(If ya ain't hip - this comic is from [Saturday Morning Breakfast Cereal](https://www.smbc-comics.com/comic/2010-02-19).)
+
 He's built companies that work on:
 * satellites
 * spacecraft
