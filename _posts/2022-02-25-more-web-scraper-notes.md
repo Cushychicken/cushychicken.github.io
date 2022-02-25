@@ -120,9 +120,16 @@ disallowed URLs.
 The brainwave came when I was in the shower, quietly wishing I had a search
 engine at my disposal. Then it hit me: Why _don't_ I do this like a search
 engine would? They're definitely not clicking thru a bunch of search pages. A
-little research
+little research brought me to a goldmine of resources on an ancient bit of web 
+tech: _sitemaps_. They ease so much of the pain of figuring out which pages 
+are new to the scraper, and which are old. Learning to utilize a sitemap 
+cut down my indexer's runtime from around three hours daily to under half an 
+hour. They also did a bunch for helping me understand how Google indexes sites. 
+If you're interested in content marketing, SEO, search engines, or any other 
+stuff related to digital marketing: _spend a half day learning about sitemaps._ 
+You absolutely will not regret it!
 
-This also yielded a bunch of other fruitful learnings about what websites do to
+This research also yielded a bunch of other fruitful learnings about what websites do to
 ease the plight of web indexing software. Adding a
 [JSON JobPosting schema](https://schema.org/JobPosting) to the page head is
 another thing I’ve come to appreciate. This is effectively a hack to get
