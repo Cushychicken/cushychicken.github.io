@@ -14,6 +14,16 @@ They go in reverse order, and trail what I'm working on now by about a year, out
 
 I'd be happy to chat about any of these topics in greater depth via Zoom, email, or in person!
 
+# 2022
+
+## River Loop Security
+* Joined River Loop Security as Lead Electrical Engineer
+	* Worked on a variety of hardware and firmware security projects
+
+## RTLjobs.com
+* Added Free postings / user submitted posts to job board
+* Built user logins, admin dashboard, and emailing system in Flask
+
 # 2021
 
 ## Independent Consultant
