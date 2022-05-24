@@ -12,8 +12,9 @@ Hi. I'm Nash Reilly. I'm an electrical engineer in Boston, MA.
 
 I've spent most of my career building consumer electronics. My focus has largely been on designing high speed embedded systems, but I've got a reasonable amount of experience in:
 
-* [electromagnetic compliance](http://cushychicken.github.io/radiated-emissions-debug/), 
 * [embedded programming](http://cushychicken.github.io/bfunc-retro-one/), 
+* [webapp development](https://cushychicken.github.io/done-differently-rtl-jobs/), 
+* [electromagnetic compliance](http://cushychicken.github.io/radiated-emissions-debug/), 
 * and [audio electronics](http://cushychicken.github.io/posts/#simulating%20guitar%20effects). 
 
 I'm also really interested in a few engineering-adjacent-but-less-tech-centric topics, like:
@@ -24,11 +25,7 @@ I'm also really interested in a few engineering-adjacent-but-less-tech-centric t
 
 This blog is an attempt to turn some of that experience and interest into serviceable information for people who are not my coworkers. 
 
-I love to run, read books, drink beer, and play bluegrass music.  
-
-**As of September 2021, I'm now working as an independent consultant.** If you need help on an electronics project, I am available for hire. I specialize in high speed digital and embedded systems, mixed signal design, and bare metal firmware development. I particularly enjoy projects with a real time signal processing component. 
-
-Need help with an electronics project? [Hire me!](mailto:cushychicken@gmail.com)
+I also really dig playing bluegrass music, reading sci fi novels, drinking beer, swinging kettlebells, and playing fetch with my dog.  
 
 # Standing Invitation
 
