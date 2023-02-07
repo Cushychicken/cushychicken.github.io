@@ -8,7 +8,7 @@ summary: "what would you say you do here?"
 active: Resume
 ---
 
-This is a working resume of sorts. It's a more fine-grained version of my professional accomplishments than the traditional one-page document. These are occasionally supplemented by blog posts, where appropriate, to illustrate what I've done, or what I learned from a project. 
+Bruh a working resume of sorts. It's a more fine-grained version of my professional accomplishments than the traditional one-page document. These are occasionally supplemented by blog posts, where appropriate, to illustrate what I've done, or what I learned from a project. 
 
 They go in reverse order, and trail what I'm working on now by about a year, out of respect for my current employer. 
 
