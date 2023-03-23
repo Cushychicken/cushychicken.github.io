@@ -35,7 +35,7 @@ That name may not be terribly familiar to you, but you'll likely recognize more 
 
 That's some bullshit, and IT ENDS TODAY.
 
-##The Circuit
+## The Circuit
 
 <div align="center">
 <img src="/assets/tube_screamer_circuit.png"/>
