@@ -6,7 +6,7 @@ tags: ["programming"]
 date: 2023-06-19
 ---
 
-I quit my job in July 2021, and started writing a webapp for something to do. (Are you an FPGA engineer, and looking for a new job? Check us out at www.FPGAjobs.com.) I had assumed, as a credentialed engineer and longtime HN lurker, that picking up web development was going to be pretty easy. I was absolutely wrong. Here's why.
+I quit my job in July 2021, and started writing a webapp for something to do. (Are you an FPGA engineer, and looking for a new job? Check us out at [www.FPGAjobs.com](https://www.fpgajobs.com).) I had assumed, as a credentialed engineer and longtime HN lurker, that picking up web development was going to be pretty easy. I was absolutely wrong. Here's why.
 
 # Multiple Languages
 
