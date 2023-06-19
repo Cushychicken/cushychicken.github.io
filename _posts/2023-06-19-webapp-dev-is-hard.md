@@ -12,7 +12,7 @@ I quit my job in July 2021, and started writing a webapp for something to do. (A
 
 You need multiple programming languages to get anything done in web development. You need some understanding of HTML, CSS, and Javascript to make a pretty, functional web page on the frontend. You also need some handle on SQL, plus one other scripting language to store all of that on the backend. (I chose Python, because it was the one I knew the best.) You will probably also need some idea of Linux OS command line utilities and shell scripting to automate all the grunge work that comes with maintaining a server.
 
-For those of you not keeping count, that’s six programming languages. Six.
+For those of you not keeping count, that’s six programming languages. _Six._
 
 Before this, the bulk of my programming experience has been writing firmware for embedded systems. This has given me a lot of appreciation for the fact that almost all firmware is written in C. C is the lingua franca of embedded systems. OK, yeah, you get the odd aerospace weirdo who's obsessed with Ada, the occasional C++ dabbler, and the Rust Evangelism Strike Force, but these are edge cases, not norms. There are plenty of ways in which this is a curse: you have to worry about things like pointers, and memory management, and not having a wealth of rich syntax. The blessing is that, when it comes to the programming languages available to you, there’s really only one tool for the job.
 
