@@ -14,7 +14,7 @@ Most of the software I've written and released to the world is firmware. It's in
 
 This is one of those lessons that we in the embedded world can stand to learn from those fancy cloud folks. Webdevs and cloud app developers learned the lesson of frictionless deployment so well that they created a whole subset of programmer just to deal with it. (Hi, DevOps/CloudOps!) This isn't to suggest that it's simple - rarely does a whole industry crop up without a painful and challenging need to be addressed. It's just that, with firmware, you have the added bonus of _physically installing your software in a machine_ on top of the process off effectively getting code from `dev` to `prod`.
 
-The best illustration of my meaning is, without a doubt, a short parable or two from my own career. Here's two anecdotes
+The best illustration of my meaning is, without a doubt, a short parable or two from my own career. 
 
 # Story One: The Warning
 
