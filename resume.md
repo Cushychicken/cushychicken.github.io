@@ -14,11 +14,41 @@ They go in reverse order, and trail what I'm working on now by about a year, out
 
 I'd be happy to chat about any of these topics in greater depth via Zoom, email, or in person!
 
+# 2024
+* Successfully deliverd 10 working prototypes to customer ahead of schedule
+* Successfully transitioned MORPHEUS PI to separate IC to deal with increasing classification level of program
+* Worked as the sole tech contributor on the MARS box internal R&D effort
+	* Designed and prototyped system using NXP single board computer, wireless cards from Intel and Telit Cinturion, LoRA, and Iridium radio modules
+	* Contracted external machining firm to make custom enclosure by modifying COTS extruded aluminum casing
+	* Wrote all software for the system, including:
+		* Python Command-and-Control interface
+		* Userspace serial driver for LoRA radio control 
+		* Network driver configurations for automatic selection of optimum radio interface
+	* Created custom PCBA with all systems integrated
+	* Successfully brought up and migrated all prior work to custom electronic system
+
+# 2023
+## Two Six Tech
+* Developed prototype of asset tracking system based on nRF9160 RF System-in-Package
+* Wrote TA-3 segment of TST's proposal for the DARPA MORPHEUS program, involving ruggedized network security research tooling 
+	* Generated equipment budget and labor estimate w/ stakeholders
+	* Designed and presented prelim HW + SW architecture 
+* After winning MORPHEUS, served as Principal Investigator on program for ~8 months
+	* Served as tech lead for team of 8 ICs on hardware, software, and firmware design
+	* Functioned as Chief Architect and Engineer - designed roadkill testbeds of integrated EVKs, managed team to implement and test roadkill units
+	* Guided team in small run manufacturing of 10 prototype systems for end customer evaluation 
+	* Managed external subcontractor on Human Factors / User Interface research 
+
 # 2022
 
-## River Loop Security
+## River Loop Security -> Two Six Tech
 * Joined River Loop Security as Lead Electrical Engineer
 	* Worked on a variety of hardware and firmware security projects
+	* Joined Two Six Tech as part of the River Loop Security acquisition
+* Worked extensively on a number of security research programs focused on SPI bus analysis 
+	* In-situ SPI debugging 
+	* Multiple SPI memory readout testbeds
+	* Many, many applications of Lattice iCE40 FPGAs for this purpose
 
 ## RTLjobs.com
 * Added Free postings / user submitted posts to job board
