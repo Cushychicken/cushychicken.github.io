@@ -1,0 +1,6 @@
+{{ $posts := where site.RegularPages "Params.tags" "intersect" (slice "ltspice-guitar-effects") }}
+<ul class="series-list">
+  {{ range $posts.ByDate }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>

@@ -1,0 +1,25 @@
+{{ $bg := "/images/site/bg.svg" }}
+{{ with .Params.bg }}{{ $bg = . }}{{ end }}
+<aside class="sidebar" role="note" style="background-image: url('{{ $bg }}')">
+  <div class="cover">
+    <div class="cover-text">
+      <div class="heading">
+        {{ $tags := .Params.tags }}
+        {{ if reflect.IsSlice $tags }}
+          {{ range $tags }}
+            <a href="/posts/#{{ . | urlize }}">{{ . | lower }}</a>
+          {{ end }}
+        {{ else if $tags }}
+          <a href="/posts/#{{ $tags | urlize }}">{{ $tags | lower }}</a>
+        {{ else }}
+          {{ .Title }}
+        {{ end }}
+      </div>
+
+      {{ with .Params.summary }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+  <div id="switcher"></div>
+</aside>

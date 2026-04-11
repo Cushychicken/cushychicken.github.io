@@ -1,0 +1,34 @@
+{{ define "main" }}
+  {{ if .IsHome }}
+    {{ range first 10 (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+      <article class="index-page">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Mon, Jan 02, 06" }}</time></p>
+        {{ with .Summary }}
+          <div class="summary">{{ . }}</div>
+        {{ end }}
+      </article>
+    {{ end }}
+  {{ else if eq .Section "posts" }}
+    <article class="page archive-page">
+      {{ with .Content }}{{ . }}{{ end }}
+      {{ range $tag, $pages := site.Taxonomies.tags }}
+        <section class="tag-group">
+          <h2 class="category-key" id="{{ $tag | urlize }}">{{ humanize $tag }}</h2>
+          <ul class="year">
+            {{ range $pages.Pages.ByDate.Reverse }}
+              <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="date">{{ .Date.Format "02-01-2006" }}</span>
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+    </article>
+  {{ else }}
+    <article class="page">
+      {{ .Content }}
+    </article>
+  {{ end }}
+{{ end }}
