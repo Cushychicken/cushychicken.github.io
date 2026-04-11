@@ -14,5 +14,7 @@ My experience spans consumer electronics, DOD research, robot startups, solo web
 
 I also really dig playing bluegrass music, reading sci fi novels, rec leaguy ice hockey, and hanging out with my wife, kid, and dog.  
 
-I'd love to hear from you in any capacity - about your career, about tech stuff, or just to shoot the breeze. You can use the "Contact" link on this page, or you can shoot me an email directly at [cushychicken@gmail.com](mailto:cushychicken@gmail.com).  
+I'm always happy to hear from someone who finds me via this blog, for any reason at all. 
+
+You can use the "Contact" link, or you can shoot me an email directly at [cushychicken@gmail.com](mailto:cushychicken@gmail.com).  
 

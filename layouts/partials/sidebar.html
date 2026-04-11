@@ -5,24 +5,19 @@
     {{ $bg = .RelPermalink }}
   {{ end }}
 {{ end }}
-<aside class="sidebar" role="complementary">
-  <div class="brand-panel">
-    <a class="brand-lockup" href="/">
-      <span class="brand-name">Wherein The Chicken</span>
-    </a>
-    <p class="brand-tagline">Electrical engineering, firmware, product work, and whatever else survives the notebook.</p>
-  </div>
-
+<div id="Sidebar" role="complementary">
+  <p>By <strong>Nash&nbsp;Reilly</strong></p>
   <nav class="sidebar-nav" aria-label="Primary">
-    <a href="/">Home</a>
-    <a href="/posts/">Archive</a>
-    <a href="/about/">About</a>
-    <a href="/resume/">Resume</a>
-    <a href="mailto:{{ site.Params.email }}">Contact</a>
+    <ul>
+      <li><a href="/posts/">Archive</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/resume/">Resume</a></li>
+      <li><a href="mailto:{{ site.Params.email }}">Contact</a></li>
+    </ul>
   </nav>
 
-  <div class="page-panel">
-    <div class="heading">
+  <div class="sidebar-context">
+    <div class="context-heading">
       {{ if .IsHome }}
         Latest Writing
       {{ else }}
@@ -53,5 +48,4 @@
       </figure>
     {{ end }}
   </div>
-  <div id="switcher"></div>
-</aside>
+</div>
