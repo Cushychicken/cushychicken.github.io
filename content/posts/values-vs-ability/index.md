@@ -4,6 +4,7 @@ title: "Values vs. Ability"
 summary: "what do you despise? by this you are truly known"
 tags: ['working on hardware']
 date: 2020-10-15
+slug: "values-vs-ability"
 draft: true
 ---
 

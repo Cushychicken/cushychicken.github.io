@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - May 9 2020"
 summary: "filters, and modulations"
 tags: ['electronics']
 date: 2020-05-09
+slug: "bfunc-log-2020-05-09"
 bfunc_log: true
 ---
 

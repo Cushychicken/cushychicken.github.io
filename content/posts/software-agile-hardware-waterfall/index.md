@@ -4,6 +4,7 @@ title: "Software = Agile! Hardware = Waterfall!"
 summary: "clever girl"
 tags: ['working-on-hardware']
 date: 2020-10-09
+slug: "software-agile-hardware-waterfall"
 ---
 
 There's a fundamental tension between software orgs and hardware orgs, and I think I've spotted it. 

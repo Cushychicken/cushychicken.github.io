@@ -4,6 +4,7 @@ title: "GDB + OpenOCD Setup - Notes for Later"
 summary: "i guarantee you'll need these again"
 tags: ['programming']
 date: 2020-05-04
+slug: "embedded-openocd-gdb"
 ---
 
 Here's some instructions I'm writing to my future self on setting up GDB and OpenOCD. I don't set up GDB and OpenOCD too frequently, so I want to leave myself a few breadcrumbs for the next time it happens. I probably wouldn't have bothered in the first place if I hadn't had issues connecting to the OpenOCD instance that `st-util` hosts on this new Ubuntu machine. [Lots of issues with flash loader support](https://github.com/stlink-org/stlink/issues/356) in the OSSW version of STLink, apparently.

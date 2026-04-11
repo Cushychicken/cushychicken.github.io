@@ -3,6 +3,7 @@ title: "Things I Wish I'd Done Differently Building a Niche Job Board"
 summary: ""
 tags: ["programming"]
 date: 2022-05-25
+slug: "done-differently-rtl-jobs"
 ---
 
 I’m closing in on a year - a whole dang _year!!_ - of working on [RTLjobs.com](www.rtljobs.com). It’s a job board for FPGA and RTL engineers. (If you’re an FPGA engineer, and looking for a new gig, I’d love it if you signed up for [our mailing list](https://www.rtljobs.com/signup).)

@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Four"
 summary: "debug, sleeplessness, board errors, life"
 tags: ['electronics']
 date: 2020-02-29
+slug: "bfunc-weekfour-log"
 ---
 
 Here's the build log for week four of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 

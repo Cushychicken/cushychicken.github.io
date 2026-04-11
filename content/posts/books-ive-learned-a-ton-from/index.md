@@ -4,6 +4,7 @@ title: "Books I've Learned a Ton From"
 summary: "it's a steady job but i wanna be a"
 tags: ['personal']
 date: 2020-10-07
+slug: "books-ive-learned-a-ton-from"
 ---
 
 In no particular order. Please consider buying a copy and supporting the authors. 

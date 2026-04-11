@@ -3,6 +3,7 @@ title: "PCB Verification Trick: Print Your Footprints!"
 summary: "save yourself time, money, and headache on footprint validation"
 tags: ['electronics']
 date: 2021-02-27
+slug: "print-your-kicad-footprints"
 ---
 
 A useful trick taught to me by Florin Cocos (aka @voltlog) is to print out a sheet of paper set with new board footprints, and verify that your components fit their printed footprints, before ordering PCBs.

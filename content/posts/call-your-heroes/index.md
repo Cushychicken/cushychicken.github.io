@@ -4,6 +4,7 @@ title: "Life Lesson: Call Your Heroes"
 summary: "they just might pick up"
 tags: ['misc']
 date: 2019-12-24
+slug: "call-your-heroes"
 ---
 
 About a decade ago, I was at a bluegrass festival in Colorado, just out of college, and listening to Tim O’Brien play a festival set. Tim whipped out this great talking blues story about Doc Watson, mashed up with a performance of one of Doc Watson’s songs (not the exact performance I saw, but all the good parts are there):

@@ -4,6 +4,7 @@ title: "Why there probably won't be a bFunc Version 2"
 summary: "we don't have the func anymore"
 tags: ['electronics']
 date: 2021-08-11
+slug: "bfunc-v2-postmortem"
 ---
 
 I spent a few weeks last year working on [bFunc](https://cushychicken.github.io/bfunc-design-doc/), a design I made for an open source function generator. I actually got to the point where I built, brought up, debugged, and sold copies of this first board version. I’ve considered making a second version that fixes some of the original issues, adds features, and generally makes it a more complete product, but I don’t think I will. Having done this once already and fallen on my face a bit, I’ve come to realize that the business incentives in the Engineering Test Equipment space are kind of stacked against me. 

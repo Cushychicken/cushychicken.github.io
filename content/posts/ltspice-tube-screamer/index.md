@@ -1,6 +1,7 @@
 ---
 title: "Simulating the TS808 Tube Screamer in LTSpice"
 date: 2015-11-18
+slug: "ltspice-tube-screamer"
 crawlertitle: "LTSpice simulations of guitar pedals"
 summary: "Simulating the greatest overdrive pedal ever"
 categories: posts

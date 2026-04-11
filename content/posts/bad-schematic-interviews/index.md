@@ -4,6 +4,7 @@ title: "Reviewing Bad Schematics as Interview Tactic"
 summary: "help your EE candidates strut their stuff"
 tags: ['electronics']
 date: 2019-12-19
+slug: "bad-schematic-interviews"
 ---
 
 Here’s an interview tactic for electrical engineers that was recently used on me. I liked it enough to swipe it for myself, and have used it several times since to great effect. 

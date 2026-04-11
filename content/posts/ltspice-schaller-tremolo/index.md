@@ -4,6 +4,7 @@ title: "Simulating the Schaller Tremolo Pedal in LTSpice"
 summary: "amplitude modulation - not just for radio anymore"
 tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-10-13
+slug: "ltspice-schaller-tremolo"
 ---
 
 I've been on a roll with these pedal simulations, so, why not keep a good thing going? Today's pedal sim is a closer look at the Schaller Tremolo Pedal. 

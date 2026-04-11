@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Three"
 summary: "trouble and boards come in threes"
 tags: ['electronics']
 date: 2020-02-22
+slug: "bfunc-weekthree-log"
 ---
 
 Here's the build log for week three of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 

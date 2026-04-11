@@ -4,6 +4,7 @@ title: "Insane OSHWA Goals"
 summary: "because i guess i don't have enough to do lately"
 tags: ['electronics']
 date: 2020-02-01
+slug: "insane-oshwa-goals"
 ---
 
 To start, here are two very short stories. 

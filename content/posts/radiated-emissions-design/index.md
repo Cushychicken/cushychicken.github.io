@@ -4,6 +4,7 @@ title: "Quick Design Guidelines for Emissions Compliance"
 summary: "hard lessons that will save you weeks in an EMC lab"
 tags: ['electronics']
 date: 2019-04-28
+slug: "radiated-emissions-design"
 ---
 
 The design stage is always the best place to solve your radiated emissions problems. Here are some strategies that I've learned to keep your product designs emissions compliant. 

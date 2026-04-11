@@ -4,6 +4,7 @@ title: "I Designed and Built My Own Function Generator"
 summary: "do you want to get one to try?"
 tags: ['electronics']
 date: 2020-04-26
+slug: "bfunc-retro-one"
 ---
 
 I’ve spent the last two to three months working on bFunc, an open source function generator board. I've had a longstanding itch to design some little piece of open source hardware, and I needed a function generator for my own bench. I also got a little obsessed with direct digital synthesis chips, and I needed an excuse to use one in a project. 

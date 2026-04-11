@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - May 3 2020"
 summary: "back to the frequency mines"
 tags: ['electronics']
 date: 2020-05-03
+slug: "bfunc-log-2020-05-03"
 ---
 
 Here's this week's development updates for bFunc, the open source function generator I'm developing to sell. Each day's entry represents an hour's work - the hour before I start work on my real job every weekday morning.

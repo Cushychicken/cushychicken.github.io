@@ -4,6 +4,7 @@ title: "How Do You Deal With Professional Fear?"
 summary: "fear -> anger -> hate -> suffering"
 tags: ['misc']
 date: 2020-03-23
+slug: "professional-fear"
 ---
 
 I’m coming around to the belief that fear feels more or less the same for everyone, no matter the stimulus. 

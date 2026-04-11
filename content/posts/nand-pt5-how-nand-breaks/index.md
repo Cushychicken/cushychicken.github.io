@@ -1,6 +1,7 @@
 ---
 title: "NAND Flash: How It Breaks"
 date: 2015-08-06
+slug: "nand-pt5-how-nand-breaks"
 crawlertitle: "NAND Flash device failure modes"
 summary: "How Flash chips fail, and lose your data"
 categories: posts

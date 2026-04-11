@@ -3,6 +3,7 @@ title: "Fixing Power Supply Noise in Guitar Pedals"
 summary: "the only time a guitarist ever wants to kill the buzz"
 tags: ['electronics']
 date: 2021-08-22
+slug: "getting-rid-of-noise-in-guitar-pedals"
 ---
 
 Works with many audio circuits that *aren**’**t* guitar pedals, too. 

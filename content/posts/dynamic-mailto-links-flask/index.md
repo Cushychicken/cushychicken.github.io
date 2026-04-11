@@ -3,6 +3,7 @@ title: "Creating dynamic mailto: links in Flask"
 summary: "you've got mail"
 tags: ['programming']
 date: 2021-11-30
+slug: "dynamic-mailto-links-flask"
 ---
 
 I've spent the last month working on [www.rtljobs.com](https://www.rtljobs.com), a niche job aggregator for logic design jobs. Our first scraping pipeline had some warts, so I wanted to be sure that the site had was a way to report bad job links. That way, if a user clicked on a job link that was no longer active, they could alert me that one of the job postings was taken down. 

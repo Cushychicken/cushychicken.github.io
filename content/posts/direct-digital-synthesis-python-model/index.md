@@ -4,6 +4,7 @@ summary: "get your freq on"
 bg: "dds.png"
 tags: ['signal-processing']
 date: 2021-08-26
+slug: "direct-digital-synthesis-python-model"
 ---
 
 I can't seem to crack my obsession with Direct Digital Synthesis. I had to learn rather a lot about it as part of working on [bFunc](https://cushychicken.github.io/bfunc-design-doc/) last year. Even though [I've sort of decided to not build a second version of bFunc](https://cushychicken.github.io/bfunc-v2-postmortem/), I still find the concept of digital frequency synthesis really interesting. It's a fun little mix of analog and digital signal processing. So, with that, I decided: why not try and build my own direct digital synthesis engine? I've got nothing but time on my hands, a Jupyter notebook, and an open source VHDL compiler. You can find [my efforts thus far on GitHub](https://github.com/Cushychicken/dds-engine).

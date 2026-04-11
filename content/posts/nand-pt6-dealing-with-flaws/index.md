@@ -1,6 +1,7 @@
 ---
 title: "NAND Flash: Dealing With a Flawed Medium"
 date: 2015-08-23
+slug: "nand-pt6-dealing-with-flaws"
 crawlertitle: "Flash filesystems and other NAND workarounds"
 summary: "Or: using software to fix faulty hardware"
 categories: posts

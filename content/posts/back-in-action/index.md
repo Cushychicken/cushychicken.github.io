@@ -4,6 +4,7 @@ title: "Back In The Saddle"
 summary: "a reskin, and a restart"
 tags: ['misc']
 date: 2019-02-19
+slug: "back-in-action"
 ---
 
 I've done a little reskin of the ol' blogerator, because I'm getting the itch to spew my thoughts onto the internet again. 

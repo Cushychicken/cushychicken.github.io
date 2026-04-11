@@ -1,6 +1,7 @@
 ---
 title: "NAND Flash: Device Architecture, Pt. 2"
 date: 2015-07-30
+slug: "nand-pt4-pages-blocks"
 crawlertitle: "NAND Flash: page architecture"
 summary: "page architecture of nand flash"
 categories: posts

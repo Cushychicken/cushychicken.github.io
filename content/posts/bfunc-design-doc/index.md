@@ -4,6 +4,7 @@ title: "Introducing bFunc - a Design Document for an Open Source Function Genera
 summary: "well i thought it was a clever name"
 tags: ['electronics']
 date: 2020-02-09
+slug: "bfunc-design-doc"
 ---
 
 This is my design document for the function generator that I've decided I'm going to prototype, build, and probably end up selling at OSHWA Summit 2020. I'm writing it down mostly to give myself some sort of planning document to refer to when I get deep in the development weeds, and try to remember "Wait - why the fuck am I doing this particular subtask?"

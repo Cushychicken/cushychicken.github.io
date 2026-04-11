@@ -22,6 +22,10 @@ tag = "tags"
   [markup.highlight]
     noClasses = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [outputs]
 home = ["HTML", "RSS"]
 section = ["HTML", "RSS"]

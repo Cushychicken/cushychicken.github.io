@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - May 22 2020"
 summary: "lots of component research"
 tags: ['electronics']
 date: 2020-05-25
+slug: "bfunc-log-2020-05-22"
 bfunc_log: true
 ---
 

@@ -3,6 +3,7 @@ title: "More notes on writing web scrapers"
 summary: "it's amazing what you can learn if you do something daily for months"
 tags: ["programming"]
 date: 2022-02-25
+slug: "more-web-scraper-notes"
 ---
 
 I got a lot of great feedback from

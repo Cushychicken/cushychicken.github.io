@@ -4,6 +4,7 @@ title: "Grist - Week of 4/10/2020"
 summary: "metal media for the mental mill"
 tags: ['grist']
 date: 2020-04-13
+slug: "grist-apr-13-2020"
 ---
 
 This weekly linkdump is an outlet for me to catalog what's making me think, and scratches the itch I have to share it. 

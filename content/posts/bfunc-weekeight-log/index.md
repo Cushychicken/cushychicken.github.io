@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Eight"
 summary: "we're in the firmware home stretch!"
 tags: ['electronics']
 date: 2020-03-28
+slug: "bfunc-weekeight-log"
 ---
 
 Here's the build log for week eight of development for [the open source function generator I'm trying to prototype and build.](http://cushychicken.github.io/insane-oshwa-goals/) 

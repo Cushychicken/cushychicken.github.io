@@ -2,6 +2,7 @@
 title: "Amateurs discuss Prototypes. Professionals talk Process."
 tags: ["product development", "hardware"]
 date: 2026-03-21
+slug: "process-is-everything"
 ---
 
 One of my former Sonos colleagues once told me the single wisest thing I've ever heard about hardware product development:

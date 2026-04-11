@@ -3,6 +3,7 @@ title: "Report Card Writer: What I've Learned from One Year of User Interviews a
 summary: "talking to your users is a hell of a drug"
 tags: ['report-card-writer']
 date: 2021-07-27
+slug: "report-card-writer-one-year-of-user-interviews-and-customer-feedback"
 ---
 
 Almost exactly a year ago, I started a little boutique software company called [Report Card Writer](https://www.reportcardwriter.com?utm_source=cushychicken.github.io&utm_medium=blog-post-2021-07-27). As the name suggests, my flagship software product does pretty much one thing: it helps teachers write report card comments faster. Its core technical functionality is part survey form, part template-filler-inner, with a few extra bolt-on features that make it easy to create and populate the form and template, respectively. 

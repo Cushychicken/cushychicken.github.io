@@ -1,6 +1,7 @@
 ---
 title: "Quite Possibly The Biggest NAND Flash Experiment Ever"
 date: 2015-08-11
+slug: "biggest-nand-experiment-ever"
 crawlertitle: "NAND Flash experimental results on Facebook's SSD drivers"
 summary: "So much NAND retention data. So little time."
 categories: posts

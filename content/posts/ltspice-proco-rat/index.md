@@ -4,6 +4,7 @@ title: "Simulating the ProCo RAT Distortion Pedal in LTSpice"
 summary: "g'day, disgusting rat"
 tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-09-17
+slug: "ltspice-proco-rat"
 ---
 
 It's been a long time since I've done [a pedal simulation](http://cushychicken.github.io/posts/ltspice-tube-screamer/), and, well, quarantine times are as good a 

@@ -4,6 +4,7 @@ title: "bFunc - Call for Users"
 summary: "want to file bugs against my crappy project?"
 tags: ['electronics']
 date: 2020-03-17
+slug: "bfunc-call-for-users"
 ---
 
 Hiya folks. bFunc is getting to an exciting stage. I'm just about ready to let *actual other human beings use it.* So, I'm going to one of the best places I know of to find actual human beings: the internet! 

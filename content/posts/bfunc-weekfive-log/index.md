@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Five"
 summary: "getting into the home stretch"
 tags: ['electronics']
 date: 2020-03-07
+slug: "bfunc-weekfive-log"
 ---
 
 Here's the build log for week five of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 

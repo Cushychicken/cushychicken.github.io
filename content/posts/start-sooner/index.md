@@ -4,6 +4,7 @@ title: "Start Sooner"
 summary: "the sooner we get there, the sooner we can leave"
 tags: ['misc']
 date: 2020-02-11
+slug: "start-sooner"
 ---
 
 I'm trying to making a habit of not waiting so long before I decide to take on a new project or hobby.

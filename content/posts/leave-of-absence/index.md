@@ -4,6 +4,7 @@ title: "Reflections on Pre-Tirement"
 summary: "what I learned from a ten week leave of absence"
 tags: ['misc']
 date: 2019-09-22
+slug: "leave-of-absence"
 ---
 
 I took a ten week leave of absence from my job this summer to travel the country with my girlfriend in her Subaru Outback. This is the first time since I was 15 that I’ve had more than two weeks off from real life. I’ve been back at work for three weeks now. Here’s what I managed to piece together by getting out of the mainstream, then getting back in. 

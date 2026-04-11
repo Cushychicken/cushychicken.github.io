@@ -4,6 +4,7 @@ title: "What to Say When They Ask For Your Salary History"
 summary: "pictured: your goal"
 tags: ['working-on-hardware']
 date: 2020-10-26
+slug: "what-to-say-when-asked-salary-history"
 ---
 
 TL;DR: “I’m still trying to establish whether this role is a good fit for me. Why? What is this role worth to your company?"

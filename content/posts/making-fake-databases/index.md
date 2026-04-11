@@ -3,6 +3,7 @@ bg: "charlatan.jpg"
 title: "Generating Demo Databases Quickly With Faker and Dataset"
 tags: ['programming']
 date: 2016-09-06
+slug: "making-fake-databases"
 ---
 
 I've been throwing the odd spare hour at a side project that needs a backend database to test against. (Interested in using or writing an asset tracking app for circuit boards? Check out [trackrack](https://github.com/Cushychicken/trackrack) on Github.) Before this, I had just been using some junk data, but decided it'd be a better/more realistic test of the app to use some randomly generated data. It also gave me the chance to try out two software modules I've been wanting to mess around with for a while.

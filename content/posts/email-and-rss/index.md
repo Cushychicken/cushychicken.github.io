@@ -4,6 +4,7 @@ title: "Email, and RSS"
 summary: "both of which i guess are vintage tech now?"
 tags: ['misc']
 date: 2020-01-12
+slug: "email-and-rss"
 ---
 
 Two updates! 

@@ -1,6 +1,7 @@
 ---
 title: "A Teaching Moment"
 date: 2014-04-26
+slug: "a-teaching-moment"
 crawlertitle: "Opinionated ranting"
 summary: "corporate lessons learned"
 categories: posts

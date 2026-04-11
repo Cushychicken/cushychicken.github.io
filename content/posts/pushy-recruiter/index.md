@@ -4,6 +4,7 @@ title: "Who on Earth is hiring these pushy recruiters?!"
 summary: "does that line work for most geeks?"
 tags: ['misc']
 date: 2019-09-02
+slug: "pushy-recruiter"
 ---
 
 What in God's name convinces some people that they would be good recruiters? I ask because I'm shocked by the behavior shown by a recent recruiter interaction. 

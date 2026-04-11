@@ -3,6 +3,7 @@ title: "Portfolio Project Ideas for the Embedded Developer"
 summary: "songs to sing for your supper"
 tags: ['electronics']
 date: 2021-07-26
+slug: "embedded-systems-project-ideas"
 ---
 
 A friend of mine recently reached out about moving his career back towards embedded systems. He asked for a few project ideas that he could do to demonstrate his understanding of the field to potential employers. This is a real simple, first-pass list of project ideas that we came up with. 

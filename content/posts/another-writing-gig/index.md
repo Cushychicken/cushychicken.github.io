@@ -1,6 +1,7 @@
 ---
 title: "Another Writing Gig"
 date: 2015-08-12
+slug: "another-writing-gig"
 crawlertitle: "Announcing my writing for Allaboutcircuits.com"
 summary: "Because one blog wasn't enough, I suppose"
 categories: posts

@@ -4,6 +4,7 @@ title: "How to Drive LTSpice Simulations with Wav Files"
 summary: "more signal processing sorcery"
 tags: ['electronics']
 date: 2021-08-18
+slug: "ltspice-wav-file-simulations"
 ---
 
 I've had a lot of fun over the past few years using LTSpice to analyze guitar effects pedals. One request that's come in with relative frequency has been: "Can you use an MP3 or WAV file as an input to the simulation to see how the pedal would sound?" 

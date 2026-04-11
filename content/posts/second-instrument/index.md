@@ -4,6 +4,7 @@ title: "On Learning a Second Instrument"
 summary: "once more, from the top"
 tags: ['music']
 date: 2020-01-11
+slug: "second-instrument"
 ---
 
 I've started learning (re-learning?) guitar in a serious way. It makes me wonder if I never learned my primary instrument at all the right way.

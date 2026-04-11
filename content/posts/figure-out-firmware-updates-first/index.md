@@ -3,6 +3,7 @@ title: "Figure Out Firmware Updates First"
 summary: "the single best long term investment you can make in product team productivity"
 tags: ["programming", "hardware"]
 date: 2024-06-21
+slug: "figure-out-firmware-updates-first"
 ---
 
 Most of the software I've written and released to the world is firmware. It's increasingly apparent to me, as I write more and more of it, that you should figure out how to ship a firmware update first, before you spend too much time on feature work. Or, really, anything else in your firmware. Why? Because it accretes so much value over time to be able to push updates quickly. It's agile, and not in the project management sense. It gives you a vehicle to make quick updates and iterate rapidly. Lest I be accused of regurgitating buzzwords here, I'll be real specific about my meaning:

@@ -1,6 +1,7 @@
 ---
 title: "Why I Bought Starbucks"
 date: 2015-12-09
+slug: "starbucks"
 crawlertitle: "Why I Bought Starbucks"
 summary: "Starbucks"
 categories: posts

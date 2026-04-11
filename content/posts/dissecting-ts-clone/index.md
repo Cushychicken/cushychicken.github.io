@@ -1,6 +1,7 @@
 ---
 title: "Dissecting A Budget Tube Screamer Clone"
 date: 2015-12-13
+slug: "dissecting-ts-clone"
 crawlertitle: "Tube Screamer, electronics, teardown"
 summary: "Tearing down a Chinese guitar pedal for fun and profit"
 categories: posts

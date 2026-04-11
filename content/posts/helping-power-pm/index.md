@@ -4,6 +4,7 @@ title: "Helping, Power, and Product Management"
 summary: "one up, one down"
 tags: ['misc']
 date: 2020-03-16
+slug: "helping-power-pm"
 ---
 
 I'm about halfway thru reading [_Helping_, by Ed Schein](https://www.amazon.com/Helping-Offer-Give-Receive-Help/dp/1605098566). It’s a bit dry, but a thought provoking read - it's about the power dynamics inherent in helping relationships, and the team dynamics that emerge from good, strong professional helping relationships. Schein's view is that strong teams continually help one another with little to no formal prompting. It's an interesting recast of a concept I'd never considered deeply. 

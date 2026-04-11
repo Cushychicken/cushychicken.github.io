@@ -3,6 +3,7 @@ title: "Keep Your Friends Closer"
 summary: "hard reminders that we all need each other"
 tags: ['misc']
 date: 2021-01-21
+slug: "friends-close-suicide-prevention"
 ---
 
 Today’s post is a much sadder, much more personal one than I usually share. I learned yesterday that I lost one of my oldest friends to suicide. This is someone I have known since middle school. I know their whole family well. I won’t be any more specific than that out of respect for their surviving family, all of whom are grieving intensely at the moment. 

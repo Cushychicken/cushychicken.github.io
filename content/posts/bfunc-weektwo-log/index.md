@@ -3,6 +3,7 @@ title: "bFunc - Project Journal - Week Two"
 summary: "on to phase two - my favorite phase!"
 tags: ['electronics']
 date: 2020-02-19
+slug: "bfunc-weektwo-log"
 ---
 
 I'm into the second week of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 

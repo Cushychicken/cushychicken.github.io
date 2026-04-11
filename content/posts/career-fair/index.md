@@ -4,6 +4,7 @@ title: "Wanna Impress an Engineer at a Career Fair?"
 summary: "making moves to the major leagues in five minutes or less"
 tags: ['misc']
 date: 2019-09-29
+slug: "career-fair"
 ---
 
 Hey, engineering student. Thanks for coming to talk to me at your school's career fair. 

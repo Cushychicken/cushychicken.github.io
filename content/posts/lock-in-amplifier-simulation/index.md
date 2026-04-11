@@ -4,6 +4,7 @@ title: "Lock-In Amplifiers: Fun With Scientific Instrument Modeling"
 summary: "a cheaper way to understand expensive lab equipment"
 tags: ['electronics']
 date: 2019-08-22
+slug: "lock-in-amplifier-simulation"
 ---
 
 I've been quietly obsessing over lock-in amplifiers ever since I read about them in Chapter 8 of *The Art of Electronics*. Now that I've had a few months to process the concept as a background task, I decided to whip up a Python model of a lock-in amp, just for the hell of it. 

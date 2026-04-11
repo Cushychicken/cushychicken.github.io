@@ -4,6 +4,7 @@ title: "A One-Page Guide to Fixing Radiated Emissions"
 summary: "a cheery checklist for frantically failing electrical engineers"
 tags: ['electronics']
 date: 2019-03-14
+slug: "radiated-emissions-debug"
 ---
 
 Radiated emissions are a measure of how much electronic noise an electronic product emits into its surroundings. The government sets limits on this noise with the goal of regulating the limited electronmagnetic spectrum available to legitimate transmitters - i.e., wireless communications.

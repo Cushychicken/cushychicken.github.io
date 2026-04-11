@@ -1,6 +1,7 @@
 ---
 title: "NAND Flash: Device Architecture, Pt. 1"
 date: 2015-07-26
+slug: "nand-pt3-arrays"
 crawlertitle: "NAND Flash: device architecture overview pt 1"
 summary: "NAND flash page and array architecture"
 categories: posts

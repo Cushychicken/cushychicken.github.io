@@ -4,6 +4,7 @@ title: "Why Do People Choose Meetings Over Email?"
 summary: "i like gumby so i'm keeping him"
 tags: ['misc']
 date: 2020-04-13
+slug: "meetings-over-writing"
 ---
 
 I want to pull on the metaphorical writing thread some more. (This [short, vulgar intro](http://cushychicken.github.io/write-more/) was just the tip of the iceberg.) I’m sure everyone has seen this tweet (or some variant) by now:

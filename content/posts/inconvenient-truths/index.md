@@ -1,6 +1,7 @@
 ---
 title: "Inconvenient Truths of NAND Flash"
 date: 2015-10-09
+slug: "inconvenient-truths"
 crawlertitle: "Inconvenient Truths of NAND Flash - Jim Cooke"
 summary: "Another great doc on NAND Flash shortcomings"
 categories: posts

@@ -1,6 +1,7 @@
 ---
 title: "Easily Add LaTeX Support To Jekyll"
 date: 2015-09-13
+slug: "easy-latex-in-jekyll"
 crawlertitle: "Add LaTeX Support to Jekyll blogs"
 summary: "Make your equations look real nice"
 categories: posts

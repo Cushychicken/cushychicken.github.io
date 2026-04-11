@@ -3,6 +3,7 @@ title: "Engineers, don't start your career at a startup"
 summary: ""
 tags: ['misc']
 date: 2021-08-24
+slug: "dont-join-a-startup-fresh-out-of-college"
 draft: true
 ---
 

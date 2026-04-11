@@ -1,6 +1,7 @@
 ---
 title: "Boston Python Meetup - RPi Talk"
 date: 2014-05-27
+slug: "python-rpi-talk"
 crawlertitle: "Boston Python Meetup talk on Raspberry Pi"
 summary: "Boston Python Meetup talk on Raspberry Pi"
 categories: posts

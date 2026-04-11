@@ -1,6 +1,7 @@
 ---
 title: "Scraping Pedal Steel tablature in Python"
 date: 2014-06-02
+slug: "pedal-steel-tabs"
 crawlertitle: "Webscraping pedal steel tablature with Python"
 summary: "Webscraping pedal steel tablature with Python"
 categories: posts

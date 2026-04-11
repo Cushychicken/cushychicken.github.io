@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Nine"
 summary: "rev01 is feature complete! boards shipping!"
 tags: ['electronics']
 date: 2020-04-04
+slug: "bfunc-weeknine-log"
 ---
 
 Here's the build log for week nine of development for [the open source function generator I'm trying to prototype and build.](http://cushychicken.github.io/insane-oshwa-goals/) 

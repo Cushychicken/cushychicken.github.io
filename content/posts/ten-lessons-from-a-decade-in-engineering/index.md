@@ -3,6 +3,7 @@ title: "Ten Lessons from a Decade in Engineering"
 summary: ""
 tags: ["misc"]
 date: 2022-05-09
+slug: "ten-lessons-from-a-decade-in-engineering"
 ---
 
 I recognized last week that it's been ten years since graduating from Montana State University. I have learned a vast amount in the field that I never learned in school. Here are ten things I've learned from a decade working as an electrical engineer. 

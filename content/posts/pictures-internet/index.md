@@ -4,6 +4,7 @@ title: "How To Draw Pictures for the Internet"
 summary: "fancy doodles for the likes of you"
 tags: ['misc']
 date: 2019-11-16
+slug: "pictures-internet"
 ---
 
 I love drawing. I'm terrible at it, but I find it's a great way to organize my thoughts, and get a concept across to other people. I carry a notebook at work to complement my huge Evernote stash of digital text with shoddy pen drawings. I've tried and tried to find a way to share drawings online, but I haven't been able to find a drawing app or tool that gets close to good old pen and paper. 

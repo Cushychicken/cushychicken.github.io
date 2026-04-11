@@ -4,6 +4,7 @@ title: "Circuit Notes: A Budget Function Generator"
 summary: "putting the 'funk' back in 'function'"
 tags: ['electronics']
 date: 2020-01-11
+slug: "ckt-notes-function-generator"
 ---
 
 I haven’t done a Circuit Notes post in a long time. Years, in fact! And I’m considering picking up a function generator as a very late Christmas gift to myself. So, naturally, I started poking around online for function generators. 

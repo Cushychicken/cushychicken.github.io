@@ -4,6 +4,7 @@ title: "bFunc - Project Journal - Week Six"
 summary: "no OSHWA, lots of function gen"
 tags: ['electronics']
 date: 2020-03-15
+slug: "bfunc-weeksix-log"
 ---
 
 Here's the build log for week six of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) At this point, it's clear I won't be delivering this design to OSHWA Summit 2020. However, that's just as much a factor of OSHWA Summit was moved to an all-digital event as it was my level of readiness for it. 
