@@ -5,6 +5,7 @@ summary: "the setup on setup"
 tags: ['electronics']
 date: 2019-11-02
 slug: "signal-integrity"
+aliases: ["/the-one-page-guide-to-digital-signal-integrity/"]
 ---
 
 I'm boggled by the number of people I interview that don't know the basics of digital signal integrity. Given that, I'm going to be the change, and write down everything I like to ask EE interview candidates about digital signals.

@@ -5,19 +5,20 @@ summary: "debug, sleeplessness, board errors, life"
 tags: ['electronics']
 date: 2020-02-29
 slug: "bfunc-weekfour-log"
+aliases: ["/bfunc-project-journal-week-four/"]
 ---
 
-Here's the build log for week four of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 
+Here's the build log for week four of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](/insane-oshwa-goals/) 
 
 Each day's entry represents an hour's work per day - the hour before I leave for my job every weekday morning.
 
 This is my log for the week ending Feb 28, 2020. Here's links to the prior weeks' logs:
 
-* [Week One](http://cushychicken.github.io/bfunc-weekone-log/) 
-* [Week Two](http://cushychicken.github.io/bfunc-weektwo-log/)
-* [Week Three](http://cushychicken.github.io/bfunc-weekthree-log/)
+* [Week One](/bfunc-weekone-log/) 
+* [Week Two](/bfunc-weektwo-log/)
+* [Week Three](/bfunc-weekthree-log/)
 
-And, if you're really into the philosophy angle, you can read up on [the design doc for this project](http://cushychicken.github.io/bfunc-design-doc/). 
+And, if you're really into the philosophy angle, you can read up on [the design doc for this project](/bfunc-design-doc/). 
 
 Also - I finally put all of my hardware and software source files on GitHub. [Check 'em out!](https://github.com/Cushychicken/bfunc)
 

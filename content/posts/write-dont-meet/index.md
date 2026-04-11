@@ -5,6 +5,7 @@ summary: "get your own head right first"
 tags: ['misc']
 date: 2020-04-21
 slug: "write-dont-meet"
+aliases: ["/why-should-you-choose-writing-over-meeting/"]
 ---
 
 Like I said in part one of this post - it is my firm belief that _**the brief shall inherit the earth.**_ COVID-19 has provided me the opportunity to acid test that theory. Happily, I’m finding that my hypothesis was correct. Writing is a workplace skill that _works for you_, and rapidly pays dividends. It allows you to refine your ideas, spread them easily, and sway people to your point of view - all while improving your own understanding, reclaiming your time, and measuring your output. 

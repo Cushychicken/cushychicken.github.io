@@ -5,6 +5,7 @@ summary: "Alexa: do better"
 tags: ['product-talk']
 date: 2020-10-27
 slug: "alexa-seems-to-be-getting-worse"
+aliases: ["/alexa-seems-to-be-getting-worse-with-time/"]
 ---
 
 I loved my Amazon Echo when they first came out. I love to cook, and I love to listen to music, so my Amazon Echo naturally won a spot in my kitchen when I first got it. Later on, it got upgraded to a Sonos One. Both speakers had voice control features that I loved, and used all the time. Hands-free timer setting and music control? Sign me up! However, Alexa's shine has started to wear off - especially in the last six months. What’s changed? 

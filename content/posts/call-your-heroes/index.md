@@ -5,6 +5,7 @@ summary: "they just might pick up"
 tags: ['misc']
 date: 2019-12-24
 slug: "call-your-heroes"
+aliases: ["/life-lesson-call-your-heroes/"]
 ---
 
 About a decade ago, I was at a bluegrass festival in Colorado, just out of college, and listening to Tim O’Brien play a festival set. Tim whipped out this great talking blues story about Doc Watson, mashed up with a performance of one of Doc Watson’s songs (not the exact performance I saw, but all the good parts are there):
@@ -29,7 +30,7 @@ I’d been in the same town as him, and never even known it!
 
 I resolved to look him up if I ever passed that way again. 
 
-Lo and behold - a year later, we were on our [big sabbatical road trip](http://cushychicken.github.io/leave-of-absence/), and found ourselves passing through Twisp, WA. I told my girlfriend: “I have to call this guy. When will we ever be here again?” Through a little bit of sleuthing, I was able to find his phone number, and I left a message on their machine. It was something like this - I was trying very hard not to sound like a gibbering fanboy: 
+Lo and behold - a year later, we were on our [big sabbatical road trip](/leave-of-absence/), and found ourselves passing through Twisp, WA. I told my girlfriend: “I have to call this guy. When will we ever be here again?” Through a little bit of sleuthing, I was able to find his phone number, and I left a message on their machine. It was something like this - I was trying very hard not to sound like a gibbering fanboy: 
 
 > “Hi Dr. Johnson - we’ve never met, but my name is Nash Reilly, I’m an electrical engineer from Boston, MA. I’ve learned a lot from High Speed Digital Design, and I’d love the chance to meet you and buy you a cup of coffee. If you’ve got some time to meet, I’d love to meet you, but if not - thanks for writing such a great book, and I’ve learned a lot from it!” 
 

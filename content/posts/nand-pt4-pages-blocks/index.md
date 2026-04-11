@@ -2,6 +2,7 @@
 title: "NAND Flash: Device Architecture, Pt. 2"
 date: 2015-07-30
 slug: "nand-pt4-pages-blocks"
+aliases: ["/nand-flash-device-architecture-pt-2/"]
 crawlertitle: "NAND Flash: page architecture"
 summary: "page architecture of nand flash"
 categories: posts
@@ -11,7 +12,7 @@ tags: ['electronics']
 ## Introduction
 Our last article dealt with stringing together floating gates into bytes, and into arrays. We're going to take that one step further in today's post, where we'll see how we can turn this whole system into a working memory chip! 
 
-(If you need a review, parts [one](http://cushychicken.github.io/nand-pt1-transistors/), [two](http://cushychicken.github.io/nand-pt2-floating/), and [three](http://cushychicken.github.io/nand-pt3-arrays/) are linked here for your convenience.)
+(If you need a review, parts [one](/nand-pt1-transistors/), [two](/nand-pt2-floating/), and [three](/nand-pt3-arrays/) are linked here for your convenience.)
 
 ## Turn the Page
 Our last article had a really brief mention of a concept we'll look at in closer detail here: the NAND _page_. 

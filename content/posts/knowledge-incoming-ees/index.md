@@ -2,6 +2,7 @@
 title: "What Incoming ECE Students Need To Know"
 date: 2015-10-17
 slug: "knowledge-incoming-ees"
+aliases: ["/what-incoming-ece-students-need-to-know/"]
 crawlertitle: "knowledge for incoming electrical engineering students"
 summary: "A little preview of an electrical engineering course"
 categories: posts

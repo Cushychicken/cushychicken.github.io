@@ -5,13 +5,14 @@ summary: "back to the frequency mines"
 tags: ['electronics']
 date: 2020-05-03
 slug: "bfunc-log-2020-05-03"
+aliases: ["/bfunc-project-journal-may-3-2020/"]
 ---
 
 Here's this week's development updates for bFunc, the open source function generator I'm developing to sell. Each day's entry represents an hour's work - the hour before I start work on my real job every weekday morning.
 
 If you'd like to buy a board to try, [you can purchase one over on Gumroad](https://gum.co/bnzr)! 
 
-[The design doc for this project](http://cushychicken.github.io/bfunc-design-doc/) is available if you're into design documents/philosophy. 
+[The design doc for this project](/bfunc-design-doc/) is available if you're into design documents/philosophy. 
 
 All of my hardware and software source files are on GitHub. [Check 'em out!](https://github.com/Cushychicken/bfunc)
 

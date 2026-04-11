@@ -5,6 +5,7 @@ summary: "what I learned from a ten week leave of absence"
 tags: ['misc']
 date: 2019-09-22
 slug: "leave-of-absence"
+aliases: ["/reflections-on-pre-tirement/"]
 ---
 
 I took a ten week leave of absence from my job this summer to travel the country with my girlfriend in her Subaru Outback. This is the first time since I was 15 that I’ve had more than two weeks off from real life. I’ve been back at work for three weeks now. Here’s what I managed to piece together by getting out of the mainstream, then getting back in. 
@@ -17,7 +18,7 @@ I got bored around week six. How bored?
 
 Bored enough that I started downloading reference designs from TI’s website and reading through their design guides. (Did you know TI will *give* you the plans to build [an ATM machine](http://www.ti.com/solution/atms-automated-teller-machines) with their components?) 
 
-Bored enough that I started reading up about lock-in amplifiers, and piecing out how to mock up the DSP behind them. ([Shameless self promotion.](http://cushychicken.github.io/lock-in-amplifier-simulation/)) 
+Bored enough that I started reading up about lock-in amplifiers, and piecing out how to mock up the DSP behind them. ([Shameless self promotion.](/lock-in-amplifier-simulation/)) 
 
 Bored enough that I started reading about oscillators and methods of modulation so I could build a simple digital radio circuit. (More on that soon - suffice to say for now, Colpitts oscillators are a tricky thing to get right.)
 

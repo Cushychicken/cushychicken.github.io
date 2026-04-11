@@ -5,6 +5,7 @@ summary: "responsive webpages? try responsive frequencies"
 tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-10-20
 slug: "ltspice-boss-ge7-equalizer"
+aliases: ["/simulating-the-boss-ge-7-graphic-equalizer-in-ltspice/"]
 ---
 
 I find myself with a bit of excess time on my hands, now that I'm between jobs. Given that, I've found a few more challenging pedals to tear into and analyze. 

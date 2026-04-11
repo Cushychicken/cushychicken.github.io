@@ -5,6 +5,7 @@ summary: "cry, cry, darling"
 tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-09-25
 slug: "ltspice-dunlop-crybaby"
+aliases: ["/simulating-the-dunlop-crybaby-wah-pedal-in-ltspice/"]
 ---
 
 The Dunlop CryBaby is a timeless effect pedal. Jimi Hendrix, Eric Clapton, David Gilmour, and a host of other rock musicians began popularizing the wah effect in the mid 60s, and just about every rock guitarist onwards has toyed with them at one point or another. Seems like a natural choice to look at next using LTSpice. 

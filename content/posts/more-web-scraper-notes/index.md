@@ -4,10 +4,11 @@ summary: "it's amazing what you can learn if you do something daily for months"
 tags: ["programming"]
 date: 2022-02-25
 slug: "more-web-scraper-notes"
+aliases: ["/more-notes-on-writing-web-scrapers/"]
 ---
 
 I got a lot of great feedback from
-[my first post about writing a web scraper](https://cushychicken.github.io/rules-for-web-scrapers/)
+[my first post about writing a web scraper](/rules-for-web-scrapers/)
 for [RTLjobs.com](https://www.rtljobs.com). The months since then have produced
 a ton more work, and a ton more learning about web scraping. Here’s round two of
 what I’ve learned about scraping and indexing web results.

@@ -4,6 +4,7 @@ summary: "talk about it, talk about it"
 tags: ['report-card-writer']
 date: 2021-08-05
 slug: "running-user-interviews-report-card-writer"
+aliases: ["/how-i-run-user-interviews-for-report-card-writer/"]
 ---
 
 I’ve developed a pretty good playbook for the user interviews I run for Report Card Writer. My process is heavily inspired by Rob Fitzpatrick’s book *The Mom Test*, so if you’ve read that, nothing here will surprise you. If you haven’t read it - well, read this page *first*, and *then* go read Rob’s book. It’s the best book I’ve ever read on running user interviews!

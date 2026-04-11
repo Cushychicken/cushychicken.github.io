@@ -2,6 +2,7 @@
 title: "Why You Should Complete Your Engineering Degree In Five Years"
 date: 2015-11-08
 slug: "the-five-year-engineering-degree"
+aliases: ["/why-you-should-complete-your-engineering-degree-in-five-years/"]
 crawlertitle: "Taking the long way in finishing your degree"
 summary: "Stay as long as you can. Cherish it."
 categories: posts

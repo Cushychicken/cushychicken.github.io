@@ -5,6 +5,7 @@ summary: "filters, and modulations"
 tags: ['electronics']
 date: 2020-05-09
 slug: "bfunc-log-2020-05-09"
+aliases: ["/bfunc-project-journal-may-9-2020/"]
 bfunc_log: true
 ---
 
@@ -66,7 +67,7 @@ bfunc_log: true
   - Now we have a one-liner that can program our chips: `openocd -f openocd.cfg -c "program build/bfunc_rev1.elf verify reset exit"`
   - This [Flash programming guide](http://openocd.org/doc-release/html/Flash-Programming.html) was helpful
   - So was [this guide on flash commands](https://jacobmossberg.se/posts/2017/01/10/using-openocd-flash-arm-cortex-m3.html)
-  - I wrote both of these up into [a handy setup guide](http://cushychicken.github.io/embedded-openocd-gdb/) that I'm sure I'll need again sometime.  
+  - I wrote both of these up into [a handy setup guide](/embedded-openocd-gdb/) that I'm sure I'll need again sometime.  
 
 # May 4, 2020
 

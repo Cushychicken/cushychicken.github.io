@@ -5,6 +5,7 @@ summary: "it's going to get worse, but not in the way you might think"
 tags: ['misc']
 date: 2020-02-21
 slug: "coronavirus-economics"
+aliases: ["/coronavirus-explained-for-folks-who-don-t-have-chinese-colleagues/"]
 ---
 
 Deviating slightly from my normal nerd-talk to discuss the prominent global headline of the day. 

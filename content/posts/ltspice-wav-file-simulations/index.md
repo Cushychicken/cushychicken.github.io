@@ -5,6 +5,7 @@ summary: "more signal processing sorcery"
 tags: ['electronics']
 date: 2021-08-18
 slug: "ltspice-wav-file-simulations"
+aliases: ["/how-to-drive-ltspice-simulations-with-wav-files/"]
 ---
 
 I've had a lot of fun over the past few years using LTSpice to analyze guitar effects pedals. One request that's come in with relative frequency has been: "Can you use an MP3 or WAV file as an input to the simulation to see how the pedal would sound?" 
@@ -15,7 +16,7 @@ https://vmascagn.web.cern.ch/LABO_2020/LTspice_and_wav_files.html
 
 Helpfully, it also shows how you can save the *output* to a WAV file as well, making it easy to import to Python/Jupyter for further analysis. Nice!
 
-Jeroen's already getting busy using the [Tube Screamer LTSpice sim](https://cushychicken.github.io/posts/ltspice-tube-screamer/) I made a few years ago to test this out:
+Jeroen's already getting busy using the [Tube Screamer LTSpice sim](/ltspice-tube-screamer/) I made a few years ago to test this out:
 
 ![ltspice-wav-stimulus](ltspice-wav-stimulus.png)
 

@@ -5,6 +5,7 @@ summary: "lots of component research"
 tags: ['electronics']
 date: 2020-05-25
 slug: "bfunc-log-2020-05-22"
+aliases: ["/bfunc-project-journal-may-22-2020/"]
 bfunc_log: true
 ---
 

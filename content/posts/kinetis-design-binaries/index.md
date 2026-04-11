@@ -2,6 +2,7 @@
 title: "Flashing Freescale MCUs Without Kinetis Design Suite"
 date: 2015-10-12
 slug: "kinetis-design-binaries"
+aliases: ["/flashing-freescale-mcus-without-kinetis-design-suite/"]
 crawlertitle: "using a segger J-Link without Kinetis Design Suite"
 summary: "Bag that heavy IDE and live free."
 categories: posts

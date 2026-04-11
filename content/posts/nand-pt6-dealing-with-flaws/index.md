@@ -2,6 +2,7 @@
 title: "NAND Flash: Dealing With a Flawed Medium"
 date: 2015-08-23
 slug: "nand-pt6-dealing-with-flaws"
+aliases: ["/nand-flash-dealing-with-a-flawed-medium/"]
 crawlertitle: "Flash filesystems and other NAND workarounds"
 summary: "Or: using software to fix faulty hardware"
 categories: posts
@@ -12,10 +13,10 @@ tags: ['electronics']
 
 ## Introduction
 
-_Note: This is part 6 of a series I'm writing on NAND Flash. Want to start from the beginning? [The first article is available here!](http://cushychicken.github.io/nand-pt1-transistors/)_
+_Note: This is part 6 of a series I'm writing on NAND Flash. Want to start from the beginning? [The first article is available here!](/nand-pt1-transistors/)_
 
 
-[The last post in our NAND series](http://cushychicken.github.io/nand-pt5-how-nand-breaks/) probably left you wondering why we even bother using it at all. Between quantum mechanics, semiconductor variations, and statistical bad luck, there's a lot that can go wrong with your bits. What's the point of risking data in a medium that can go south at any minute? 
+[The last post in our NAND series](/nand-pt5-how-nand-breaks/) probably left you wondering why we even bother using it at all. Between quantum mechanics, semiconductor variations, and statistical bad luck, there's a lot that can go wrong with your bits. What's the point of risking data in a medium that can go south at any minute? 
 
 As we mentioned in the last article, a lot of it comes down to price. If you want to fit 16 GB of data into a chip smaller than your thumbnail, NAND Flash is one of the only ways to do so at an affordable price point. Is the sacrifice of integrity a worthwhile one to make, however? With some common sense design techniques and a little help from software, the answer turns out to be a resounding yes! 
 
@@ -50,7 +51,7 @@ ECC is all well and good for preventing the occasional bit error in our data, bu
 
 One of the first things we discussed in the last article was _bad bit errors_, where a floating gate dielectric breaks down to the point where it cannot store charge any longer. It turns out that the biggest culprit of dielectric damage in NAND is high voltage. But wait - don't we need high voltages to program and erase NAND cells? 
 
-We've reached an interesting paradox here, folks - normal use turns out to be what breaks most NAND Flash. That means that programming and erasing a block is a relatively expensive NAND Flash operation; each cycle brings the device closer to the end of its serviceable lifetime. To counteract this, a technique called _wear leveling_ is generally implemented. Wear leveling is really just a convenient term for spreading program/erase cycles evenly across the whole of a NAND device's address space. Jim Cooke's excellent presentation, [_The Inconvenient Truths of NAND Flash_](http://cushychicken.github.io/assets/cooke_inconvenient_truths.pdf), illustrates the limitations imposed by single-block erase limits really nicely. I've recreated his math here with some simple calculations in a Python shell:
+We've reached an interesting paradox here, folks - normal use turns out to be what breaks most NAND Flash. That means that programming and erasing a block is a relatively expensive NAND Flash operation; each cycle brings the device closer to the end of its serviceable lifetime. To counteract this, a technique called _wear leveling_ is generally implemented. Wear leveling is really just a convenient term for spreading program/erase cycles evenly across the whole of a NAND device's address space. Jim Cooke's excellent presentation, [_The Inconvenient Truths of NAND Flash_](/assets/cooke_inconvenient_truths.pdf), illustrates the limitations imposed by single-block erase limits really nicely. I've recreated his math here with some simple calculations in a Python shell:
 
 ```python
 >>> pe_limit 	  = 100000	# Vendor-specified block program/erase lifetime

@@ -3,6 +3,7 @@ bg: "buddyemmons.jpg"
 title: "A Genius Passes: RIP Buddy Emmons"
 date: 2015-07-31
 slug: "buddy-emmons"
+aliases: ["/a-genius-passes-rip-buddy-emmons/"]
 crawlertitle: "Tribute post to Buddy Emmons"
 summary: "The Greatest Steel Guitarist of All Time is Gone"
 categories: posts

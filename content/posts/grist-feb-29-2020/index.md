@@ -5,6 +5,7 @@ summary: "metal media for the mental mill"
 tags: ['grist']
 date: 2020-02-29
 slug: "grist-feb-29-2020"
+aliases: ["/grist-week-of-2-29-2020/"]
 ---
 
 I'm trying out a new thing - keeping track of the media I consume on any given week that makes me think. 

@@ -5,6 +5,7 @@ summary: "it's a steady job but i wanna be a"
 tags: ['personal']
 date: 2020-10-07
 slug: "books-ive-learned-a-ton-from"
+aliases: ["/books-i-ve-learned-a-ton-from/"]
 ---
 
 In no particular order. Please consider buying a copy and supporting the authors. 
@@ -15,7 +16,7 @@ The canonical electronics tome. Almost certainly the best single book on electro
 
 # _High Speed Digital Design_ - Howard Johnson
 
-It's hard not to like a book subtitled _A Handbook of Black Magic_, and I liked this book so much that I [cold called the author and showed up at his house to fanboy](http://cushychicken.github.io/call-your-heroes/). All the stuff you need to know when designing point-to-point digital systems. It even starts to get into the details around interconnects and the compliance headaches they can cause, but those are treated more formally in the followup text: _High Speed Wave Propagation: Advanced Black Magic_.  
+It's hard not to like a book subtitled _A Handbook of Black Magic_, and I liked this book so much that I [cold called the author and showed up at his house to fanboy](/call-your-heroes/). All the stuff you need to know when designing point-to-point digital systems. It even starts to get into the details around interconnects and the compliance headaches they can cause, but those are treated more formally in the followup text: _High Speed Wave Propagation: Advanced Black Magic_.  
 
 # _High Output Management_ - Andy Grove 
 

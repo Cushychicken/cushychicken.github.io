@@ -2,6 +2,7 @@
 title: "Grabbing Agilent Scope Screenshots in 10 Lines of Python"
 date: 2014-03-28 14:28:56
 slug: "agilent-screencap"
+aliases: ["/grabbing-agilent-scope-screenshots-in-10-lines-of-python/"]
 crawlertitle: "Easy oscilloscope screen captures"
 summary: "oscilloscope screencaps"
 categories: posts

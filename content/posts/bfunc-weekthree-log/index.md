@@ -5,13 +5,14 @@ summary: "trouble and boards come in threes"
 tags: ['electronics']
 date: 2020-02-22
 slug: "bfunc-weekthree-log"
+aliases: ["/bfunc-project-journal-week-three/"]
 ---
 
-Here's the build log for week three of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 
+Here's the build log for week three of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](/insane-oshwa-goals/) 
 
 Each day's entry represents an hour's work per day - the hour before I leave for my job every weekday morning.
 
-This is my log for the week ending Feb 21, 2020. (Well, actually, Feb 22. Make-up workday.) You can read up on the first week's work [here](http://cushychicken.github.io/bfunc-weekone-log/), and the second week's work [here](http://cushychicken.github.io/bfunc-weektwo-log/)
+This is my log for the week ending Feb 21, 2020. (Well, actually, Feb 22. Make-up workday.) You can read up on the first week's work [here](/bfunc-weekone-log/), and the second week's work [here](/bfunc-weektwo-log/)
 
 # Feb 22 2020
 

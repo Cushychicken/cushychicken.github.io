@@ -4,13 +4,14 @@ summary: "on to phase two - my favorite phase!"
 tags: ['electronics']
 date: 2020-02-19
 slug: "bfunc-weektwo-log"
+aliases: ["/bfunc-project-journal-week-two/"]
 ---
 
-I'm into the second week of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) 
+I'm into the second week of development for [the open source function generator I'm trying to prototype and build in time for for OSHWA 2020.](/insane-oshwa-goals/) 
 
 Each day's entry represents an hour's work per day - the hour before I leave for my job every morning, to be precise. 
 
-This is my log for the week ending Feb 14, 2020. You can read up on the first week's work [here](http://cushychicken.github.io/bfunc-weekone-log/).
+This is my log for the week ending Feb 14, 2020. You can read up on the first week's work [here](/bfunc-weekone-log/).
 
 I'd also like to thank Jean Thomas for correcting me in my design document. Jean was kind enough to point out that you *are* able to develop for AVR microcontrollers on Mac. There's even [a handy Homebrew formula](https://github.com/osx-cross/homebrew-avr) to get you started on toolchain setup! However, I'm too far down the STM32 road to stop now, and, well, I was kind of interested in learning more about STM32 from the start. Don't take it too personally I didn't go with AVR, Jean! :)
 

@@ -5,6 +5,7 @@ summary: "america needs to hear it"
 tags: ['misc']
 date: 2020-11-14
 slug: "dave-chappelle-snl"
+aliases: ["/dave-chappelle-s-snl-monologue-is-awesome/"]
 ---
 
 Biden’s victory speech last weekend was great. _That_ is what the President of the United States should sound like. I’m really looking forward to that being the norm again. I don’t think Biden's was the best televised address from last weekend, though. For me, that award goes to Dave Chappelle, and his opening monologue on Saturday Night Live. 

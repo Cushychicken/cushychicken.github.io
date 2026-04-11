@@ -5,6 +5,7 @@ summary: "too excited to think of subheading OH WOW"
 tags: ['electronics']
 date: 2020-01-13
 slug: "amp-hour"
+aliases: ["/i-m-on-the-amp-hour/"]
 ---
 
 I'm on this week's episode of [_The Amp Hour_ podcast](https://theamphour.com/)! 

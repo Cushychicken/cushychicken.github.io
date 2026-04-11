@@ -5,6 +5,7 @@ summary: "everything in its right place"
 tags: ['electronics']
 date: 2021-03-10
 slug: "placement-diagrams"
+aliases: ["/are-you-making-placement-diagrams/"]
 ---
 
 Whenever I’ve needed to spin a circuit board these last few years, I’ve taken a bit of time early on in the process to make a placement diagram. I don’t know if this is an industry standard thing that I’ve just never heard of before, but seeing as I’ve never heard of it, I’d like to take this opportunity to coin the term “placement diagram". A placement diagram is nothing special: it’s a block diagram, where each block represents a chip in a circuit layout, with sub blocks representing pin groupings on each chip. Lines drawn between each pin grouping represents IO connections, or buses between chips. The idea is to have a really simple representation of where each set of pins (power, data buses, DAC/ADC pins) breaks out on the chips in your layout, so you can plan for arranging them on a printed circuit board. This need not be super time consuming. For a simple two or four layer design, I can whip one out in an hour. For a larger board with multiple ICs, voltage regulators, and a higher layer count, it's probably the work of a day.

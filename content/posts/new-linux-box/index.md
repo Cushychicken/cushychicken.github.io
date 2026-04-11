@@ -5,6 +5,7 @@ summary: "toolchain setup as therapy"
 tags: ['misc']
 date: 2020-04-30
 slug: "new-linux-box"
+aliases: ["/sometimes-you-just-need-a-new-linux-box/"]
 ---
 
 I plopped down $500 to grab myself a new thin Linux machine. A little thin Lenovo mini desktop.  

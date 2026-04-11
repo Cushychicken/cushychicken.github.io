@@ -4,6 +4,7 @@ summary: "an engineer's journey in selling without feeling spammy"
 tags: ['misc']
 date: 2021-12-09
 slug: "grow-your-mailing-list-by-being-helpful"
+aliases: ["/growing-your-mailing-list-by-being-helpful/"]
 ---
 
 I've been working on [www.RTLjobs.com](https://www.rtljobs.com), a niche job board for HDL engineers, for about three months. My biggest challenge, by far, is getting people who need it to know that it exists. Reddit has become one of my primary channels to get the word out about www.RTLjobs.com. It's netted the most mailing list signups by a country mile; I would guess that about 70% of the mailing list signups have come from Reddit users. 

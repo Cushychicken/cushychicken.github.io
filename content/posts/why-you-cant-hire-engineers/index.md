@@ -4,6 +4,7 @@ summary: "and i think you do too - but i'll tell you anyway"
 tags: ['misc']
 date: 2022-01-12
 slug: "why-you-cant-hire-engineers"
+aliases: ["/i-think-i-know-why-you-can-t-hire-engineers-right-now/"]
 ---
 
 It’s always been hard to hire engineers, but it’s only gotten harder in recent months. Read any publication that cares about business, from the NYT to the Wall Street Journal, and you’ll see a ton of hand wringing about The Quittening, and the accompanying talent shortage. An equal amount of ink has been spilled about how red-hot the hiring market is. It’s a seller’s market for talent. This represents a huge potential opportunity for engineers of all stripes. Many engineers could pick up a five figure raise by switching companies right now. In spite of that, it doesn’t seem like many engineers are choosing to make the jump. Why is that? 

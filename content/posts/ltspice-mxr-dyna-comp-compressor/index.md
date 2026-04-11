@@ -5,6 +5,7 @@ summary: "make your range dynamic again"
 tags: ['electronics', 'ltspice-guitar-effects']
 date: 2020-11-02
 slug: "ltspice-mxr-dyna-comp-compressor"
+aliases: ["/simulating-the-mxr-dyna-comp-compressor-in-ltspice/"]
 ---
 
 Compressors are another fun audio effect that I've been looking forward to taking a stab at simulating. In the spirit of starting small, I decided to take a look at the MXR Dyna Comp compressor pedal. It's common, it's affordable, and, as compressor circuits go, it's pretty simple to understand. That's saying something, as compression itself is a deep topic - far deeper than can be covered in this one blog post. 

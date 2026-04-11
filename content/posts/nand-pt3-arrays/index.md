@@ -2,6 +2,7 @@
 title: "NAND Flash: Device Architecture, Pt. 1"
 date: 2015-07-26
 slug: "nand-pt3-arrays"
+aliases: ["/nand-flash-device-architecture-pt-1/"]
 crawlertitle: "NAND Flash: device architecture overview pt 1"
 summary: "NAND flash page and array architecture"
 categories: posts
@@ -9,7 +10,7 @@ tags: ['electronics']
 ---
 
 ## Introduction
-Now that we've got the basics of floating gate operation under our belt, it's time to talk a little more about how to string together a bunch of floating gates to make an actual NAND Flash IC! (If you're not feeling so up on these concepts, have a look at [part 1](http://cushychicken.github.io/nand-pt1-transistors/) and [part 2](http://cushychicken.github.io/nand-pt2-floating/) for a quick recap of how NAND Flash stores data.) We'll start at the same level that we did in the previous article - the floating gate transistor - and zoom out from there. 
+Now that we've got the basics of floating gate operation under our belt, it's time to talk a little more about how to string together a bunch of floating gates to make an actual NAND Flash IC! (If you're not feeling so up on these concepts, have a look at [part 1](/nand-pt1-transistors/) and [part 2](/nand-pt2-floating/) for a quick recap of how NAND Flash stores data.) We'll start at the same level that we did in the previous article - the floating gate transistor - and zoom out from there. 
 
 ## A Bigger Byte
 We've seen how to store a single bit using a floating gate transistor - it's as simple as charging or discharging a floating gate. Unfortunately, one bit doesn't do us much good as far as information storage goes. The good news is that it's pretty easy to string together a bunch of bits to store multiple bit values - it's just as easy as chaining multiple floating gate FETs together: 

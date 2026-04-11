@@ -5,6 +5,7 @@ summary: "professional prototypes, promptly processed"
 tags: ['working-on-hardware']
 date: 2020-10-16
 slug: "how-to-do-a-product-prototype-build"
+aliases: ["/how-to-do-a-prototype-build-for-a-hardware-product/"]
 ---
 
 Building your first set of product prototypes is a really exciting milestone for a hardware company. It’s the first chance to see the hard work of a lot of crossfunctional contributors bear fruit, in the form of a real, tangible, functioning item. It’s also a great opportunity to learn about the “meta-product” - the process of building your product at scale. 

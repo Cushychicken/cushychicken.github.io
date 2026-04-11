@@ -5,6 +5,7 @@ summary: "i just did"
 tags: ['misc']
 date: 2020-04-03
 slug: "write-more"
+aliases: ["/write-more-dammit/"]
 ---
 
 You'd be amazed how many great thoughts you have when you just start vomiting them onto a page. 

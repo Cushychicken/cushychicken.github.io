@@ -2,6 +2,7 @@
 title: "NAND Flash: Floating Gates"
 date: 2015-07-06
 slug: "nand-pt2-floating"
+aliases: ["/nand-flash-floating-gates/"]
 crawlertitle: "NAND Flash: semiconductor device mechanisms"
 summary: "Pt 2 of 6 articles on NAND Flash; focuses on Floating gates"
 categories: posts

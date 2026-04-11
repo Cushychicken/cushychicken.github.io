@@ -5,9 +5,10 @@ summary: "haha version controlling snek program go brrr"
 tags: ['programming']
 date: 2020-10-01
 slug: "git-describe-pyinstaller"
+aliases: ["/getting-git-describe-into-a-pyinstaller-program/"]
 ---
 
-I've written about [the joy of distributing scripts to less tech-savvy coworkers](http://cushychicken.github.io/python-guis-for-heretics/). Now that some of these simple GUIs have been out in the field for a few weeks, I'm getting a few reports of buggy or odd behavior from the end consumers. As a result, it's my turn to learn a hard programmer's lesson: it's *super* challenging to fix bigs without a corresponding version to test/repro against. After some putzing and poking online, I learned about `git describe`. Just the ticket for my versioning needs! And, even better, there's a great Python wrapper for it - I just have to `import git` in my Python scripts, and I can extract information from `git` seamlessly!
+I've written about [the joy of distributing scripts to less tech-savvy coworkers](/python-guis-for-heretics/). Now that some of these simple GUIs have been out in the field for a few weeks, I'm getting a few reports of buggy or odd behavior from the end consumers. As a result, it's my turn to learn a hard programmer's lesson: it's *super* challenging to fix bigs without a corresponding version to test/repro against. After some putzing and poking online, I learned about `git describe`. Just the ticket for my versioning needs! And, even better, there's a great Python wrapper for it - I just have to `import git` in my Python scripts, and I can extract information from `git` seamlessly!
 
 ...or so I thought. 
 

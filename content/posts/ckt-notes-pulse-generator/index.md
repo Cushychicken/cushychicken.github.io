@@ -2,6 +2,7 @@
 title: "Circuit Notes: A Simple Pulse Generator"
 date: 2015-10-10
 slug: "ckt-notes-pulse-generator"
+aliases: ["/circuit-notes-a-simple-pulse-generator/"]
 crawlertitle: "a neat little pulse generator circuit I like"
 summary: "Toggling a bit: no microcontroller required"
 categories: posts

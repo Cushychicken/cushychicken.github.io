@@ -4,9 +4,10 @@ summary: "put the spurs to 'er, chuck"
 tags: ['signal-processing']
 date: 2021-09-20
 slug: "improving-sfdr-in-python-direct-digital-synthesizer"
+aliases: ["/improving-sfdr-in-a-python-direct-digital-synthesis-model/"]
 ---
 
-A [first pass at digital frequency synthesis](https://cushychicken.github.io/direct-digital-synthesis-python-model/) is relatively easy to pull off using some simple tricks in Python. It's not rocket science to string together a basic accumulator and a sine lookup table to make a sine wave output. However, we left off noting some spurious output in the synthesized sine wave. What can we do about that? 
+A [first pass at digital frequency synthesis](/direct-digital-synthesis-python-model/) is relatively easy to pull off using some simple tricks in Python. It's not rocket science to string together a basic accumulator and a sine lookup table to make a sine wave output. However, we left off noting some spurious output in the synthesized sine wave. What can we do about that? 
 
 Can't go anywhere until you fire up some data libraries:
 

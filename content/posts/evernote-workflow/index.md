@@ -2,6 +2,7 @@
 title: "Getting Things Done + Evernote"
 date: 2014-05-06
 slug: "evernote-workflow"
+aliases: ["/getting-things-done-evernote/"]
 crawlertitle: "Getting Things Done workflow with Evernote"
 summary: "Getting Things Done workflow with Evernote"
 categories: posts

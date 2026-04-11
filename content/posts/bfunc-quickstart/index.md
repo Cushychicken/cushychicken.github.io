@@ -5,6 +5,7 @@ summary: "functions in five minutes or less"
 tags: ['electronics']
 date: 2020-03-31
 slug: "bfunc-quickstart"
+aliases: ["/bfunc-quickstart-guide/"]
 ---
 
 bFunc is now officially shipping! Since actual human beings will be using this in a few short days, it's time to write a little quickstart guide to get folks up and running on the hardware. 

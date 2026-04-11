@@ -5,6 +5,7 @@ summary: "distributing scripts to unix eunuchs"
 tags: ['programming']
 date: 2020-06-30
 slug: "python-guis-for-heretics"
+aliases: ["/writing-simple-python-guis-for-your-command-line-phobe-coworkers/"]
 ---
 
 If you have a modicum of coding skill, you've probably found some crappy little office task that you can automate away with a judicious hundred lines of Python. This typically takes the form of simple command line applications to reformat files: read in `input_format.csv`, spit out `output_format.csv`, yada yada. If you've got a modicum of empathy to accompany that coding skill, you've probably noticed your coworkers have to complete these crappy little office tasks, too. It's typically this point where most coders get a glimmer in their eye. You start to see a glorious future of automation ahead of you, starting with this single opportunity to remove some drudge work from your coworkers' plates.

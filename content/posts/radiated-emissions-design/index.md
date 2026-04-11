@@ -5,6 +5,7 @@ summary: "hard lessons that will save you weeks in an EMC lab"
 tags: ['electronics']
 date: 2019-04-28
 slug: "radiated-emissions-design"
+aliases: ["/quick-design-guidelines-for-emissions-compliance/"]
 ---
 
 The design stage is always the best place to solve your radiated emissions problems. Here are some strategies that I've learned to keep your product designs emissions compliant. 
@@ -51,7 +52,7 @@ If you're dealing with a standardized connection (like HDMI, for example), there
 
 # It's the rise time, stupid. 
 
-AC currents are the root of all radiated emissions problems. All of the AC current in a digital signal is in the rising edges. Slowing down the rise time will decrease the AC current. I wrote about how to do this in some detail in the [last post I wrote on radiated emissions](http://cushychicken.github.io/radiated-emissions-debug/). 
+AC currents are the root of all radiated emissions problems. All of the AC current in a digital signal is in the rising edges. Slowing down the rise time will decrease the AC current. I wrote about how to do this in some detail in the [last post I wrote on radiated emissions](/radiated-emissions-debug/). 
 
 The short version is that you should add in component locations for filtering your digital signals - a simple RC circuit can be enough in many cases. 
 

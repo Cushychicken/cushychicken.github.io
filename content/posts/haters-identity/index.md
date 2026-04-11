@@ -5,6 +5,7 @@ summary: "haters gonna hate, hate, hate, hate, hate"
 tags: ['misc']
 date: 2020-01-25
 slug: "haters-identity"
+aliases: ["/haters-and-identity/"]
 ---
 
 Paul Graham published this [nice essay on haters](http://paulgraham.com/fh.html) about two weeks ago. The timing couldn't have been better - it's been a [long few weeks in the crosshairs](https://blog.sonos.com/en/end-of-software-updates-for-legacy-products/) at work. 

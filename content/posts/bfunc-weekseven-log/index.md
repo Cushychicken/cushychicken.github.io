@@ -5,24 +5,25 @@ summary: "want to file bugs against my crappy project?"
 tags: ['electronics']
 date: 2020-03-21
 slug: "bfunc-weekseven-log"
+aliases: ["/bfunc-project-journal-week-seven/"]
 ---
 
-Here's the build log for week seven of development for [the open source function generator I'm trying to prototype and build.](http://cushychicken.github.io/insane-oshwa-goals/) 
+Here's the build log for week seven of development for [the open source function generator I'm trying to prototype and build.](/insane-oshwa-goals/) 
 
-**Note:** The prototypes are just about ready for human consumption!! Do you want to try one out? Head over to [this page to get the download.](http://cushychicken.github.io/bfunc-call-for-users/) 
+**Note:** The prototypes are just about ready for human consumption!! Do you want to try one out? Head over to [this page to get the download.](/bfunc-call-for-users/) 
 
 Each day's entry represents an hour's work per day - the hour before I leave for my job every weekday morning.
 
 This is my log for the week ending March 21, 2020. Here's links to the prior weeks' logs:
 
-* [Week One](http://cushychicken.github.io/bfunc-weekone-log/)
-* [Week Two](http://cushychicken.github.io/bfunc-weektwo-log/)
-* [Week Three](http://cushychicken.github.io/bfunc-weekthree-log/)
-* [Week Four](http://cushychicken.github.io/bfunc-weekfour-log/)
-* [Week Five](http://cushychicken.github.io/bfunc-weekfive-log/)
-* [Week Six](http://cushychicken.github.io/bfunc-weeksix-log/)
+* [Week One](/bfunc-weekone-log/)
+* [Week Two](/bfunc-weektwo-log/)
+* [Week Three](/bfunc-weekthree-log/)
+* [Week Four](/bfunc-weekfour-log/)
+* [Week Five](/bfunc-weekfive-log/)
+* [Week Six](/bfunc-weeksix-log/)
 
-[The design doc for this project](http://cushychicken.github.io/bfunc-design-doc/) is available if you're into design documents/philosophy. 
+[The design doc for this project](/bfunc-design-doc/) is available if you're into design documents/philosophy. 
 
 All of my hardware and software source files are on GitHub. [Check 'em out!](https://github.com/Cushychicken/bfunc)
 

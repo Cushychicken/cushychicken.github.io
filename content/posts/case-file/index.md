@@ -5,6 +5,7 @@ summary: "in case of emergency"
 tags: ['engineering']
 date: 2020-01-19
 slug: "case-file"
+aliases: ["/keep-an-engineering-case-file/"]
 ---
 
 Work in a large enough technical organization, and eventually, people will start making the same kind of mistakes. Maybe not the exact same mistakes, but after a while, you notice that they begin to rhyme. The ones that seem to keep popping up on my professional radar are radiated emissions, audio interference, and ESD. 

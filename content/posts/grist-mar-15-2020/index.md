@@ -5,6 +5,7 @@ summary: "metal media for the mental mill"
 tags: ['grist']
 date: 2020-03-15
 slug: "grist-mar-15-2020"
+aliases: ["/grist-week-of-3-15-2020/"]
 ---
 
 This weekly linkdump is an outlet for me to catalog what's making me think, and scratch the itch to share it. 

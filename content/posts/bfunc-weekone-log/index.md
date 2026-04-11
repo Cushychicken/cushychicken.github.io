@@ -4,9 +4,10 @@ summary: "first to func"
 tags: ['electronics']
 date: 2020-02-09
 slug: "bfunc-weekone-log"
+aliases: ["/bfunc-project-journal-week-one-and-a-half/"]
 ---
 
-Here's what the first week of development looks like to [build an open source function generator in time for for OSHWA 2020.](http://cushychicken.github.io/insane-oshwa-goals/) Each day's entry represents an hour's work per day - the hour before I leave for my job every morning, to be precise. 
+Here's what the first week of development looks like to [build an open source function generator in time for for OSHWA 2020.](/insane-oshwa-goals/) Each day's entry represents an hour's work per day - the hour before I leave for my job every morning, to be precise. 
 
 # Feb 7 2020
 

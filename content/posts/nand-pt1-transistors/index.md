@@ -2,6 +2,7 @@
 title: "NAND Flash: An Introduction"
 date: 2015-06-27
 slug: "nand-pt1-transistors"
+aliases: ["/nand-flash-an-introduction/"]
 crawlertitle: "NAND Flash: pt 1 of 6 on its failure modes"
 summary: "NAND Flash: device architecture"
 categories: posts
