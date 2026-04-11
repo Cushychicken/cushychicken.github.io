@@ -69,21 +69,8 @@ img {
 }
 
 .brand-lockup {
-  display: flex;
-  gap: 0.85rem;
-  align-items: center;
   color: inherit;
   text-decoration: none;
-}
-
-.brand-mark {
-  width: 2.35rem;
-  height: 2.35rem;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 35% 35%, #ffd391 0, #ff9a42 38%, #df4e1f 62%, #8b1e14 100%);
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-  flex: 0 0 auto;
 }
 
 .brand-name {
@@ -303,19 +290,107 @@ img {
   margin: 0.85rem 0 0;
 }
 
-pre {
-  overflow-x: auto;
-  padding: 1rem 1.1rem;
-  background: #f0eadf;
-  border: 1px solid var(--rule);
-  font-size: 0.92rem;
-  line-height: 1.55;
-}
-
 code {
   font-family: Menlo, Consolas, "Liberation Mono", monospace;
   font-size: 0.92em;
 }
+
+pre {
+  overflow-x: auto;
+  padding: 1rem 1.1rem;
+  background: #f4efe5;
+  border: 1px solid var(--rule);
+  border-radius: 0.35rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.highlight {
+  margin: 1.2rem 0;
+}
+
+.highlight pre,
+pre.chroma {
+  margin: 0;
+}
+
+.chroma {
+  color: #24201c;
+  background: #f4efe5;
+}
+
+.chroma .err { color: #a61717; background-color: #ead6d6; }
+.chroma .lnlinks { outline: none; text-decoration: none; color: inherit; }
+.chroma .lntd,
+.chroma .lntable { padding: 0; margin: 0; border: 0; border-spacing: 0; }
+.chroma .hl { background-color: #e7dfd2; }
+.chroma .lnt,
+.chroma .ln { white-space: pre; user-select: none; margin-right: 0.75em; padding: 0 0.65em 0 0; color: #9a8f7e; }
+.chroma .line { display: flex; }
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .ow { color: #7c241c; font-weight: 700; }
+.chroma .kt,
+.chroma .nc { color: #2f5d88; font-weight: 700; }
+.chroma .na,
+.chroma .no,
+.chroma .nv,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi { color: #0c7078; }
+.chroma .nb { color: #136f9b; }
+.chroma .bp { color: #8a8175; }
+.chroma .nd { color: #5e4f9a; font-weight: 700; }
+.chroma .ni { color: #7f3f98; }
+.chroma .ne,
+.chroma .nf,
+.chroma .nl { color: #9a3b16; font-weight: 700; }
+.chroma .nn { color: #5d5750; }
+.chroma .nt { color: #1f4f94; }
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s1,
+.chroma .s2,
+.chroma .sh,
+.chroma .si,
+.chroma .sx { color: #b5472f; }
+.chroma .se { color: #8b3e11; font-weight: 700; }
+.chroma .sr { color: #0f7f55; }
+.chroma .ss { color: #8f2d7a; }
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo { color: #0b7d8c; }
+.chroma .o { color: #5b5147; font-weight: 700; }
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1 { color: #8f8577; font-style: italic; }
+.chroma .cs,
+.chroma .cp,
+.chroma .cpf { color: #82776b; font-weight: 700; font-style: italic; }
+.chroma .gd { color: #000; background-color: #f6d8d8; }
+.chroma .ge { font-style: italic; }
+.chroma .gi { color: #000; background-color: #dff0dd; }
+.chroma .go { color: #7f7971; }
+.chroma .gp { color: #6d655c; }
+.chroma .gs { font-weight: 700; }
+.chroma .gu { color: #92897d; }
+.chroma .gt { color: #aa0000; }
+.chroma .gl { text-decoration: underline; }
+.chroma .w { color: #c8beaf; }
 
 .img-popup {
   position: fixed;
