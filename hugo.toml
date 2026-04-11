@@ -1,0 +1,31 @@
+baseURL = "https://cushychicken.github.io/"
+languageCode = "en-us"
+title = "Wherein The Chicken"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+description = "Nash Reilly writes about electrical engineering, embedded systems, work, and the occasional side quest."
+author = "Nash Reilly"
+email = "cushychicken@gmail.com"
+
+[permalinks]
+posts = "/:slug/"
+
+[taxonomies]
+tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]

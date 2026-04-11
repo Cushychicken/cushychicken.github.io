@@ -1,0 +1,51 @@
+{{ $bg := "/images/site/bg.svg" }}
+{{ with .Params.bg }}
+  {{ $bg = . }}
+  {{ with $.Resources.GetMatch . }}
+    {{ $bg = .RelPermalink }}
+  {{ end }}
+{{ end }}
+<div id="Sidebar" role="complementary">
+  <p>By <strong>Nash&nbsp;Reilly</strong></p>
+  <nav class="sidebar-nav" aria-label="Primary">
+    <ul>
+      <li><a href="/posts/">Archive</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/resume/">Resume</a></li>
+      <li><a href="mailto:{{ site.Params.email }}">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar-context">
+    <div class="context-heading">
+      {{ if .IsHome }}
+        Latest Writing
+      {{ else }}
+        {{ $tags := .Params.tags }}
+        {{ if reflect.IsSlice $tags }}
+          {{ range $tags }}
+            <a href="/posts/#{{ . | urlize }}">{{ . | lower }}</a>
+          {{ end }}
+        {{ else if $tags }}
+          <a href="/posts/#{{ $tags | urlize }}">{{ $tags | lower }}</a>
+        {{ else }}
+          {{ .Title }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ with .Params.summary }}
+      <p class="page-summary">{{ . }}</p>
+    {{ else }}
+      {{ if .IsHome }}
+        <p class="page-summary">{{ site.Params.description }}</p>
+      {{ end }}
+    {{ end }}
+
+    {{ if and (not .IsHome) .Params.bg }}
+      <figure class="cover-art">
+        <img src="{{ $bg }}" alt="">
+      </figure>
+    {{ end }}
+  </div>
+</div>

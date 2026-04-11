@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ range first 10 (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+    <article class="index-page">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Mon, Jan 02, 06" }}</time></p>
+      {{ with .Summary }}
+        <div class="summary">{{ . }}</div>
+      {{ end }}
+    </article>
+  {{ end }}
+{{ end }}

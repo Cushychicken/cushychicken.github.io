@@ -1,0 +1,54 @@
+{{ $title := site.Title }}
+{{ with .Params.crawlertitle }}{{ $title = . }}{{ else }}{{ with .Title }}{{ $title = . }}{{ end }}{{ end }}
+{{ $style := resources.Get "scss/site.scss" | toCSS | minify | fingerprint }}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ "index.xml" | absURL }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  {{ $og := "/images/site/bg.svg" }}
+  {{ with .Params.bg }}
+    {{ $og = . }}
+    {{ with $.Resources.GetMatch . }}
+      {{ $og = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ $og | absURL }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ $og | absURL }}">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50750308-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-50750308-1');
+  </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        packages: ['base', 'ams'],
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      loader: {
+        load: ['ui/menu', '[tex]/ams']
+      },
+      startup: {
+        ready() {
+          MathJax.startup.defaultReady();
+          const Macro = MathJax._.input.tex.Symbol.Macro;
+          const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+          const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+          const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+          MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+        }
+      }
+    };
+  </script>
+  <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>

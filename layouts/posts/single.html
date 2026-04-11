@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <article class="post">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02-01-2006" }}</time>
+      {{ with .Params.author }}
+        <span>&nbsp;/&nbsp;{{ . }}</span>
+      {{ end }}
+    </p>
+
+    <div class="post-content">
+      {{ if .Params.bfunc_log }}
+        <div class="callout">
+          <p>Here’s this week’s development update for bFunc, the open source function generator project.</p>
+          <p><a href="https://gum.co/bnzr">Buy a board on Gumroad</a>, read the <a href="/bfunc-design-doc/">design doc</a>, or browse the source on <a href="https://github.com/Cushychicken/bfunc">GitHub</a>.</p>
+        </div>
+      {{ end }}
+
+      {{ .Content }}
+
+      <div class="post-links">
+        {{ with .NextInSection }}
+          <a class="link-to-post" href="{{ .RelPermalink }}">
+            <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
+            <span class="link-to-post__title">{{ .Title }}</span>
+          </a>
+        {{ end }}
+        {{ with .PrevInSection }}
+          <a class="link-to-post" href="{{ .RelPermalink }}">
+            <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
+            <span class="link-to-post__title">{{ .Title }}</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </article>
+{{ end }}

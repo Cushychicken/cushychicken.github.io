@@ -1,0 +1,7 @@
+{{ $dest := .Destination }}
+{{ with .Page.Resources.GetMatch .Destination }}
+  {{ $dest = .RelPermalink }}
+{{ end }}
+<a href="{{ $dest }}">
+  <img src="{{ $dest }}" alt="{{ .Text }}" loading="lazy">
+</a>
