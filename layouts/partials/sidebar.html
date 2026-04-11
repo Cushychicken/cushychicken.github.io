@@ -5,10 +5,29 @@
     {{ $bg = .RelPermalink }}
   {{ end }}
 {{ end }}
-<aside class="sidebar" role="note" style="background-image: url('{{ $bg }}')">
-  <div class="cover">
-    <div class="cover-text">
-      <div class="heading">
+<aside class="sidebar" role="complementary">
+  <div class="brand-panel">
+    <a class="brand-lockup" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Wherein The Chicken</span>
+    </a>
+    <p class="brand-tagline">Electrical engineering, firmware, product work, and whatever else survives the notebook.</p>
+  </div>
+
+  <nav class="sidebar-nav" aria-label="Primary">
+    <a href="/">Home</a>
+    <a href="/posts/">Archive</a>
+    <a href="/about/">About</a>
+    <a href="/resume/">Resume</a>
+    <a href="/signup/">Newsletter</a>
+    <a href="mailto:{{ site.Params.email }}">Contact</a>
+  </nav>
+
+  <div class="page-panel">
+    <div class="heading">
+      {{ if .IsHome }}
+        Latest Writing
+      {{ else }}
         {{ $tags := .Params.tags }}
         {{ if reflect.IsSlice $tags }}
           {{ range $tags }}
@@ -19,12 +38,22 @@
         {{ else }}
           {{ .Title }}
         {{ end }}
-      </div>
-
-      {{ with .Params.summary }}
-        <p>{{ . }}</p>
       {{ end }}
     </div>
+
+    {{ with .Params.summary }}
+      <p class="page-summary">{{ . }}</p>
+    {{ else }}
+      {{ if .IsHome }}
+        <p class="page-summary">{{ site.Params.description }}</p>
+      {{ end }}
+    {{ end }}
+
+    {{ if and (not .IsHome) .Params.bg }}
+      <figure class="cover-art">
+        <img src="{{ $bg }}" alt="">
+      </figure>
+    {{ end }}
   </div>
   <div id="switcher"></div>
 </aside>
