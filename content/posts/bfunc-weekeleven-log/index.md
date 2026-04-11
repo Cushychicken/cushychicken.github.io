@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Eleven"
 summary: "time for a short rest"
 tags: ['electronics']

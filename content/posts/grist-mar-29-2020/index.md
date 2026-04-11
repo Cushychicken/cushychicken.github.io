@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/mill_diagram.png"
+bg: "mill_diagram.png"
 title: "Grist - Week of 3/29/2020"
 summary: "metal media for the mental mill"
 tags: ['grist']

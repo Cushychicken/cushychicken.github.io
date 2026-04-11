@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/saddle.jpg"
+bg: "saddle.jpg"
 title: "Back In The Saddle"
 summary: "a reskin, and a restart"
 tags: ['misc']

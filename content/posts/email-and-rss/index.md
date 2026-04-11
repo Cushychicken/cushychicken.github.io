@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/music_book_header.jpg"
+bg: "music_book_header.jpg"
 title: "Email, and RSS"
 summary: "both of which i guess are vintage tech now?"
 tags: ['misc']

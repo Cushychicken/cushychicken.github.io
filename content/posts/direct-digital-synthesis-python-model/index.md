@@ -1,7 +1,7 @@
 ---
 title: "Simulating a Direct Digital Frequency Synthesizer in Python"
 summary: "get your freq on"
-bg: "/assets/images/dds.png"
+bg: "dds.png"
 tags: ['signal-processing']
 date: 2021-08-26
 ---
@@ -93,7 +93,7 @@ plt.plot(phase)
 plt.title("DDS Output")
 ```
 
-![output_8_1](../assets/images/output_8_1.png)
+![output_8_1](output_8_1.png)
 
 OK, great. The chart goes up, and to the right. (The business unit will be _ecstatic_.) Eventually, it's going to just roll over to zero, and keep on counting up. That's not a big deal! This is a *phase* accumulator; phase wraps around from $2\pi$ back to zero. As long as `0x00000000` corresponds to 0 degrees phase, you're in the clear! 
 
@@ -134,7 +134,7 @@ df_phase['dds_out'][:200].plot()
 ```
 
 
-![output_14_1](../assets/images/output_14_1.png)
+![output_14_1](output_14_1.png)
     
 
 
@@ -181,7 +181,7 @@ plt.show()
 ```
 
 
-![output_16_1](../assets/images/output_16_1.png)
+![output_16_1](output_16_1.png)
 
 Cool! You can see how the rollover of the truncated phase bits correlates with the sine wave rolling over from $2\pi$ to 0 radians in phase. 
 
@@ -235,7 +235,7 @@ plt.show()
 ```
 
 
-​    ![output_20_1](../assets/images/output_20_1-9999821.png)
+​    ![output_20_1](output_20_1-9999821.png)
 
 
 So, what can we do about all of this excess noise, and these tones degrading our SFDR? 

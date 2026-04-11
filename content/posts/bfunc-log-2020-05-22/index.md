@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - May 22 2020"
 summary: "lots of component research"
 tags: ['electronics']

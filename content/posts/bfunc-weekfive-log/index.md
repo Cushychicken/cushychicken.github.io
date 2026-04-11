@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Five"
 summary: "getting into the home stretch"
 tags: ['electronics']

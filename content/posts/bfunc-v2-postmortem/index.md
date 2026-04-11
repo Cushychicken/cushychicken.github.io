@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "Why there probably won't be a bFunc Version 2"
 summary: "we don't have the func anymore"
 tags: ['electronics']
@@ -65,7 +65,7 @@ It's pretty obvious at a glance that bFunc rev1.0 wasn't exactly a stiff competi
 
 I sketched out the following design on a napkin (or, rather, draw.io, the digital equivalent of a napkin) for a very preliminary look at a bFunc Rev2.0 design: 
 
-![bFunc Rev2.0 Block Diagram](../assets/images/Screen Shot 2021-03-14 at 2.04.33 PM.png)
+![bFunc Rev2.0 Block Diagram](Screen Shot 2021-03-14 at 2.04.33 PM.png)
 
 This addresses a few glaring issues with the first version:
 

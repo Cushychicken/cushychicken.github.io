@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/shakeitoff.jpg"
+bg: "shakeitoff.jpg"
 title: "Haters, and Identity"
 summary: "haters gonna hate, hate, hate, hate, hate"
 tags: ['misc']

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/helping_cover.jpg"
+bg: "helping_cover.jpg"
 title: "Helping, Power, and Product Management"
 summary: "one up, one down"
 tags: ['misc']

@@ -21,7 +21,7 @@ In this article, I want to give a brief overview of how to take a compiled binar
 We'll start at the C/C++ project view of Kinetis Design Studio. Open up the "Run" dropdown menu, and select "Debug Configurations". 
 
 <div align="center">
-<img src="../assets/kds_main_breakpoint.png"/>
+<img src="kds_main_breakpoint.png"/>
 <p align="center"><em>You Can Find This Menu Under "Run > Debug Configurations"</em></p>
 </div>
 

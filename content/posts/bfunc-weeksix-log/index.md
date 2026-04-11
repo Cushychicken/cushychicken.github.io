@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Six"
 summary: "no OSHWA, lots of function gen"
 tags: ['electronics']
@@ -103,7 +103,7 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   - I WANT TO GO MEET OTHER NERDS IRL AND TALK TO THEM ABOUT OUR NERD PROJECTS. 
 - I did manage to do a mass-rework of all of my faulty boards with a little help from my good friend The Dremel Tool. Lots of nicely segmented pins now - and with minimal damage to the actual pin plating! (I got pretty good at it by the tenth one.)
 
-![20200315_085515](../assets/images/20200315_085515.jpg)
+![20200315_085515](20200315_085515.jpg)
 
 # Mar 8 2020
 

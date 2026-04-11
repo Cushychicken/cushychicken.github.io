@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/archerfish_hirez.jpg"
+bg: "archerfish_hirez.jpg"
 title: "GDB + OpenOCD Setup - Notes for Later"
 summary: "i guarantee you'll need these again"
 tags: ['programming']

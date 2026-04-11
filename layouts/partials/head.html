@@ -12,6 +12,9 @@
   {{ $og := "/images/site/bg.svg" }}
   {{ with .Params.bg }}
     {{ $og = . }}
+    {{ with $.Resources.GetMatch . }}
+      {{ $og = .RelPermalink }}
+    {{ end }}
   {{ end }}
   <meta property="og:title" content="{{ $title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">

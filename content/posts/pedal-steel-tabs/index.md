@@ -31,7 +31,7 @@ pages of them, with ~50 tabs per page. Who wants to do that by hand when we've
 got Python to do it for us?
 
 <div align="center">
-<img src="/assets/cutshawsite.png"/>
+<img src="cutshawsite.png"/>
 <p align="center"><em>You're bound to see some Web 1.0 when searching for pedal
 steel tab.</em></p>
 </div>

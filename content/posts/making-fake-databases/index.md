@@ -1,5 +1,5 @@
 ---
-bg: "/assets/charlatan.jpg"
+bg: "charlatan.jpg"
 title: "Generating Demo Databases Quickly With Faker and Dataset"
 tags: ['programming']
 date: 2016-09-06

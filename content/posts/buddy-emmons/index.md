@@ -1,5 +1,5 @@
 ---
-bg: "/assets/buddyemmons.jpg"
+bg: "buddyemmons.jpg"
 title: "A Genius Passes: RIP Buddy Emmons"
 date: 2015-07-31
 crawlertitle: "Tribute post to Buddy Emmons"

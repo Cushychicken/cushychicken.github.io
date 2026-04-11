@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/schaller-tremolo.jpg"
+bg: "schaller-tremolo.jpg"
 title: "Simulating the Schaller Tremolo Pedal in LTSpice"
 summary: "amplitude modulation - not just for radio anymore"
 tags: ['electronics', 'ltspice-guitar-effects']
@@ -44,7 +44,7 @@ Now, on to the fun stuff!
 
 There's really only three interesting subsections to the Schaller Tremolo: the input/mixer, the low frequency oscillator, and the output buffer. 
 
-![image-20201013154616749](../assets/images/image-20201013154616749.png)
+![image-20201013154616749](image-20201013154616749.png)
 
 # Input/Mixer
 
@@ -52,13 +52,13 @@ The device input is a nice high impedance, but it immediately chops the input si
 
 Pot R10 sets the bias point of Q4. When R10 == 0, it's basically preventing Q4 from turning on at all. When R10 == 50k, it's biasing Q4 such that its effectively shorting Vmix to GND. This seems kind of dumb, and by itself, it kind of is. It begins to get more interesting once you start looking at what's driving Q4. 
 
-![image-20201013154454367](../assets/images/image-20201013154454367.png)
+![image-20201013154454367](image-20201013154454367.png)
 
 # Low Frequency Oscillator
 
 Q4 is a variable impedance because it's base node, Vmix_drive, is modulated by a really simple low frequency oscillator. 
 
-![image-20201013155943354](../assets/images/image-20201013155943354.png)
+![image-20201013155943354](image-20201013155943354.png)
 
 Vmix_drive is capacitively coupled to Vosc, the output of a low frequency oscillator. Q2/Q3, along with their RC feedback network and the R14/R12 branch, form a _phase shift oscillator_. Phase shift oscillators are, conceptually, very, very simple. They depend on a charging network of RC circuits to offset the turnon/turnoff of a switching element. It's an oscillator, so you want
 
@@ -76,7 +76,7 @@ In a phase shift oscillator, you achieve these same two effects through charging
 
 When power is applied, Q3 is off, which allows R8 to pull Vosc up to 9V. This also weakly biases the base of Q2 through R12 and pot R14. As caps C7-C10 charge up, Q2 begins to conduct just a bit more strongly. This eventually causes Q3 to turn on, which creates a discharge path for C7 thru C10. Those caps discharge until the bias on Q2 is gone, and Q3 shuts off, and the whole process starts over again. Thus: oscillation!
 
-![Oscillator Startup](../assets/images/image-20201013165500378.png)
+![Oscillator Startup](image-20201013165500378.png)
 
 This is a pretty miniscule process when power is first applied. The oscillation depends on noise to get started, and takes a few seconds of sim to start switching with any appreciable amplitude. It takes about 2 seconds of sim time to see meaningful switching (greater than half a volt or so) out of the oscillator. You can get a better view of startup if you use multiple panes - allows for different DC offsets to view each switching startup up close. 
 
@@ -86,11 +86,11 @@ Pot R14 sets the bias point of Q2, and as a result, governs the oscillation cycl
 
 A pretty meat-and-potatoes current-limited emitter follower rounds out the Schaller Tremolo design:
 
-![image-20201013160126053](../assets/images/image-20201013160126053.png)
+![image-20201013160126053](image-20201013160126053.png)
 
 And, predictably, it has a nice flat frequency response across the whole audio band:
 
-![Image](../assets/images/Image-1602619294746.png)
+![Image](Image-1602619294746.png)
 
 We've seen this kind of buffer a lot, and, just to quickly restate its purpose:
 

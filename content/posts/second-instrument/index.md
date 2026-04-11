@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/music_book_header.jpg"
+bg: "music_book_header.jpg"
 title: "On Learning a Second Instrument"
 summary: "once more, from the top"
 tags: ['music']
@@ -14,10 +14,10 @@ Additionally - if I ever get halfway decent at the guitar, I can at least begin 
 
 I've been running through Dan Miller's _Flatpicking Essentials_ course to get started. It's a good starting point for me, as I'm not a total fresh start on the guitar. I know all of the chord shapes, and the theory behind them, and I have some leftover muscle memory from playing guitar as a teenager. Still - it's been lots of metronome time, lots of basic moves, lots of attention to form, and lots of repetition. 
 
-![Music Book Open](/assets/images/music_book_open.jpg)
+![Music Book Open](music_book_open.jpg)
 
 Having a book has made things so much easier. Barely any good written learning material exists for the dobro. You have to figure just about everything interesting out by ear. This was an awesome skill builder for me back when I was college, and had nearly unlimited free time. As an adult, I don't have the time or the patience for it. A book that gives some standard exercises that build gradually in difficulty is a godsend to a busy adult. It's also a godsend of annotations. I write in it! All the time, in fact. I also use it as a kind of practice journal. Wherever there is an exercise I'm working on, I add a Post-it Note. Whenever I run through that exercise, I list the date, metronome setting, and key (if the key I practice in transposes to a different one from the example). 
 
-![Music Book with Post-Its](/assets/images/music_book_with_notes.jpg)
+![Music Book with Post-Its](music_book_with_notes.jpg)
 
 This has been enormously helpful. I've done practice journaling before, and it's been a huge boost to my playing when I do. Keeping a practice journal _inside_ a music book is just that much better - it's one less item you have to keep track of. It's also a kind of "scorecard" for my progress. I can easily figure out the fastest rhythm I'm comfortable at, and what obscure click setting I should try to get comfortable with next. It's also a nice reminder of how fast you progress when you use a metronome. I've been keeping tabs in the book since the end of November, and I've progressed a ton - from barely being at 100bpm, to being nearly at 190bpm. Cool!

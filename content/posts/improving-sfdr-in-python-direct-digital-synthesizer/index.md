@@ -60,7 +60,7 @@ plt.ylabel('Amplitude [dB]')
 plt.show()
 ```
 
-![output_6_1](../assets/images/output_6_1.png)
+![output_6_1](output_6_1.png)
 
 
 
@@ -136,7 +136,7 @@ plt.show()
 
 
 
-![output_10_1](../assets/images/output_10_1.png)
+![output_10_1](output_10_1.png)
     
 
 
@@ -199,7 +199,7 @@ plt.ylabel('Amplitude [dB]')
 ```
 
 
-​    ![output_16_1](../assets/images/output_16_1-2161745.png)
+​    ![output_16_1](output_16_1-2161745.png)
 
 
 # Using an Ugly Clock Rate
@@ -337,7 +337,7 @@ plt.ylabel('Amplitude [dB]')
 plt.show()
 ```
 
-​    ![output_26_0](../assets/images/output_26_0.png)
+​    ![output_26_0](output_26_0.png)
 
 # More Reading and Notes
 

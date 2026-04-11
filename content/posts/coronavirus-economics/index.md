@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/coronavirus_masks.jpg"
+bg: "coronavirus_masks.jpg"
 title: "Coronavirus, Explained, For Folks Who Don't Have Chinese Colleagues"
 summary: "it's going to get worse, but not in the way you might think"
 tags: ['misc']

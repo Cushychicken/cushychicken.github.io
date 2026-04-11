@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/ubuntu.jpg"
+bg: "ubuntu.jpg"
 title: "Sometimes You Just Need a New Linux Box"
 summary: "toolchain setup as therapy"
 tags: ['misc']

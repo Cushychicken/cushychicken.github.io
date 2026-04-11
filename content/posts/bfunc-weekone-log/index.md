@@ -46,7 +46,7 @@ Here's what the first week of development looks like to [build an open source fu
 
 - Broke SCH into hierarchical components. Never done a design this way before - we’ll see how this goes! 
 - Implemented STM32F072C8T7 Reference Design
-  ![STM32F072 Reference Schematic](../assets/images/Screenshot 2020-02-04 07.15.43.png)
+  ![STM32F072 Reference Schematic](Screenshot 2020-02-04 07.15.43.png)
 - ~~Add TVS for USB~~ 
   - I didn’t do this, and may end up regretting it. Note to self - buy a ground strap. 
 - Add JTAG connector for MCU! 
@@ -92,7 +92,7 @@ Here's what the first week of development looks like to [build an open source fu
     - We’re typically some combination of time-crunched, and lazy
     - Brilliant! 
   - http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
-    ![Atmel's Power Supply Reference design for the SAMD21](../assets/images/335FDD0E-3268-4B25-8ECA-5701C98199EE-1263385.png)
+    ![Atmel's Power Supply Reference design for the SAMD21](335FDD0E-3268-4B25-8ECA-5701C98199EE-1263385.png)
 - Need to Find 5.0V -> 3.3V LDO 
   - Added NCV8114ASN330T1G from On Semi (was in KiCAD’s design library)
   - Could probably find something cheaper though 

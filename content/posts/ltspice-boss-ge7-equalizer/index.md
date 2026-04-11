@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/boss-ge-7-equalizer-pedal.jpg"
+bg: "boss-ge-7-equalizer-pedal.jpg"
 title: "Simulating the Boss GE-7 Graphic Equalizer in LTSpice"
 summary: "responsive webpages? try responsive frequencies"
 tags: ['electronics', 'ltspice-guitar-effects']
@@ -29,13 +29,13 @@ The GE-7 input stage is a AC coupled noninverting amplifier, set for 10x gain, a
 
 I'd be curious to understand how this pedal measures out at -100dB A-weighted noise, but that's a task for another day - one where I've got an AP and a spare EQ pedal handy. 
 
-![GE-7 Input Buffer](../assets/images/image-20201020161132368.png)
+![GE-7 Input Buffer](image-20201020161132368.png)
 
 # Volume Level
 
 **Note:** I'm substituting the LT1211 here as a stand-in for the nominal uRC4558. I've done this before in the TS808 model with some success - the opamp isn't doing anything special besides providing a high impedance input/low impedance output for subsequent stages. 
 
-![GE-7 Volume Level Stage](../assets/images/Image-1603221036690.png)
+![GE-7 Volume Level Stage](Image-1603221036690.png)
 
 The level sweep is controlled by a low-corner RC filter (R3 + C2 with fc = 7.2Hz) connected to the center wiper of a potentiometer. Short the wiper to the Vol_Input node, and that lowpass filter shunts most of the energy at Vol_Input to GND. 
 
@@ -49,46 +49,46 @@ Without this potentiometer, the GE-7 volume level stage is a pretty standard uni
 
 The equalizer stage starts with a relatively simple summing amplifier...
 
-![image-20201020154212484](../assets/images/image-20201020154212484.png)
+![image-20201020154212484](image-20201020154212484.png)
 
 ## Equalizer Bank
 
 ...but branches out rapidly into a rather large bank of Sallen-Key filters.
 
-![Image](../assets/images/Image-1603220690131.png)
+![Image](Image-1603220690131.png)
 
 We'll zoom into the first of these Sallen-Key filters so we're not trying to read from high altitude. 
 
-![Image](../assets/images/Image-1603220733649.png)
+![Image](Image-1603220733649.png)
 
 A slightly less academic term for this topology of Sallen-Key filter is a *gyrator*. Gyrators are opamp circuits that simulate inductors. The following diagram is a really simple first-pass approximation of what this looks like. (I got lazy and didn't connect the opamp rails. Sue me.)
 
-![Gyrator Equivalent Circuit](../assets/images/Image-1603221751243.png)
+![Gyrator Equivalent Circuit](Image-1603221751243.png)
 
 You'll note that this RLC circuit forms a convenient little second-order bandpass filter. Adding another resistor to the input inverts this behavior, making it a *bandstop* or *notch filter.*
 
-![Bandpass to Notch](../assets/images/image-20201020153829183.png)
+![Bandpass to Notch](image-20201020153829183.png)
 
-![Frequency - Bandpass vs Notch](../assets/images/image-20201020153932147.png)
+![Frequency - Bandpass vs Notch](image-20201020153932147.png)
 
 Having taken that little detour into gyrators, we can apply what we know about this gyrator circuit with what we know about a linear pot shorting two terminals in an opamp buffer. 
 
-![Image](../assets/images/Image-1603222862594.png)
+![Image](Image-1603222862594.png)
 
 The connection to the linear potentiometer is easier to see with a little redraw, and some annotations. Look familiar?
 
-![Redraw - RLC EQ with Summing Amp](../assets/images/image-20201020154924404.png)
+![Redraw - RLC EQ with Summing Amp](image-20201020154924404.png)
 
 The idea here is that this is *basically the same circuit* as the input volume control. You're just changing out the volume level's first order RC wiper for the equalizer's second order RLC wiper. 
 
-![Equalizer vs Volume Level](../assets/images/image-20201020155056333.png)
+![Equalizer vs Volume Level](image-20201020155056333.png)
 
 As a result, you get approximately the same behavior:
 
 - Short the gyrator RLC to Eq_Input, and you cut that frequency bank by ~15dB
 - Short the gyrator RLC to Eq_Feedback, and you boost that frequency bank by ~15dB
 
-![Value Sweep - 100Hz Gyrator](../assets/images/image-20201020163611692.png)
+![Value Sweep - 100Hz Gyrator](image-20201020163611692.png)
 
 The steps above show the possible frequency cuts or boosts for the 100Hz EQ bank. The behavior is essentially the same for all of the other filter banks - they are just shifted in frequency to the center of the RLC circuit. 
 
@@ -96,7 +96,7 @@ A valid question after all of this simulation rigamarole: why bother? Why not ju
 
 It's a good question. It wouldn't be done this way unless there was a good reason to do so. Let's look at the 200Hz gyrator notch for our answer:
 
-![Single Inductor](../assets/images/Image-1603222814960.png)
+![Single Inductor](Image-1603222814960.png)
 
 The equivalent inductance here, from our earlier equation, is:
 
@@ -124,7 +124,7 @@ A pair of JFETs AC coupled to the outputs of U2 (equalizer output) and U9 (the d
 
 One channel is activated at a time by pulling either Effect_Gate or Bypass_Gate to GND. That shorts the corresponding output Bypass_Switch, and sends the audio signal to the output stage.
 
-![Image](../assets/images/Image-1603220859201.png)
+![Image](Image-1603220859201.png)
 
 Full disclosure: I typically cut out J2 and short Effect_Out to Bypass_Switch for the purposes of simulation. The reason? I'm lazy, and I haven't taken the time to figure out a way to automatically disable the control circuitry in LTSpice when the sim starts up. I'd love to know a method for this if you have a trick up your sleeve. 
 
@@ -132,7 +132,7 @@ Full disclosure: I typically cut out J2 and short Effect_Out to Bypass_Switch fo
 
 This is the control for JFETs J2/J3. 
 
-![Bistable Switch](../assets/images/image-20201020163134819.png)
+![Bistable Switch](image-20201020163134819.png)
 
 It's designed so that a specific startup sequence occurs when power is applied to the pedal:
 
@@ -147,7 +147,7 @@ Full disclosure: I don't know a great way to have this trigger Sw_Activate in th
 
 The output buffer is a bog-standard AC coupled emitter follower, of the kind we've come to know and love. R63 + C31 + R62 form a lowpass filter with fc = 2.2kHz. This forms a pole that compensates the zero at 2.2kHz from the input stage, flattening the pedal's frequency response above 2.2kHz.
 
-![GE-7 Output Buffer](../assets/images/image-20201020164430482.png)
+![GE-7 Output Buffer](image-20201020164430482.png)
 
 # Acknowledgements
 

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/business_time.jpg"
+bg: "business_time.jpg"
 title: "Writing Simple Python GUIs for your Command-Line-Phobe Coworkers"
 summary: "distributing scripts to unix eunuchs"
 tags: ['programming']

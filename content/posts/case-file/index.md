@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/casefile.jpg"
+bg: "casefile.jpg"
 title: "Keep an Engineering Case File"
 summary: "in case of emergency"
 tags: ['engineering']

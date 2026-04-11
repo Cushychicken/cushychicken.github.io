@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/NWEMC_Texas.jpg"
+bg: "NWEMC_Texas.jpg"
 title: "A One-Page Guide to Fixing Radiated Emissions"
 summary: "a cheery checklist for frantically failing electrical engineers"
 tags: ['electronics']
@@ -21,7 +21,7 @@ Three reasons:
 
 So, let's focus how you can find and fix what's causing your circuit to fail. This article is a quick description of how to find noisy, radiating circuits, and how to squash them once you find them. We’re just gonna focus on Class B radiated emissions - 30MHz to 1000MHz - because that’s where most consumer products have problems. We're also going to treat this mostly in terms of narrowband radiated emissions - things that look like this on a radiated scan:
 
-![Playing spectral whack-a-mole.](/assets/images/emi_spectrum_fail.png)
+![Playing spectral whack-a-mole.](emi_spectrum_fail.png)
 
 I'm also kind of assuming that you've got a test setup handy, and you need debug steps, not test equipment advice. 
 
@@ -49,7 +49,7 @@ A quick aside on measuring radiated emissions: 1-2dB in variation is within the 
 * **Add some basic filtering.** If you can’t fix with just a series term, an RC filter help get you the last leg of the way. Choose a C value such that the 3dB frequency formed with your series R is within a few megahertz of your lowest frequency problem radiator. Note: this is where you will start to see tradeoffs against your signal integrity. That's enough of a topic to merit its own post - for now, I'll say check your digital signal integrity as well as your radiated performance before declaring victory. See the end of this section for a standard design I use for digital signal paths.
 * **Go for the bonus filter.** Common mode chokes are your best friend when working with high speed differential pairs like Ethernet, PCIe, or HDMI. (As a personal aside: I have no idea how HDMI running at 1080p passes most radiated emission scans. Please email me and explain if you have a good answer.)
 
-![It's a great idea to leave some passive footprints in your digital signal paths.](/assets/images/rc_transmitter.png)
+![It's a great idea to leave some passive footprints in your digital signal paths.](rc_transmitter.png)
 
 # Step 3: Try the Hard Stuff.
 If you’ve made it this far in the guide, you’ve more than likely got a PCB problem. Congratulations! You've won yourself another board spin. Here’s me, crossing my fingers that your project schedule accomodates that. 

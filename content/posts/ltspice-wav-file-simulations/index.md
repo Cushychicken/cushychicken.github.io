@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/ltspice-wav-stimulus.png"
+bg: "ltspice-wav-stimulus.png"
 title: "How to Drive LTSpice Simulations with Wav Files"
 summary: "more signal processing sorcery"
 tags: ['electronics']
@@ -16,7 +16,7 @@ Helpfully, it also shows how you can save the *output* to a WAV file as well, ma
 
 Jeroen's already getting busy using the [Tube Screamer LTSpice sim](https://cushychicken.github.io/posts/ltspice-tube-screamer/) I made a few years ago to test this out:
 
-![ltspice-wav-stimulus](../assets/images/ltspice-wav-stimulus.png)
+![ltspice-wav-stimulus](ltspice-wav-stimulus.png)
 
 Very cool. I will definitely be putzing around with this more soon.
 

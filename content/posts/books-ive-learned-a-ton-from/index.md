@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bookshelf.jpg"
+bg: "bookshelf.jpg"
 title: "Books I've Learned a Ton From"
 summary: "it's a steady job but i wanna be a"
 tags: ['personal']

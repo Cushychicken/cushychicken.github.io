@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/monk_writing.jpg"
+bg: "monk_writing.jpg"
 title: "Why Should You Choose Writing Over Meeting?"
 summary: "get your own head right first"
 tags: ['misc']

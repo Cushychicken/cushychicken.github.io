@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/electronics-manufacturing-line.png"
+bg: "electronics-manufacturing-line.png"
 title: "How to do a Prototype Build for a Hardware Product"
 summary: "professional prototypes, promptly processed"
 tags: ['working-on-hardware']

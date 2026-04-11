@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Quickstart Guide"
 summary: "functions in five minutes or less"
 tags: ['electronics']

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/mxr-dyna-comp.jpg"
+bg: "mxr-dyna-comp.jpg"
 title: "Simulating the MXR Dyna Comp Compressor in LTSpice"
 summary: "make your range dynamic again"
 tags: ['electronics', 'ltspice-guitar-effects']
@@ -19,7 +19,7 @@ If you'd like to follow along at home, the LTSpice schematic, as per usual, is [
 
 Instead, I've decided it's a little easier and a little faster to do a pretty simple block diagram, and spend more time diving into the interesting blocks. So, without further ado, here's the block diagram for the MXR Dyna Comp:
 
-![Block Diagram - MXR Dyna Comp](../assets/images/image-20201029131244543.png)
+![Block Diagram - MXR Dyna Comp](image-20201029131244543.png)
 
 The Dyna Comp is a relatively simple circuit. We'll spend most of our time examining the input buffer, the transconductance amp, and the envelope detector. 
 
@@ -27,11 +27,11 @@ The Dyna Comp is a relatively simple circuit. We'll spend most of our time exami
 
 The input stage of the Dyna Comp is a nice, familiar circuit: a good old fashioned emitter follower. 
 
-![image-20201101114619107](../assets/images/image-20201101114619107.png)
+![image-20201101114619107](image-20201101114619107.png)
 
 Nothing particularly surprising about its frequency response, either - a nice, flat redrive of the input signal:
 
-![image-20201101112545438](../assets/images/image-20201101112545438.png)
+![image-20201101112545438](image-20201101112545438.png)
 
 R3 is included here and is a fairly common best practice in pedal design, but early models of the Dyna Comp lacked this. That lack of a strong pulldown is cited in some places to explain why the Dyna Comp was occasionally accused of being a "tone sucker".
 
@@ -41,7 +41,7 @@ r_{in} = R_{E}*\beta
 $$
 You can generally use $$h_{fe}$$ at a given collector current to estimate your transistor's beta. The Dyna Comp used a relatively common transistor (the 2N3904! Yay!) for all of the discrete amplifiers on board. Since this datasheet is easy to find, it's a snap to get these gain values:
 
-![2N3904 DC Current Gain Table](../assets/images/image-20201029134122295.png)
+![2N3904 DC Current Gain Table](image-20201029134122295.png)
 
 With this table, plus a quick deployment of the `.op` SPICE command, we can see that the voltage across the emitter resistor is right at about 1.79[V]. This makes for a collector current of 0.18[mA], meaning our DC current gain is guaranteed to be at least 40[A/A] for the 2N3904. That's good, but as transistors go, it's not *great* - generally, the higher the gain, the better the transistor. This low gain manifests itself most clearly in the input resistance of the emitter follower:
 
@@ -81,7 +81,7 @@ I_{out} = g_{m}(V_{pos} - V_{neg})
 $$
 
 
-![image-20201101114648362](../assets/images/image-20201101114648362.png)
+![image-20201101114648362](image-20201101114648362.png)
 
 I've substituted the TI LM13700 transconductance amplifier here in lieu of the original CA3080. This is an excellent substitution - in fact, a perfect substitution! [Don Sauer, the lead designer on the LM13700, writes on his website](http://idea2ic.com/LM13600/LM13700.html):
 
@@ -97,13 +97,13 @@ The C4/C5/R12 network sets the AC termination of the noninverting input of U1. A
 
 The net `V_OTA_Gain` deserves some closer examination as well, as this net determines the set point of the OTA's transconductance gain. From the LM13700's datasheet:
 
-![LM13700 Bias Current Set Point](../assets/images/image-20201101081305478.png)
+![LM13700 Bias Current Set Point](image-20201101081305478.png)
 
 Q1/Q2 inside the LM13700 serve as a really simple voltage controlled current mirror. (D1 serves as a simple clamp to help limit the current sunk through Q2 by clamping the max output of Q1.) The turnon voltage of Q1 + Q2 sets the operating voltage of the Amp Bias Input node, pegging it at about 1.3[V]. Using that voltage as a reference, you can sink just about any reasonable input current into the amp bias input node, and you'll have it mirrored in Q2, setting the bias for the input diff amp Q4/Q5 of the OTA chip.  
 
 The net called Amp Bias Input inside the LM13700 is known to us as `V_OTA_GainSet`:
 
-![image-20201101082006634](../assets/images/image-20201101082006634.png)
+![image-20201101082006634](image-20201101082006634.png)
 
 ...and it's critical to the operation of the Dyna Comp. We'll go into more detail about why in just a moment. For now, it's enough to say that the R23 is there to set the maximum possible bias current for the LM13700:
 
@@ -135,21 +135,21 @@ Remember: as the bias current *decreases*, so does the LM13700's gain.
 
 The envelope detector serves to both the drive the signal output of the Dyna Comp, and set the gain of the OTA stage through a feedback loop.  
 
-![image-20201101112545126](../assets/images/image-20201101112545126.png)
+![image-20201101112545126](image-20201101112545126.png)
 
 The common emitter amp built with Q2 functions as a very simple phase splitter. Q2's outputs at the emitter node and collector node are 180 degrees out of phase with one another. Since the emitter and collector resistors of Q2 are equivalent, these signals are the same amplitude, as well. The AC components of these circuits couple into the following stage thru C7/C8, and develop a voltage as the signal current flows into R16/R17. Diodes D1/D2 clamp the signal as it tries to go negative, rectifying the signal to a positive voltage only. 
 
 The conducting point of Q3/Q4 sets the operating point of the whole circuit. When either phase of envelope detector exceeds the turn-on voltage of Q3/Q4, the corresponding transistor starts to conduct, discharging C9. 
 
-![image-20201101113532985](../assets/images/image-20201101113532985.png)
+![image-20201101113532985](image-20201101113532985.png)
 
 For a 1kHz sine wave 100mV amplitude, this stabilizes the current bias at about 16uA, from a starting point of just under 200uA. (Note that the current thru R23 is shown here as negative just in convention. This is current being sunk into the LM13700, and it's decreasing as the circuit continues to operate in this particular test case.)
 
-![image-20201101114019096](../assets/images/image-20201101114019096.png)
+![image-20201101114019096](image-20201101114019096.png)
 
 Net effect on your guitar signal: your output signal quickly goes from overdriven and clipped by the compressor, to slightly boosted:
 
-![image-20201101120149982](../assets/images/image-20201101120149982.png)
+![image-20201101120149982](image-20201101120149982.png)
 
 Compressors exist to manage the *dynamic range* of your guitar's signal. They do this through a pretty simple control loop. (Simple in theory, at least. The Dyna Comp is a very intro-level compressor.) By setting a threshold, and modifying the gain through the effect such that the nominal level of your signal matches the threshold, a compressor "smooths out" variations in volume over time:
 
@@ -159,7 +159,7 @@ The idea behind a compressor is that, in an ideal world, you'd want the signal g
 
 You can see this more clearly for the Dyna Comp if you run a longer simulation, and change the input amplitude over time. Here's what happens when the Dyna Comp is fed a 1kHz sine wave with an amplitude of 10mV, with a brief amplitude spike to 15mV: 
 
-![image-20201101182123827](../assets/images/image-20201101182123827.png)
+![image-20201101182123827](image-20201101182123827.png)
 
 (**Note:** this is at max sensitivity - pot R19 is set to one ohm.)
 
@@ -175,7 +175,7 @@ $$
 
 As this RC circuit charges, the feedback amplifier transistor will begin to conduct more and more. This gradually increases the gain of the LM13700 over the course of a few hundred milliseconds. You can see this on a longer timescale plot of the compressor's output:
 
-![image-20201101183832265](../assets/images/image-20201101183832265.png)
+![image-20201101183832265](image-20201101183832265.png)
 
 After about half a second at the original amplitude, the compressor gain has effectively stabilized. 
 
@@ -183,7 +183,7 @@ After about half a second at the original amplitude, the compressor gain has eff
 
 This is nothing exciting, as output stages go - just a simple pot to control the level. It's not the greatest approach to an output stage. There's no nice low impedance output, especially as you start to dip into the lower reaches of the output pot (as R22 in this image gets smaller, pulling Vout to ground), but it gets the job done. 
 
-![image-20201029131531886](../assets/images/image-20201029131531886.png)
+![image-20201029131531886](image-20201029131531886.png)
 
 # Acknowledgements 
 

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Eight"
 summary: "we're in the firmware home stretch!"
 tags: ['electronics']
@@ -120,7 +120,7 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   - Added a nice feature that grays out and disables the freq1/phase1 buttons when you’re in waveform mode
   - Found this page while googling about Radiobuttons - [it's a real nice Tkinter reference!](http://effbot.org/tkinterbook/button.htm)
 
-![20200328_121549](../assets/images/20200328_121549.jpg)
+![20200328_121549](20200328_121549.jpg)
 
 # March 22, 2020
 

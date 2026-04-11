@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/radiohead.jpg"
+bg: "radiohead.jpg"
 title: "Are you making placement diagrams?"
 summary: "everything in its right place"
 tags: ['electronics']
@@ -10,13 +10,13 @@ Whenever I’ve needed to spin a circuit board these last few years, I’ve take
 
 Here’s an example of how I did this for [bFunc, the function generator I spent a few weeks designing last year](https://github.com/Cushychicken/bfunc):
 
-![20210219_173051](../assets/images/20210219_173051.jpg)
+![20210219_173051](20210219_173051.jpg)
 
 You can see that each chip has its own block, and that each IC has spots labeled representing pin groupings that connect to other components - in this case, things like SPI, USB, and other chip functions like oscillators and boot selection strappings. The idea is to make a diagram of connections that take up meaningful space on your circuit board, so you can see where each chip and connector lives, and how they interconnect with one another. 
 
 You can - and in many cases, should - get even more detailed with these. Here’s the precursor sketch I did for the LQFP package of the STM32 chip I used for bFunc:
 
-![20210310_180150](../assets/images/20210310_180150.jpg)
+![20210310_180150](20210310_180150.jpg)
 
 This is a relatively simple example, but these diagrams generalize nicely to larger and more complex systems. I’ve used placement diagrams to plan IC breakouts on six and eight layer boards with DRAM, PCIe, Ethernet, and HDMI routings. They really shine when you’re trying to plan for connector locations on a board. 
 

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/dune_mind_killer.jpg"
+bg: "dune_mind_killer.jpg"
 title: "Values vs. Ability"
 summary: "what do you despise? by this you are truly known"
 tags: ['working on hardware']

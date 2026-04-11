@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/breadboard_circuit.jpg"
+bg: "breadboard_circuit.jpg"
 title: "Introducing bFunc - a Design Document for an Open Source Function Generator"
 summary: "well i thought it was a clever name"
 tags: ['electronics']
@@ -12,7 +12,7 @@ I'm calling this work "bFunc" - short for "breadboard function generator", and a
 
 Let's put the "funk" back in "function generation".
 
-![What's the fourier transform of George Clinton?](../assets/images/pfunk.jpg)
+![What's the fourier transform of George Clinton?](pfunk.jpg)
 
 **Update (2/29/2020):** You can see the final product of this work on GitHub [here](https://github.com/Cushychicken/bfunc).
 
@@ -49,7 +49,7 @@ Here's a list of learning goals for myself. These are my motivating deliverables
 
 A rough block diagram for the hardware is as follows: 
 
-![20200209_114538](../assets/images/20200209_114538.jpg)
+![20200209_114538](20200209_114538.jpg)
 
 ## Microcontroller - STM32
 
@@ -92,7 +92,7 @@ If I end up selling every single one of these designs, then I have no reason not
 
 Here's my rough logical flow diagram for the embedded software design: 
 
-![20200209_114507](../assets/images/20200209_114507.jpg)
+![20200209_114507](20200209_114507.jpg)
 
 I'm pretty sure that this is simple enough to rely on a superloop design. Ideally, USB communications will generate updates to the function generator output via USB interrupts, which can be task-queued for the main loop to service on the next iteration of the master control loop. The main loop can then just make simple updates to the DDS chip via SPI writes. 
 
@@ -106,7 +106,7 @@ No fear - it's growth potential!! (At least, that's what I keep telling myself.)
 
 This is the piece of this project that I know least about, and I think the one that represents the biggest possible stumbling block for me. Here's my very rough sketch of what I think this will look like: 
 
-![20200209_114448](../assets/images/20200209_114448.jpg)
+![20200209_114448](20200209_114448.jpg)
 
 Currently planning on using the pyusb library for managing USB communication to the actual board. Also planning on using some kind of Python GUI library for making a very simple graphical window for controlling the system visually. 
 

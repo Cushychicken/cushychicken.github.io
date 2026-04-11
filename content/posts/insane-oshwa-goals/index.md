@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/oshwa_10years.png"
+bg: "oshwa_10years.png"
 title: "Insane OSHWA Goals"
 summary: "because i guess i don't have enough to do lately"
 tags: ['electronics']

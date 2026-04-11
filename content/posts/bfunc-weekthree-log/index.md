@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Three"
 summary: "trouble and boards come in threes"
 tags: ['electronics']
@@ -43,7 +43,7 @@ Src/main.c:160:41: warning: initialization of 'struct ad9837_ctrl_reg *' from in
 - No progress on code today - had a very human bout of insomnia that I compensated for by shutting off my alarm, sleeping in, and being late to work. (Oops.) 
 - Got an email from CircuitHub - boards have been assembled, and are en route! They should be here Monday!! Here’s a picture!!!
 
-![bfunc_proto](../assets/images/bfunc_proto-2374612.jpg)
+![bfunc_proto](bfunc_proto-2374612.jpg)
 
 # Feb 20 2020
 

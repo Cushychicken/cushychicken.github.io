@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/atmega_schematic.png"
+bg: "atmega_schematic.png"
 title: "Reviewing Bad Schematics as Interview Tactic"
 summary: "help your EE candidates strut their stuff"
 tags: ['electronics']

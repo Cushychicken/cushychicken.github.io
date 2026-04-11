@@ -14,7 +14,7 @@ I've been slowly working my way through Horowitz and Hill's _Art of Electronics,
 ## A Simple Pulse Generator
 
 <div align="center">
-<img src="/assets/pulse_generator.png"/>
+<img src="pulse_generator.png"/>
 <p align="center"><em>Figure 1: A Pulse Generator</em></p>
 </div>
 
@@ -48,35 +48,35 @@ Basically, this shows us that we can set the "on" time of the pulse using R<sub>
 The first thing this circuit assumes is that V<sub>in</sub> is going to drive high and stay high. What happens if the input pulse is shorter than R3 * C1? 
 
 <div align="center">
-<img src="/assets/input_pulse_tooshort.png"/>
+<img src="input_pulse_tooshort.png"/>
 <p align="center"><em>Figure 2: Pulse Generator Output where Vin is high shorter than Tau</em></p>
 </div>
 
 The simulation above shows an LTSpice representation of what happens to this circuit when the input pulse is less than the time constant. The output pulse will get shortened in turn - as soon as Q1 is back to its normal off state, C1's charge will be polarized in the opposite direction of DC steady state. This will just assist the 5V rail in keeping Q2 on, and shortening the output pulse. What if we want a pulse at V<sub>out</sub> that is always R3 * C1 in length? We'll need to decouple the output from the input. This is easily achieved with another transistor that monitors the output of the circuit. 
 
 <div align="center">
-<img src="/assets/sch_q3_added.png"/>
+<img src="sch_q3_added.png"/>
 <p align="center"><em>Figure 3: A Pulse Generator w/ Guaranteed Pulse Width</em></p>
 </div>
 
 Q3 serves the purpose of holding V<sub>Q1-C</sub> to ground once a rising edge is detected at the base of Q1. As long as the input pulse is as least as long as Q1's turn-on time, the circuit will work properly. This is due to the fact that, once Q1 has successfully driven  V<sub>Q1-C</sub> to ground, Q3 will also be turned on, providing another path for the R3/C1 circuit to be held at ground. Figure four shows this improvement in the output pulse width. 
 
 <div align="center">
-<img src="/assets/short_input_q3_added.png"/>
+<img src="short_input_q3_added.png"/>
 <p align="center"><em>Figure 4: Pulse Generator Output with Guaranteed Output Width</em></p>
 </div>
 
 The addition of Q3 made circuit performance a little bit easier to predict by allowing us to modify pulse width by changing the values of C1 and R3. It wasn't a silver bullet, however. Figure four shows that the falling edge of the pulse isn't nearly as sharp as the rising edge. There's a distinctly rounded corner at the beginning of the falling edge, which is a result of the leisurely voltage transition of the R3/C1 through Q3's turn-on voltage. There's not a lot we can do to this circuit to speed up this transistion without affecting the pulse width. Instead, we'll need to change the output drive strength with another small addition. 
 
 <div align="center">
-<img src="/assets/pulse_schmatic_schmitt.png"/>
+<img src="pulse_schmatic_schmitt.png"/>
 <p align="center"><em>Figure 5: Pulse Generator Output with Schmitt Trigger Output</em></p>
 </div>
 
 This output stage is a Schmitt trigger, which is a handy little circuit for cleaning up slow or noisy edge transitions. Going to the simulation shows that it's done the trick for us:
 
 <div align="center">
-<img src="/assets/pulse_schmitt_outputcurrent.png"/>
+<img src="pulse_schmitt_outputcurrent.png"/>
 <p align="center"><em>Figure 5: Pulse Generator Output with Schmitt Trigger Output</em></p>
 </div>
 

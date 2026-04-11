@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/gumby.png"
+bg: "gumby.png"
 title: "Write More, Dammit"
 summary: "i just did"
 tags: ['misc']

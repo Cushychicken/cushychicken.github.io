@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/echo-first-gen.jpg"
+bg: "echo-first-gen.jpg"
 title: "Alexa Seems to Be Getting Worse With Time"
 summary: "Alexa: do better"
 tags: ['product-talk']

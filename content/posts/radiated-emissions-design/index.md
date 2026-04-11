@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/stitching_diffpair.png"
+bg: "stitching_diffpair.png"
 title: "Quick Design Guidelines for Emissions Compliance"
 summary: "hard lessons that will save you weeks in an EMC lab"
 tags: ['electronics']
@@ -11,7 +11,7 @@ The design stage is always the best place to solve your radiated emissions probl
 # Know your adversary. 
 When you're talking radiated emissions, you typically care about one kind of measurement: the quasipeak. Bizarrely, I have met very few EEs that have even a passing understanding of what a quasipeak detector is:
 
-![Playing spectral whack-a-mole.](/assets/images/quasipeak_detector.png)
+![Playing spectral whack-a-mole.](quasipeak_detector.png)
 
 This is basically just a peak detector with a long hold time. In practical terms, that means two things: 
 
@@ -83,7 +83,7 @@ If you don't have a good path for the current to return to the source, it will f
 
 If you've got multiple ground layers, pay attention to your stitching vias. Make sure they are stitching your grounds together where a signal is swapping ground references. Here's an example from a [Texas Instruments app note](http://www.ti.com/general/docs/litabsmultiplefilelist.tsp?literatureNumber=slla414) on high speed differential routing for USB applications:   
 
-![Differential return vias in a USB line](/assets/images/stitching_diffpair.png)
+![Differential return vias in a USB line](stitching_diffpair.png)
 
 # Keep high current traces short, and the current as low as possible. 
 

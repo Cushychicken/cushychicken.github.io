@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/proco_rat.jpg"
+bg: "proco_rat.jpg"
 title: "Simulating the ProCo RAT Distortion Pedal in LTSpice"
 summary: "g'day, disgusting rat"
 tags: ['electronics', 'ltspice-guitar-effects']
@@ -47,11 +47,11 @@ a guitar amplifier, this signal would completely saturate the input. That's wher
 
 The AC coupling network of C10/R10 works to shift the signal back to a DC balanced square wave. D2/D3 serve to clip the signal down to a more modest +/-0.65[V].
 
- ![Input vs Opamp Output vs Clipping Diodes](../assets/images/Image-1600433524694.png)
+ ![Input vs Opamp Output vs Clipping Diodes](Image-1600433524694.png)
 
 This is slightly more interesting when you move into the frequency domain, however. The net effect, as the gain increases, is to emphasize the 1kHz band of the guitar - ideally, to cut through the mix of a band. (A rock band, that is - not a frequency band.)
 
-![Image](../assets/images/Image-1600433598206.png)
+![Image](Image-1600433598206.png)
 
 Note that all of these traces converge to the same rolloff asymptote. That's the limitation imposed by the LM308's output slew rate. At higher gain, the opamp can't switch any faster, which limits the response of higher frequencies as the gain increases.
 
@@ -60,22 +60,22 @@ Note that all of these traces converge to the same rolloff asymptote. That's the
 The tone control is remarkably simple - just a first order RC filter, with potentiometer R17 to allow the 
 user to set the rolloff frequency. 
 
-![Tone RC Filter](../assets/images/Image-1600433644991.png)
+![Tone RC Filter](Image-1600433644991.png)
 
 R15 and C11 set a limit of the RC filter of the tone stage at about 32kHz. Increasing pot R17 moves that corner frequency lower and lower, until bottoming out at 475Hz. This filter effectively smooths the square wave into progressively softer edges. As R17 increases, the transitions get less square, and closer to a triangular wave. 
 
-![Image](../assets/images/Image-1600433664315.png)
+![Image](Image-1600433664315.png)
 
 This is my estimate of who lies where on the tone curve, based on a subset of [Wikipedia's list of RAT users](https://en.wikipedia.org/wiki/Pro_Co_RAT#Notable_users):
 
-![Clipping vs Users](../assets/images/Image-1600433692230.png)
+![Clipping vs Users](Image-1600433692230.png)
 
 # Output Driver / Volume
 
 The output driver is also relatively simple - just a JFET follower, with a simple RC filter serving as a 
 highpass filter for volume control. As R14 decreases in resistance, so does the output volume.
 
-![Image](../assets/images/Image-1600433718430.png)
+![Image](Image-1600433718430.png)
 
 # Putzing Around/Fun Stuff
 * Increasing the compensation capacitor of the LM308 opamp (C1 in our schematic) has some interesting properties. Increasing this to 300pF creates a softer transition to the opamp railing out, which yields an overall softer clip - fewer higher harmonics. An alternative design, for a less harsh clip. 

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/superman_phone_booth.jpg"
+bg: "superman_phone_booth.jpg"
 title: "Life Lesson: Call Your Heroes"
 summary: "they just might pick up"
 tags: ['misc']
@@ -40,4 +40,4 @@ Yeah, I'll grant that we just made smalltalk. But I got to meet a really influen
 
 The moral of the story: call your heroes. They just might pick up! 
 
-![Howard, Crunch, and me](/assets/images/howard_crunch.jpg)
+![Howard, Crunch, and me](howard_crunch.jpg)

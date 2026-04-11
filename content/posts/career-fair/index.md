@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/career-fair-booth.jpg"
+bg: "career-fair-booth.jpg"
 title: "Wanna Impress an Engineer at a Career Fair?"
 summary: "making moves to the major leagues in five minutes or less"
 tags: ['misc']

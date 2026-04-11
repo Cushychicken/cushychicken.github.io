@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Four"
 summary: "debug, sleeplessness, board errors, life"
 tags: ['electronics']
@@ -161,8 +161,8 @@ union ad9837_dds_ctrl {
   - The whole debug connector on the bottom side of the PCB is shorted together. All pins short to each other, and then to ground. 😫🤦‍♂️
   - See below for a high grade microscope shot. 
 
-![20200225_092410](../assets/images/20200225_092410.jpg)
+![20200225_092410](20200225_092410.jpg)
 
 - Here's what an hour with an exacto knife and a stereo microscope will get you (thanks, work!) 
 
-![bfunc_scored_debug_cnxn](../assets/images/bfunc_scored_debug_cnxn.png)
+![bfunc_scored_debug_cnxn](bfunc_scored_debug_cnxn.png)

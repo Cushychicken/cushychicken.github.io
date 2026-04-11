@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/eye_diagram.gif"
+bg: "eye_diagram.gif"
 title: "The One Page Guide to Digital Signal Integrity"
 summary: "the setup on setup"
 tags: ['electronics']
@@ -45,12 +45,12 @@ It's basic stuff, but it susses out very quickly that the person on the other si
 #### Where, on an electrical waveform, would you measure for setup/hold?
 Number One is an easy question to answer with a sheet of paper - ideally, the candidate draws a clock waveform, a data waveform, and then labels a few key points:
 
-![png](/assets/images/setup_hold.jpg)
+![png](setup_hold.jpg)
 
 #### Where would you measure setup/hold on a circuit board?
 Question Two helps show whether you understand that your oscilloscope has an impedance. It also shows whether you understand how to minimize that impedance. Ideally, you can translate the first question into a simple, block diagram topology that the candidate can use to indicate the right place to probe. It's also a great time to ask about grounding, and how that can change probe impedance. 
 
-![png](/assets/images/setup_hold_circuit.jpg)
+![png](setup_hold_circuit.jpg)
 
 #### How can you use all of this information to figure out the maximum speed of an interface? 
 
@@ -60,7 +60,7 @@ $$f_{max} = \frac{1}{t_{hold} + t_{setup}} $$
 
 You can make Question Three a bit spicier by asking it as a system of two D flops with some combinatorial logic between the two: 
 
-![png](/assets/images/max_freq_logic.jpg)
+![png](max_freq_logic.jpg)
 
 Which makes you have to account for the propagation delay of the logic: 
 
@@ -68,7 +68,7 @@ $$f_{max} = \frac{1}{t_{hold} + t_{setup} + t_{Pd-logic}} $$
 
 You can get more fun still by adding a clock transmission line into the mix...
 
-![png](/assets/images/faster_skew.jpg)
+![png](faster_skew.jpg)
 
 ...and asking how the propagation delay of the clock affects the max speed of that interface:
 
@@ -76,7 +76,7 @@ $$f_{max} = \frac{1}{t_{hold} + t_{setup} + t_{Pd-logic} - t_{Pd-clock}} $$
 
 Note that the position of the clock launch is important here. $$t_{Pd-clock}$$ is negative, because it allows more time for the signal to propagate through the combinatorial logic. Shifting the launch position to the second flop has the opposite effect:
 
-![png](/assets/images/slower_skew.jpg)
+![png](slower_skew.jpg)
 
 This interface has to run *slower*, because the first flop needs time to setup its newest output into the combinatorial logic, and then that output to propagate through to the second flop. Thus:
 
@@ -92,7 +92,7 @@ Rise and fall time is a great stepping stone from setup and hold, because it sta
 #### How do you measure rise and fall time?
 Question One should be a quick annotation on the clock and data diagrams sketched earlier: 
 
-![png](/assets/images/rise_time.jpg)
+![png](rise_time.jpg)
 
 I generally use the 10-90 rule for measuring rise/fall: 10% of starting value to 90% of final value.  There's no 100% right answer for all scenarios; it can vary from chip to chip and from vendor to vendor. 
 
@@ -135,7 +135,7 @@ There are really four termination topologies that you care about:
 
 And each one is a real quick sketch, so why not doodle them out? 
 
-![png](/assets/images/terminations.jpg)
+![png](terminations.jpg)
 
 #### What's the point of a termination?
 Plenty of answers, but the most succinct answer I can think of is: *compensating for reactive components in a digital transmission line.*
@@ -179,7 +179,7 @@ $$l = \frac{T_{r}}{D}$$
 
 Where $$T_{r}$$ is the rise time of the edge (in picoseconds) and $$D$$ is the trace's propagation delay (in picoseconds per inch). Johnson refers to this distance as the discriminator between *lumped vs. distributed* circuits. It's a rough rule of thumb as to how far a signal has to travel before having to worry about transmission effects like reflections or ringing. According to Johnson, a signal with propagation wavelength $$l$$ traveling down a trace $$l/6$$ (or less) won't exhibit any transmission line effects, and won't require a termination.
 
-![png](/assets/images/lumped_vs_distributed.png)
+![png](lumped_vs_distributed.png)
 
 The second equation is for the *knee frequency*:
 
@@ -191,7 +191,7 @@ I love asking about this particular point from Johnson because I found it so enl
 
 This is super useful in determining which signals you want to run across connectors or lengths of wire, because it gives you an idea of what frequencies are present in that signal. More importantly, it gives you an idea of which of those signals might radiate. You might get unlucky and send a harmonic over a cable that happens to be $$\lambda/4$$ long. If so, congratulations! You've just made a radio! You'll find it in a radiated emisssions chamber. 
 
-![png](/assets/images/knee_frequency.png)
+![png](knee_frequency.png)
 
 
 # Further Reading

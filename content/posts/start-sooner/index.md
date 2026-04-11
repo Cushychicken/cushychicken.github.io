@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/race_start.jpg"
+bg: "race_start.jpg"
 title: "Start Sooner"
 summary: "the sooner we get there, the sooner we can leave"
 tags: ['misc']

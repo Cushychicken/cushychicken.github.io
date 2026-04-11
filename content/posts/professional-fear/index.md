@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bear_hunt.jpg"
+bg: "bear_hunt.jpg"
 title: "How Do You Deal With Professional Fear?"
 summary: "fear -> anger -> hate -> suffering"
 tags: ['misc']

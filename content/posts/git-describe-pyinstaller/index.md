@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/pyinstaller-icon.jpg"
+bg: "pyinstaller-icon.jpg"
 title: "Getting git describe into a PyInstaller program"
 summary: "haha version controlling snek program go brrr"
 tags: ['programming']

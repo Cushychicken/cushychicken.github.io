@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/widlar_salute_thumb.jpg"
+bg: "widlar_salute_thumb.jpg"
 title: "Who on Earth is hiring these pushy recruiters?!"
 summary: "does that line work for most geeks?"
 tags: ['misc']

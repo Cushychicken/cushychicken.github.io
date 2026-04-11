@@ -1,5 +1,10 @@
 {{ $bg := "/images/site/bg.svg" }}
-{{ with .Params.bg }}{{ $bg = . }}{{ end }}
+{{ with .Params.bg }}
+  {{ $bg = . }}
+  {{ with $.Resources.GetMatch . }}
+    {{ $bg = .RelPermalink }}
+  {{ end }}
+{{ end }}
 <aside class="sidebar" role="note" style="background-image: url('{{ $bg }}')">
   <div class="cover">
     <div class="cover-text">

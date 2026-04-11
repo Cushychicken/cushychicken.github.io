@@ -14,7 +14,7 @@ Now that we've got the basics of floating gate operation under our belt, it's ti
 We've seen how to store a single bit using a floating gate transistor - it's as simple as charging or discharging a floating gate. Unfortunately, one bit doesn't do us much good as far as information storage goes. The good news is that it's pretty easy to string together a bunch of bits to store multiple bit values - it's just as easy as chaining multiple floating gate FETs together: 
 
 <div align="center">
-<img src="/assets/NANDCellArray.png"/>
+<img src="NANDCellArray.png"/>
 <p align="center"><em>NAND Word Array (Courtesy of Toshiba)</em></p>
 </div>
 

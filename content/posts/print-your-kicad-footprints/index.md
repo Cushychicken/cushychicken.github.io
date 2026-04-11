@@ -11,7 +11,7 @@ This is a great trick. I’ve only done it a handful of times so far, and it’s
 
 To do this in KiCAD, you need simply open your PCB file using Pcbnew, click "Print" in the toolbar, and make the following selections in the dialogue:
 
-![pcb_printout_kicad](../assets/images/pcb_printout_kicad.png)
+![pcb_printout_kicad](pcb_printout_kicad.png)
 
 This will give you:
 
@@ -27,6 +27,6 @@ In tandem with this printout, you will also need to order a set of sample compon
 
 It is not perfect at catching all errors. This will not, for example, help you catch symbols or footprints with incorrect pinouts. It will, however, help you catch gross errors in part geometry, or instances where you are using an incorrect package size. Here's an example of a component that was found to be wider than its footprint using this method:
 
-![print_verification](../assets/images/print_verification.png)
+![print_verification](print_verification.png)
 
 All credit to Florin for this great trick. Check out his videos [on YouTube](https://www.youtube.com/channel/UCdXHgsCiql_78oT5ydXWvzA)!

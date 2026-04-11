@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Ten"
 summary: "rev01 is feature complete! boards shipping!"
 tags: ['electronics']
@@ -77,7 +77,7 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   - See if disabling the timer interrupt helps - rebuild with `HAL_TIM_Base_Start_IT()` commented out and see if the device is able to enumerate
   - _That_ was the problem - the chip was getting so spammed with timer interrupts that it couldn’t enumerate USB.
 
-![6F837393-E8CB-4B82-8B2A-7748FD98EF84](../assets/images/6F837393-E8CB-4B82-8B2A-7748FD98EF84.png)
+![6F837393-E8CB-4B82-8B2A-7748FD98EF84](6F837393-E8CB-4B82-8B2A-7748FD98EF84.png)
 
 # April 8, 2020
 

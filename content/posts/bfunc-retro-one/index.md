@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "I Designed and Built My Own Function Generator"
 summary: "do you want to get one to try?"
 tags: ['electronics']

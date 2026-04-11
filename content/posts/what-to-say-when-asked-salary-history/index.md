@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/pile-of-money.jpg"
+bg: "pile-of-money.jpg"
 title: "What to Say When They Ask For Your Salary History"
 summary: "pictured: your goal"
 tags: ['working-on-hardware']

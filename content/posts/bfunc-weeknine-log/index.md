@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - Week Nine"
 summary: "rev01 is feature complete! boards shipping!"
 tags: ['electronics']
@@ -99,7 +99,7 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   - The other won't show up on a USB serial connection - Suspect it's a bad GND rework
 - Here's me all gussied up to go to the post office in quarantine times!
 
-![post_office_suit](../assets/images/post_office_suit.JPG)
+![post_office_suit](post_office_suit.JPG)
 
 # March 28, 2020
 

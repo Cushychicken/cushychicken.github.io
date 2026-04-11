@@ -40,7 +40,7 @@ I'd also like to thank Jean Thomas for correcting me in my design document. Jean
 - Still need to add a GND plane on the bottom layer as a return path
 - Still need to add in a different header for debugging (want to connect a ribbon cable from the ST-Link directly)
 
-![bfunc_layout](../assets/images/bfunc_layout-2170200.png)
+![bfunc_layout](bfunc_layout-2170200.png)
 
 # Feb 10 2020
 

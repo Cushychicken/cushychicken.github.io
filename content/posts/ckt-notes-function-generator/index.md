@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/function_gen_output.png"
+bg: "function_gen_output.png"
 title: "Circuit Notes: A Budget Function Generator"
 summary: "putting the 'funk' back in 'function'"
 tags: ['electronics']
@@ -32,7 +32,7 @@ Ah, well. Chalk it up to personal preference, I suppose.
 
 There are hardly _any_ locally placed decoupling caps on this design! Most damnably, neither the DDS chip nor the output opamp have any sort of rail capacitance to decouple their current consumption. That’s a problem for both of these chips in particular, and we’ll dig further into why that’s a problem specifically for the DDS in a moment. 
 
-![The Only Decoupling Caps in the Whole Design](/assets/images/only_decoupling_caps_sch.jpg)
+![The Only Decoupling Caps in the Whole Design](only_decoupling_caps_sch.jpg)
 
 Generally, however, you _need_ to include some sort of decoupling capacitor for any component that has a high instantaneous current draw. It turns out that most modern electronics meet this requirement in one way or another. The MCU in this design requires relatively large slugs of current at each clock cycle, when its internal registers and logic circuits latch over to the next instruction. Every opamp in this design is occasionally required to source an uptick in current when dealing with a fast transient. Switching voltage regulators depend on fast current transients to operate, and need excess capacitance to both store charge and limit electrical noise. (The maker _did_ include caps on their boost regulator, but these are more on the bulk capacitance end. There aren’t many smaller caps to help control noise from this boost. More on that later.)
 
@@ -64,7 +64,7 @@ The schematic author has done some clever things with the analog output of the A
 
 The current driver outputs are also missing a 20pF cap parallel to the 220 ohm resistors. ADI recommends this in the datasheet to help keep clocking noise from sneaking into the downstream analog stage. Probably a good thing to have in this design, where you care about low-distortion analog output! 
 
-![Could Use 20pF here!](/assets/images/transimpedance_missing20pF.jpg)
+![Could Use 20pF here!](transimpedance_missing20pF.jpg)
 
 # Board Analog Stage
 
@@ -103,31 +103,31 @@ The amplitude and offset controls of this generator cook my meatballs. Why? Beca
 
 For a start, let’s look at this brief excerpt from the [LM324 datasheet](http://www.ti.com/lit/ds/symlink/lm324-n.pdf) - this shows the step response of the LM324 with a 50pF load:
 
-![LM324 driving 1nF](/assets/images/lm324_output_cap.jpg)
+![LM324 driving 1nF](lm324_output_cap.jpg)
 
 The 324 rings like a church bell with a 50pF capacitor load. This design saddles several LM324s with an output capacitance fifty times larger than that. 
 
-![MCU Circuit Notes](/assets/images/rotary_debounce_xtal_caps.jpg)
+![MCU Circuit Notes](rotary_debounce_xtal_caps.jpg)
 
 A quick plug into LTSpice should confirm that this isn't a great decision:
 
-![The LTSpice Schematic of the LM324 follower](/assets/images/lm324_stability_sch.png)
+![The LTSpice Schematic of the LM324 follower](lm324_stability_sch.png)
 
 And, predictably, a quick LTSpice sweep shows that this has precizely zero phase margin at 1MHz:
 
-![The Bode Plot of the LM324 follower](/assets/images/lm324_stability_bode.png)
+![The Bode Plot of the LM324 follower](lm324_stability_bode.png)
 
 And, just for good measure, another quick LTSpice sim shows that the LM324 will start oscillating like mad in response to a 1uS step input:
 
-![The Step Response of the LM324 follower](/assets/images/lm324_stability_step.png)
+![The Step Response of the LM324 follower](lm324_stability_step.png)
 
 You could help yourself soften the transients on the input side of those followers by adding some capacitance to the opamp inputs. That will slow down the resulting output slew rate to match the new input voltage value. That’s a bad practice, however - the potential for instability will always be there, and once the opamp starts to oscillate, the cat is always going to be out of the bag! Case in point: look at what happens when the previous step response transitions back to a 0V offset. The LM324 continues to oscillate wildly around the ground point. There's a 1MHz frequency stuck in the opamp's feedback loop, with no way out! 
 
 Analog Devices has a zillion great app notes for helping stabilize opamp followers, but many of those solutions start to look like putting lipstick on a pig to me. The simplest way to fix this would be to just _drop the value of the dang output capacitor!_ Decreasing it by an order of magnitude, to 100pF, solves basically all of the problems associated with this follower. The gain dive-bombs to about -40dB at 10MHz, with a solid 35 degrees of phase margin. Adding a small resistor between the follower output and the load capacitor helps bandlimit this voltage even further when necessary. 
 
-![The Fixed Schematic of the LM324 follower](/assets/images/lm324_stability_fixed_sch.png)
+![The Fixed Schematic of the LM324 follower](lm324_stability_fixed_sch.png)
 
-![The Fixed Bode Plot of the LM324 follower](/assets/images/lm324_stability_fixed_bode.png)
+![The Fixed Bode Plot of the LM324 follower](lm324_stability_fixed_bode.png)
 
 
 ## Square Wave Stage 
@@ -158,7 +158,7 @@ Also, to return to an earlier point - there’s not a lot of filtering of higher
 
 I’d first like to say that I’m surprised that STMicro hasn’t gone after this particular Chinese chip vendor yet. “STC Micro” seems a little close for brand comfort. That’s a lawyer problem, not an engineer problem, however. 
 
-![MCU Circuit Notes](/assets/images/rotary_debounce_xtal_caps.jpg)
+![MCU Circuit Notes](rotary_debounce_xtal_caps.jpg)
 
 ## Reset Circuit
 

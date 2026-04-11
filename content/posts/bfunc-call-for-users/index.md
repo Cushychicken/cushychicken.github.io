@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Call for Users"
 summary: "want to file bugs against my crappy project?"
 tags: ['electronics']

@@ -32,7 +32,7 @@ That's some bullshit, and IT ENDS TODAY.
 ##The Circuit
 
 <div align="center">
-<img src="/assets/tube_screamer_circuit.png"/>
+<img src="tube_screamer_circuit.png"/>
 <p align="center"><em>Figure 2: The TS808 Circuit</em></p>
 </div>
 
@@ -42,7 +42,7 @@ You can divide the Tube Screamer circuit into four main sections: input buffer, 
 I'll break this analysis into three main sections: the input/output buffers, the clipping stage, and the tone/volume stage. We'll cover the input and output buffers in one section, as they're basically the same circuit. 
 
 <div align="center">
-<img src="/assets/tube_screamer_inbuf.png"/>
+<img src="tube_screamer_inbuf.png"/>
 <p align="center"><em>Figure 3: The Input Buffer</em></p>
 </div>
 
@@ -59,7 +59,7 @@ In egregious cases, a pedal can start to negatively affect your guitar's sound. 
 ## The Clipping Stage
 
 <div align="center">
-<img src="/assets/tube_screamer_clipping.png"/>
+<img src="tube_screamer_clipping.png"/>
 <p align="center"><em>Figure 4: The Clipping Amplifier</em></p>
 </div>
 
@@ -70,7 +70,7 @@ The short answer: more harmonics. More high harmonics == richer sound.
 The long answer: a sine wave is a signal made up of one frequency, whereas a square wave is a signal made up of a fundamental sine wave with added higher-frequency harmonics. Forcing a sine wave into an amplifier voltage rail makes it approximately square. When you distort a sine wave like this, you're adding higher frequencies into the signal. In the context of an electric guitar, this creates that pleasant, fuzzy feeling that rock-and-roll has made so familiar to us: a distortion effect. 
 
 <div align="center">
-<img src="/assets/tube_screamer_clipping_sim.png"/>
+<img src="tube_screamer_clipping_sim.png"/>
 <p align="center"><em>Figure 5: Sweep of Rgain vs. Vclip</em></p>
 </div>
 
@@ -80,14 +80,14 @@ It's also worth noting one other characteristic of the TS808 clipping stage. See
 
 ## The Tone Stage
 <div align="center">
-<img src="/assets/tube_screamer_tone.png"/>
+<img src="tube_screamer_tone.png"/>
 <p align="center"><em>Figure 6: The Tone Circuit</em></p>
 </div>
 
 The tone stage allows you to sculpt your overtone response a little more. Instead of changing the overall gain of the input signal, it introduces a lowpass element that rolls off higher frequencies based on the setting of Rtone. (Note that this schematic shows Rtone as two resistors; in the actual circuit, it's just a potentiometer with the capacitive snubber connected to the wiper terminal.) It also shifts where the frequency gain peaks. For some of your lower notes in a guitar register, you're actually boosting a lot of the overtones more than the fundamental frequency.
 
 <div align="center">
-<img src="/assets/tube_screamer_tone_sim.png"/>
+<img src="tube_screamer_tone_sim.png"/>
 <p align="center"><em>Figure 7: Rtone vs. U1 Out</em></p>
 </div>
 

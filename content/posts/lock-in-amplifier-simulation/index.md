@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/lockin_ad630.jpg"
+bg: "lockin_ad630.jpg"
 title: "Lock-In Amplifiers: Fun With Scientific Instrument Modeling"
 summary: "a cheaper way to understand expensive lab equipment"
 tags: ['electronics']
@@ -31,7 +31,7 @@ df = pd.DataFrame({'sine':sine_wave(100),
 df[:1000].plot()
 ```
 
-![png](/assets/images/output_1_1.png)
+![png](output_1_1.png)
 
 However, this ceases to be true when two sinusoids of equal frequency and phase are multiplied together. In this case, instead of averaging out to zero, the product of the two waves have a nonzero mean value.
 
@@ -42,7 +42,7 @@ df['mean_mixed'] = np.mean(df.sin_mixed)
 df[['sin_mixed','mean_mixed']][:1000].plot()
 ```
 
-![png](/assets/images/output_3_1.png)
+![png](output_3_1.png)
 
 This DC voltage produced by the product of the two waves is *very* sensitive to changes in frequency. The plots below show that a 101Hz signal has a mean value of zero when multiplied by a 100Hz signal. 
 
@@ -53,7 +53,7 @@ df['mean_mixed_101'] = np.mean(df.sin_mixed_101)
 df[['sin_mixed_101','mean_mixed_101']].plot()
 ```
 
-![png](/assets/images/output_5_1.png)
+![png](output_5_1.png)
 
 
 This is really useful in situations where you have a signal of a known frequency. With the proper equipment, you can "lock in" to your known-frequency signal, and track changes to the amplitude and phase of that signal - *even in the presence of overwhelming noise.* This is a really powerful observation: if you send a known modulated signal into a system, you can "lock-in" to that same modulated signal at the system output, even if there's *tons* of noise obscuring it! (Tons of modern uses apply: magnetic resonance imaging, radio astronomy, atomic-force microscopes... etc.!)
@@ -75,7 +75,7 @@ df['sine_noisy'].plot(ax=axes[0])
 df[['sin_noisy_mixed', 'mean_noisy_mixed']].plot(ax=axes[1])
 ```
 
-![png](/assets/images/output_7_1.png)
+![png](output_7_1.png)
 
 
 It doesn't look like much at the prior altitude, but it's definitely the signal we're looking for. That's because the lock-in output scales with the amplitude of both the input signal and the reference waveform:
@@ -89,7 +89,7 @@ As a result, the lock-in amp has a small (but meaningful) amplitude:
 df['mean_noisy_mixed'].plot()
 ```
 
-![png](/assets/images/output_9_1.png)
+![png](output_9_1.png)
 
 
 Great! We can pull really weak signals out of seemingly endless noise. So, why haven't we used this technology to revolutionize all communications with infite signal-to-noise ratio? 
@@ -110,7 +110,7 @@ df['sin_mixed_lp'] = lowpass(df.sin_mixed)
 df['sin_mixed_lp'].plot()
 ```
 
-![png](/assets/images/output_11_1.png)
+![png](output_11_1.png)
 
 
 ...but it starts to break down when you filter the noisy signals, which can contain large fluctuations that aren't necessarily real:
@@ -121,7 +121,7 @@ df['sin_noisy_mixed_lp'] = lowpass(df.sin_noisy_mixed)
 df['sin_noisy_mixed_lp'].plot()
 ```
 
-![png](/assets/images/output_13_1.png)
+![png](output_13_1.png)
 
 
 We can clean get rid of some of that statistical noise junk by rerunning the filter, of course, but that takes time, and also robs the lock-in of a bit of responsiveness. 
@@ -132,7 +132,7 @@ df['sin_noisy_mixed_lp2'] = lowpass(df.sin_noisy_mixed_lp)
 df['sin_noisy_mixed_lp2'].plot()
 ```
 
-![png](/assets/images/output_15_1.png)
+![png](output_15_1.png)
 
 
 On top of all this, lock-in amps are highly sensitive to phase differences between reference and signal tones. Take a look at the plots below, where our noisy signal is mixed with waves 45 and 90 degrees offset from it.
@@ -151,7 +151,7 @@ df[['sin_noisy_mixed_lp','sin_phase45_mixed_lp','sin_phase90_mixed_lp']].plot(ax
 df[['sin_noisy_mixed_lp','sin_phase45_mixed_lp','sin_phase90_mixed_lp']][6000:].plot(ax=axes[1])
 ```
 
-![png](/assets/images/output_17_1.png)
+![png](output_17_1.png)
 
 
 These plots illustrate that there's a component of phase sensitivity. As the phase of signal moves farther and farther out of phase with the reference, the lock-in output starts to trend downwards, closer to zero. You can see, too, why lock-ins require time to settle out to a final value - the left plot shows how signals that are greatly out of phase with one another can produce an initial signal value where none should exist! The right plot, however, shows how the filtered, 90-degree offset signal (green trace) declines over time to the correct average value of approximately zero. 
@@ -185,7 +185,7 @@ df['noisy_quad_mag'][8000:].plot(ax=axes[0])
 df['noisy_quad_pha'][8000:].plot(ax=axes[1])
 ```
 
-![png](/assets/images/output_20_1.png)
+![png](output_20_1.png)
 
 
 # Bonus Material

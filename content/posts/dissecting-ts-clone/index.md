@@ -23,14 +23,14 @@ If you want to grab your own Blues Drive pedal to put under the knife, I’d enc
 I started dissecting pedal number one about twenty minutes after I got my hands on it. Twenty five minutes after I got it, it was fully disassembled. The Blues Drive comes in a nice, rugged aluminum shell, and comes apart easily - remove the four bottom plate screws, the gain knob, the washers around the toggle and bypass switches, and the mounting nuts on the 1/4” jacks, and you’ll have the guts of the circuit in the palm of your hand. All you need are a Philips screwdriver, and possibly an adjustable spanner to help you get the tighter washer rings off.
 
 <div align="center">
-<img src="/assets/bd_board_front.jpg"/>
+<img src="bd_board_front.jpg"/>
 <p align="center"><em>The Guts</em></p>
 </div>
 
 I have to give Donner credit with this board design; these guys are pretty good at designing for manufacturing. All of the circuitry fits on two boards: one main PCB, and a smaller breakout PCB for the 3PDT bypass switch. (Oh, by the way - that's another sweet feature of this pedal: true bypass.) The breakout PCB is cleverly offset to allow the footswitch to mate easily to the main board, and is attached to the main board via a set of six thru-hole pin headers. This also allows whoever assembles these to align the threaded strain relief on the switch barrel to the outer aluminum shell so you’re not damaging the PCB by flexing it when you stomp the effect. The two quarter inch jacks are through-hole board mounts with mounting nuts to align them to the case and ensure smooth mating to the 1/4” jack connectors.
 
 <div align="center">
-<img src="/assets/bd_board_back.jpg"/>
+<img src="bd_board_back.jpg"/>
 <p align="center"><em>Rear View - Slightly Annotated</em></p>
 </div>
 
@@ -41,7 +41,7 @@ The bulk of the components on the board are surface mount. With the exception of
 The logical next step to seeing how close I was to a Tube Screamer was mapping out the circuitry and seeing what I found. This amounted to a lot of time with a multimeter and a microscope, and some educated guesses about where the signal was going. I came to the conclusion pretty quickly that I had a faithful Tube Screamer clone in my hand. The circuit is built around a JRC4558D, a more modern version of the opamp originally used for the TS808. Most of the component values are also exact lifts from the original TS808 circuit, with a few small variations here and there. My measured component values and schematic connections are shown in the schematic segments below. 
 
 <div align="center">
-<img src="/assets/bd_ohm_out.jpg"/>
+<img src="bd_ohm_out.jpg"/>
 <p align="center"><em>How I Figured This All Out: Microscope, Multimeter, and Time</em></p>
 </div>
 
@@ -51,19 +51,19 @@ If you'd like to dive a little deeper on how all of these circuit elements come 
 The input and output buffers are exact lifts of the Tube Screamer: just some simple emitter followers with half-rail bias to maximize dynamic range of the buffer, and cap isolation to stop any nasty clicking or popping from circuit switching. 
 
 <div align="center">
-<img src="/assets/blues_drive_input_buffer.png"/>
+<img src="blues_drive_input_buffer.png"/>
 <p align="center"><em>Input Buffer Circuit</em></p>
 </div>
 
 <div align="center">
-<img src="/assets/blues_drive_output_buffer.png"/>
+<img src="blues_drive_output_buffer.png"/>
 <p align="center"><em>Output Buffer Circuit</em></p>
 </div>
 
 ###Tone Setting/Volume Level
 The tone/level stage is also just about identical to the Tube Screamer. 
 <div align="center">
-<img src="/assets/blues_drive_tone_amp.png"/>
+<img src="blues_drive_tone_amp.png"/>
 <p align="center"><em>Tone Amplifier and Volume Pot</em></p>
 </div>
 
@@ -71,7 +71,7 @@ The tone/level stage is also just about identical to the Tube Screamer.
 Donner really made this circuit their own is in the clipping stage. Note SW1 in the circuit block below. This is the toggle switch at the top of the PCBA allows the user to select “warm” or “hot” drive settings.
 
 <div align="center">
-<img src="/assets/blues_drive_clipping_amp.png"/>
+<img src="blues_drive_clipping_amp.png"/>
 <p align="center"><em>Clipping Stage</em></p>
 </div>
 
@@ -80,7 +80,7 @@ This allows the player to select the type of diode clipping they want. “Warm�
 ### Power Distribution
 Just for completeness's sake, I included a quick ohm out of the power distribution section. You could likely introduce some interesting effects by tweaking these voltages, and by extension, the input/output buffer bias. 
 <div align="center">
-<img src="/assets/blues_drive_pwr_stage.png"/>
+<img src="blues_drive_pwr_stage.png"/>
 <p align="center"><em>Power Staging</em></p>
 </div>
 

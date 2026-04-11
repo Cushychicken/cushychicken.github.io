@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - May 9 2020"
 summary: "filters, and modulations"
 tags: ['electronics']
@@ -23,7 +23,7 @@ bfunc_log: true
 
 - - Option 2 might be better, as it allows for a layout that passes by the DAC outputs. 
 
-![Screenshot from 2020-05-08 07-32-08](../assets/images/2020-05-09-bfunc-log-2020-05-09/Screenshot from 2020-05-08 07-32-08.png)
+![Screenshot from 2020-05-08 07-32-08](2020-05-09-bfunc-log-2020-05-09/Screenshot from 2020-05-08 07-32-08.png)
 
 - Can we extend our prior PSK work to FSK? 
   - Yeah! It sure seems that way at least. 

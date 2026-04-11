@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bfunc_proto.jpg"
+bg: "bfunc_proto.jpg"
 title: "bFunc - Project Journal - May 3 2020"
 summary: "back to the frequency mines"
 tags: ['electronics']
@@ -69,13 +69,13 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
     * Added a little feedback cap to cut down on some peaking observed around 30MHz (Input is grounded in picture below because I was simulating a prior stage)
     * Output is, as it should have been from the start - 50 ohm series terminated 
 
-![Image](../assets/images/Image.png)
+![Image](Image.png)
 
 * DC Offset + Output
   * Frequency response is flat +/-0.25dB out to 25MHz
   * Cursor 1 shows the point at which it starts to deviate from 0.25dB flatness area (26MHz)Cursor 2 shows the -3dB frequency (38MHz)
 
-![Image](../assets/images/Image-1588524673319.png)
+![Image](Image-1588524673319.png)
 
 * DC Offset Control
   * Inspired by a few TI app notes on unipolar-to-bipolar conversion circuits
@@ -89,7 +89,7 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   * Can likely get away with a cheaper opamp - I just haven't done the work to find it yet. 
   * Cap placeholder is there for the same reason as in the output buffer - it helps cut down on a bit of the ringing/transient overshoot in fast DC step transitions
 
-![Image](../assets/images/Image-1588524689392.png)
+![Image](Image-1588524689392.png)
 
 * Antialiasing Filter
   * I'd really love to have a way to capture a scope waveform of my existing system with the AD9837, and then feed that waveform into LTSpice as a simulation input. 
@@ -98,4 +98,4 @@ All of my hardware and software source files are on GitHub. [Check 'em out!](htt
   * Allows you to select your DDS chip, your output signals, and whether or not you want an external antialiasing filter. VERY cool, and worth playing around with. 
   * Below shows the output of a DDS chip running at 23MHz output, after being filtered with a 7th order inverse Chebyshev lowpass filter. 
 
-![Image](../assets/images/Image-1588524708642.png)
+![Image](Image-1588524708642.png)

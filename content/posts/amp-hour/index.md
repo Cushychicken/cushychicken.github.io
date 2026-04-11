@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/amp_hour_logo.png"
+bg: "amp_hour_logo.png"
 title: "I'm on The Amp Hour!"
 summary: "too excited to think of subheading OH WOW"
 tags: ['electronics']

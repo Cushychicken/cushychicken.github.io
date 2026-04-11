@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/gumby.png"
+bg: "gumby.png"
 title: "Why Do People Choose Meetings Over Email?"
 summary: "i like gumby so i'm keeping him"
 tags: ['misc']

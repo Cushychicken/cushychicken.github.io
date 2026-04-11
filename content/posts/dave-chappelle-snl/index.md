@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/dave-chappelle-snl.jpg"
+bg: "dave-chappelle-snl.jpg"
 title: "Dave Chappelle's SNL Monologue is Awesome"
 summary: "america needs to hear it"
 tags: ['misc']

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/bear_country.jpg"
+bg: "bear_country.jpg"
 title: "Reflections on Pre-Tirement"
 summary: "what I learned from a ten week leave of absence"
 tags: ['misc']
@@ -110,4 +110,4 @@ I'll close with a picture we took - the start of the High Line Trail, in Glacier
 
 I'll remember it for the rest of my life. 
 
-![png](/assets/images/high_line.jpg)
+![png](high_line.jpg)

@@ -1,5 +1,5 @@
 ---
-bg: "/assets/images/velociraptor_solo.jpg"
+bg: "velociraptor_solo.jpg"
 title: "Software = Agile! Hardware = Waterfall!"
 summary: "clever girl"
 tags: ['working-on-hardware']
