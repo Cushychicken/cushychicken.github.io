@@ -254,47 +254,12 @@ img {
   margin: 1.1rem auto;
 }
 
-.callout,
-.mailchimp-callout {
+.callout {
   margin: 1.7rem 0;
   padding: 1rem 1.1rem;
   background: #fbf6ee;
   border: 1px solid var(--rule);
   border-left: 4px solid var(--accent);
-}
-
-.mailchimp-callout label {
-  display: block;
-  font-weight: 700;
-}
-
-.mailchimp-row {
-  display: flex;
-  gap: 0.7rem;
-  margin-top: 0.75rem;
-}
-
-.mailchimp-row input[type="email"] {
-  flex: 1;
-}
-
-.mailchimp-row input {
-  padding: 0.68rem 0.78rem;
-  border: 1px solid var(--rule);
-  background: #fff;
-  font: inherit;
-}
-
-.mailchimp-row input[type="submit"] {
-  background: var(--accent);
-  border-color: var(--accent-dark);
-  color: #fff;
-  cursor: pointer;
-}
-
-.honeypot {
-  position: absolute;
-  left: -5000px;
 }
 
 .post-links {
@@ -401,7 +366,4 @@ code {
     padding: 1.35rem 1.25rem;
   }
 
-  .mailchimp-row {
-    flex-direction: column;
-  }
 }

@@ -359,5 +359,3 @@ https://pysdr.org/
 * Still want to model some digital modulation coding schemes and analyze their spurious content. 
 
 # A Request
-
-If you've made it this far, I'd love you to subscribe to my email newsletter. You can get updates like this one straight to your inbox - hot, fresh signal processing takes, with no commitment on your end! 

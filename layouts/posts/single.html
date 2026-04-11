@@ -18,8 +18,6 @@
 
       {{ .Content }}
 
-      {{ partial "mailchimp.html" . }}
-
       <div class="post-links">
         {{ with .NextInSection }}
           <a class="link-to-post" href="{{ .RelPermalink }}">
