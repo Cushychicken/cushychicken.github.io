@@ -10,14 +10,34 @@ This is a working resume of sorts. It's a more fine-grained version of my profes
 
 They go in reverse order, and trail what I'm working on now by about a year, out of respect for my current employer. 
 
+# 2026
+
+## Magnet Forensics
+
+* Led the HW team to shipping two new products for Magnet:
+  * [Magnet Graykey](https://www.magnetforensics.com/products/magnet-graykey/), the second generation of our flagship mobile forensics tool
+  * [Magnet Autokey](https://www.magnetforensics.com/products/magnet-autokey/), a novel solution for automotive forensics
+* Matured Hardware Research into a structured product development organization with clear cadence, ownership, phase gates, exit criteria, and design-review practices
+* Led cross-functional hardware execution across electronics, embedded Linux, firmware, mechanical/manufacturing, QA, and software integration
+* Developed and drove adoption of novel hardware strategy, inclusive of:
+    * next-generation platform strategy, 
+    * hardware and software reuse strategy, 
+    * device EOL concerns, 
+    * applicaiton/OS coupling, 
+    * software update and rollout
+* Developed OTA/update architecture for canary rollout, fleet segmentation, rollback, artifact publishing, and device-state reporting
+* Supported team scaling, hiring, leveling, retention, and compensation planning for critical hardware talent
+
+
 # 2025
 * Joined Magnet Forensics as Director of Hardware (Research Division)
 * Created a hardware product development process where none previously existed 
+* Took ownership of hardware strategy, schedule, and execution cadence across multiple product efforts
 * Scaled up team from 4 people to 11, with subgroups encompassing:
     * electronics development, 
     * embedded LInux development,
     * bare metal firmware dev,
-    * mechanical engineering and manufacturing support,
+    * mechanical engineering and manufacturing support
 
 # 2024
 * Successfully deliverd 10 working prototypes to customer ahead of schedule
